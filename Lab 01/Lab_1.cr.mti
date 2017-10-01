@@ -1,0 +1,10 @@
+{E:/CEME/7th Semester/Digital System Design/Lab 1/Task_1.v} {1 {vlog -work work -vopt -nocovercells {E:/CEME/7th Semester/Digital System Design/Lab 1/Task_1.v}
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module adder
+-- Compiling module half_adder
+
+Top level modules:
+	adder
+	half_adder
+
+} {} {}}
