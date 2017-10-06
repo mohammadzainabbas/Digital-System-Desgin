@@ -1,0 +1,22 @@
+module Test(x,y,clock,reset);
+  input [3:0] x; input clock,reset;
+  output [7:0] y;
+  wire [7:0] temp;
+  reg [7:0] reg_x;
+  
+  assign y = x + temp;
+  assign temp = req_x * 4'b0001;
+  
+  always@ (posedge clock or negedge reset)
+  begin
+    if(!reset)
+      begin
+        reg_x <=0;
+      end
+    else
+      begin
+        reg_x <=y;
+      end
+  end
+  
+endmodule
