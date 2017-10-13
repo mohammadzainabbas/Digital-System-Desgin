@@ -1,0 +1,34 @@
+{E:/CEME/7th Semester/Digital System Design/Lab 3/Task_1.v} {1 {vlog -work work -vopt -nocovercells {E:/CEME/7th Semester/Digital System Design/Lab 3/Task_1.v}
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module Binary_To_GreyScale
+-- Compiling module simulation_task_1
+
+Top level modules:
+	simulation_task_1
+
+} {} {}} {E:/CEME/7th Semester/Digital System Design/Lab 3/Task_2.v} {1 {vlog -work work -vopt -nocovercells {E:/CEME/7th Semester/Digital System Design/Lab 3/Task_2.v}
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module Difference_Equation
+-- Compiling module simulation_task_2
+
+Top level modules:
+	simulation_task_2
+
+} {} {}} {E:/CEME/7th Semester/Digital System Design/Lab 3/Practice_1 Half and Full Adder.v} {1 {vlog -work work -vopt -nocovercells {E:/CEME/7th Semester/Digital System Design/Lab 3/Practice_1 Half and Full Adder.v}
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module Half_Adder
+-- Compiling module Full_Adder
+-- Compiling module simulation
+
+Top level modules:
+	simulation
+
+} {} {}} {E:/CEME/7th Semester/Digital System Design/Lab 3/Task_3.v} {1 {vlog -work work -vopt -nocovercells {E:/CEME/7th Semester/Digital System Design/Lab 3/Task_3.v}
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module Hex_Counter
+-- Compiling module simulation_task_3
+
+Top level modules:
+	simulation_task_3
+
+} {} {}}
