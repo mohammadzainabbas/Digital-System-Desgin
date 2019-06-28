@@ -1,0 +1,13 @@
+
+
+
+// Instantiate the module
+Testing_2 instance_name (
+    .a(a), 
+    .b(b), 
+    .cin(cin), 
+    .sum(sum), 
+    .carry(carry)
+    );
+
+

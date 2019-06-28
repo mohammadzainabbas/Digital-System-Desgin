@@ -1,0 +1,153 @@
+Release 12.1 - xst M.53d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.25 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.25 secs
+ 
+--> Reading design: Floating_Point_Addition.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Floating_Point_Addition.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Floating_Point_Addition"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : Floating_Point_Addition
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : auto
+Reduce Control Sets                : auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Library Search Order               : Floating_Point_Addition.lso
+Keep Hierarchy                     : NO
+Netlist Hierarchy                  : as_optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing Verilog file "E:\CEME\7th Semester\Digital System Design\Project\DSD_Project\Floating_Point_Addition.v" into library work
+Parsing module <Floating_Point_Addition>.
+WARNING:HDLCompiler:936 - "E:\CEME\7th Semester\Digital System Design\Project\DSD_Project\Floating_Point_Addition.v" Line 26: Keyword 'unsigned' is not allowed here in this mode of verilog
+WARNING:HDLCompiler:936 - "E:\CEME\7th Semester\Digital System Design\Project\DSD_Project\Floating_Point_Addition.v" Line 34: Keyword 'unsigned' is not allowed here in this mode of verilog
+WARNING:HDLCompiler:327 - "E:\CEME\7th Semester\Digital System Design\Project\DSD_Project\Floating_Point_Addition.v" Line 52: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "E:\CEME\7th Semester\Digital System Design\Project\DSD_Project\Floating_Point_Addition.v" Line 53: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "E:\CEME\7th Semester\Digital System Design\Project\DSD_Project\Floating_Point_Addition.v" Line 95: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "E:\CEME\7th Semester\Digital System Design\Project\DSD_Project\Floating_Point_Addition.v" Line 99: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "E:\CEME\7th Semester\Digital System Design\Project\DSD_Project\Floating_Point_Addition.v" Line 105: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "E:\CEME\7th Semester\Digital System Design\Project\DSD_Project\Floating_Point_Addition.v" Line 109: Concatenation with unsized literal; will interpret as 32 bits
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+WARNING:HDLCompiler:327 - "E:\CEME\7th Semester\Digital System Design\Project\DSD_Project\Floating_Point_Addition.v" Line 52: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "E:\CEME\7th Semester\Digital System Design\Project\DSD_Project\Floating_Point_Addition.v" Line 53: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "E:\CEME\7th Semester\Digital System Design\Project\DSD_Project\Floating_Point_Addition.v" Line 95: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "E:\CEME\7th Semester\Digital System Design\Project\DSD_Project\Floating_Point_Addition.v" Line 99: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "E:\CEME\7th Semester\Digital System Design\Project\DSD_Project\Floating_Point_Addition.v" Line 105: Concatenation with unsized literal; will interpret as 32 bits
+WARNING:HDLCompiler:327 - "E:\CEME\7th Semester\Digital System Design\Project\DSD_Project\Floating_Point_Addition.v" Line 109: Concatenation with unsized literal; will interpret as 32 bits
+
+Elaborating module <Floating_Point_Addition>.
+WARNING:HDLCompiler:413 - "E:\CEME\7th Semester\Digital System Design\Project\DSD_Project\Floating_Point_Addition.v" Line 95: Result of 56-bit expression is truncated to fit in 25-bit target.
+WARNING:HDLCompiler:413 - "E:\CEME\7th Semester\Digital System Design\Project\DSD_Project\Floating_Point_Addition.v" Line 105: Result of 56-bit expression is truncated to fit in 25-bit target.
+WARNING:HDLCompiler:413 - "E:\CEME\7th Semester\Digital System Design\Project\DSD_Project\Floating_Point_Addition.v" Line 118: Result of 32-bit expression is truncated to fit in 25-bit target.
+WARNING:HDLCompiler:413 - "E:\CEME\7th Semester\Digital System Design\Project\DSD_Project\Floating_Point_Addition.v" Line 129: Result of 9-bit expression is truncated to fit in 8-bit target.
+ERROR:HDLCompiler:1401 - "E:\CEME\7th Semester\Digital System Design\Project\DSD_Project\Floating_Point_Addition.v" Line 115: Signal temp[24] in unit Floating_Point_Addition is connected to following multiple drivers:
+ERROR:HDLCompiler:1379 - "E:\CEME\7th Semester\Digital System Design\Project\DSD_Project\Floating_Point_Addition.v" Line 118: Driver 0: output signal temp[24] of instance Latch
+ERROR:HDLCompiler:1379 - "E:\CEME\7th Semester\Digital System Design\Project\DSD_Project\Floating_Point_Addition.v" Line 115: Driver 1: output signal temp[24] of instance Adder
+ERROR:HDLCompiler:1401 - "E:\CEME\7th Semester\Digital System Design\Project\DSD_Project\Floating_Point_Addition.v" Line 69: Signal exp_ans[7] in unit Floating_Point_Addition is connected to following multiple drivers:
+ERROR:HDLCompiler:1379 - "E:\CEME\7th Semester\Digital System Design\Project\DSD_Project\Floating_Point_Addition.v" Line 123: Driver 0: output signal exp_ans[7] of instance Latch
+ERROR:HDLCompiler:1379 - "E:\CEME\7th Semester\Digital System Design\Project\DSD_Project\Floating_Point_Addition.v" Line 69: Driver 1: output signal exp_ans[7] of instance Multiplexer
+Module Floating_Point_Addition remains a blackbox, due to errors in its contents
+WARNING:HDLCompiler:1499 - "E:\CEME\7th Semester\Digital System Design\Project\DSD_Project\Floating_Point_Addition.v" Line 21: Empty module <Floating_Point_Addition> remains a black box.
+--> 
+
+Total memory usage is 154624 kilobytes
+
+Number of errors   :    6 (   0 filtered)
+Number of warnings :   19 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

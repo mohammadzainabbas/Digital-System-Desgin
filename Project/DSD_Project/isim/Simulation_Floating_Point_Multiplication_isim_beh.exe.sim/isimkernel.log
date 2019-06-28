@@ -1,0 +1,28 @@
+Command line:
+   Simulation_Floating_Point_Multiplication_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  58757
+
+Tue Feb 06 11:50:31 2018
+
+
+ Elaboration Time: 0.703125 sec
+
+ Current Memory Usage: 402.194 Meg
+
+ Total Signals          : 27
+ Total Nets             : 228
+ Total Signal Drivers   : 19
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 21
+ Total Traceable Variables  : 22
+ Total Scalar Nets and Variables : 403
+
+ Total Simulation Time: 0.703125 sec
+
+ Current Memory Usage: 402.194 Meg
+
+Tue Feb 06 11:55:18 2018
+

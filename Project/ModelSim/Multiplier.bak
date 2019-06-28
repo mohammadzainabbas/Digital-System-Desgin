@@ -1,0 +1,49 @@
+module Floating_Point_Multiplication(a, b, ans, overflow);
+input [31:0] a, b;
+output overflow;
+output [31:0] ans;
+
+wire sign_a, sign_b, sign_ans;
+wire unsigned [7:0] exp_a, exp_b, exp_ans;
+wire [22:0] a_m, b_m, ans_m;
+wire [45:0] temp; 
+wire flag; //for ease in normalization -> if 1 then shift right and increment 1 in exp_ans
+
+assign sign_a = a[31:31];
+assign exp_a = a[30:23];
+assign a_m = a[22:0];
+ 
+assign sign_b = b[31:31];
+assign exp_b = b[30:23];
+assign b_m = b[22:0];
+
+assign sign_ans = sign_a ^ sign_b;
+
+assign {overflow, exp_ans} = exp_a + exp_b - 8'd127;
+
+assign {flag, temp} = ({1,a_m}) * ({1,b_m});
+
+//Overflow condition -> assign infinity
+always@(*)
+begin
+if (overflow == 1)
+begin
+	exp_ans = 8'b11111111;
+	ans_m = 0;
+end
+else
+begin
+	if (flag == 0)
+	begin
+		exp_ans = exp_a + exp_b - 8'd127;
+		ans_m = temp[44:23];
+	end
+	else
+	begin
+		exp_ans = exp_a + exp_b - 8'b127 + 1;
+		ans_m = temp[45:24];
+	end
+end
+end
+
+endmodule

@@ -1,0 +1,14 @@
+# Output products list for <Adder_8bit>
+Adder_8bit.asy
+Adder_8bit.gise
+Adder_8bit.ngc
+Adder_8bit.v
+Adder_8bit.veo
+Adder_8bit.vhd
+Adder_8bit.vho
+Adder_8bit.xco
+Adder_8bit.xise
+Adder_8bit_flist.txt
+Adder_8bit_readme.txt
+Adder_8bit_xmdf.tcl
+_xmsgs\pn_parser.xmsgs

@@ -1,0 +1,14 @@
+# Output products list for <Adder_1bit>
+Adder_1bit.asy
+Adder_1bit.gise
+Adder_1bit.ngc
+Adder_1bit.v
+Adder_1bit.veo
+Adder_1bit.vhd
+Adder_1bit.vho
+Adder_1bit.xco
+Adder_1bit.xise
+Adder_1bit_flist.txt
+Adder_1bit_readme.txt
+Adder_1bit_xmdf.tcl
+_xmsgs\pn_parser.xmsgs

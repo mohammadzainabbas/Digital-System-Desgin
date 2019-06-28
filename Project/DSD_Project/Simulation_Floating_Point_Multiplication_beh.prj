@@ -1,0 +1,3 @@
+verilog work "Floating_Point_Multiplication.v"
+verilog work "Simulation_Floating_Point_Multiplication.v"
+verilog work "E:/Programs/Xilinx/ISE_DS/ISE/verilog/src/glbl.v"

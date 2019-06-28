@@ -1,0 +1,4 @@
+verilog isim_temp "ipcore_dir/Adder_1bit.v"
+verilog isim_temp "Testing_3.v"
+verilog isim_temp "Simulation_Testing_3.v"
+verilog isim_temp "E:/Programs/Xilinx/ISE_DS/ISE/verilog/src/glbl.v"

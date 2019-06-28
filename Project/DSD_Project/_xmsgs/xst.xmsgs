@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="936" delta="old" >"E:\CEME\7th Semester\Digital System Design\Project\DSD_Project\Floating_Point_Addition.v" Line 26: Keyword &apos;<arg fmt="%s" index="1">unsigned</arg>&apos; is not allowed here in this mode of verilog
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="936" delta="old" >"E:\CEME\7th Semester\Digital System Design\Project\DSD_Project\Floating_Point_Addition.v" Line 34: Keyword &apos;<arg fmt="%s" index="1">unsigned</arg>&apos; is not allowed here in this mode of verilog
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="327" delta="old" >"E:\CEME\7th Semester\Digital System Design\Project\DSD_Project\Floating_Point_Addition.v" Line 52: Concatenation with unsized literal; will interpret as 32 bits
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="327" delta="old" >"E:\CEME\7th Semester\Digital System Design\Project\DSD_Project\Floating_Point_Addition.v" Line 53: Concatenation with unsized literal; will interpret as 32 bits
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="327" delta="old" >"E:\CEME\7th Semester\Digital System Design\Project\DSD_Project\Floating_Point_Addition.v" Line 95: Concatenation with unsized literal; will interpret as 32 bits
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="327" delta="old" >"E:\CEME\7th Semester\Digital System Design\Project\DSD_Project\Floating_Point_Addition.v" Line 99: Concatenation with unsized literal; will interpret as 32 bits
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="327" delta="old" >"E:\CEME\7th Semester\Digital System Design\Project\DSD_Project\Floating_Point_Addition.v" Line 105: Concatenation with unsized literal; will interpret as 32 bits
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="327" delta="old" >"E:\CEME\7th Semester\Digital System Design\Project\DSD_Project\Floating_Point_Addition.v" Line 109: Concatenation with unsized literal; will interpret as 32 bits
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="327" delta="old" >"E:\CEME\7th Semester\Digital System Design\Project\DSD_Project\Floating_Point_Addition.v" Line 52: Concatenation with unsized literal; will interpret as 32 bits
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="327" delta="old" >"E:\CEME\7th Semester\Digital System Design\Project\DSD_Project\Floating_Point_Addition.v" Line 53: Concatenation with unsized literal; will interpret as 32 bits
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="327" delta="old" >"E:\CEME\7th Semester\Digital System Design\Project\DSD_Project\Floating_Point_Addition.v" Line 95: Concatenation with unsized literal; will interpret as 32 bits
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="327" delta="old" >"E:\CEME\7th Semester\Digital System Design\Project\DSD_Project\Floating_Point_Addition.v" Line 99: Concatenation with unsized literal; will interpret as 32 bits
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="327" delta="old" >"E:\CEME\7th Semester\Digital System Design\Project\DSD_Project\Floating_Point_Addition.v" Line 105: Concatenation with unsized literal; will interpret as 32 bits
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="327" delta="old" >"E:\CEME\7th Semester\Digital System Design\Project\DSD_Project\Floating_Point_Addition.v" Line 109: Concatenation with unsized literal; will interpret as 32 bits
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\CEME\7th Semester\Digital System Design\Project\DSD_Project\Floating_Point_Addition.v" Line 95: Result of <arg fmt="%d" index="1">56</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">25</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\CEME\7th Semester\Digital System Design\Project\DSD_Project\Floating_Point_Addition.v" Line 105: Result of <arg fmt="%d" index="1">56</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">25</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\CEME\7th Semester\Digital System Design\Project\DSD_Project\Floating_Point_Addition.v" Line 118: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">25</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\CEME\7th Semester\Digital System Design\Project\DSD_Project\Floating_Point_Addition.v" Line 129: Result of <arg fmt="%d" index="1">9</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1401" delta="old" >"E:\CEME\7th Semester\Digital System Design\Project\DSD_Project\Floating_Point_Addition.v" Line 115: Signal <arg fmt="%s" index="1">temp[24]</arg> in unit <arg fmt="%s" index="2">Floating_Point_Addition</arg> is connected to following multiple drivers:
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1379" delta="old" >"E:\CEME\7th Semester\Digital System Design\Project\DSD_Project\Floating_Point_Addition.v" Line 118: Driver <arg fmt="%d" index="1">0</arg>: <arg fmt="%s" index="2">output signal temp[24] of instance Latch</arg>
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1379" delta="old" >"E:\CEME\7th Semester\Digital System Design\Project\DSD_Project\Floating_Point_Addition.v" Line 115: Driver <arg fmt="%d" index="1">1</arg>: <arg fmt="%s" index="2">output signal temp[24] of instance Adder</arg>
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1401" delta="old" >"E:\CEME\7th Semester\Digital System Design\Project\DSD_Project\Floating_Point_Addition.v" Line 69: Signal <arg fmt="%s" index="1">exp_ans[7]</arg> in unit <arg fmt="%s" index="2">Floating_Point_Addition</arg> is connected to following multiple drivers:
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1379" delta="old" >"E:\CEME\7th Semester\Digital System Design\Project\DSD_Project\Floating_Point_Addition.v" Line 123: Driver <arg fmt="%d" index="1">0</arg>: <arg fmt="%s" index="2">output signal exp_ans[7] of instance Latch</arg>
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1379" delta="old" >"E:\CEME\7th Semester\Digital System Design\Project\DSD_Project\Floating_Point_Addition.v" Line 69: Driver <arg fmt="%d" index="1">1</arg>: <arg fmt="%s" index="2">output signal exp_ans[7] of instance Multiplexer</arg>
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="old" >"E:\CEME\7th Semester\Digital System Design\Project\DSD_Project\Floating_Point_Addition.v" Line 21: Empty module &lt;<arg fmt="%s" index="1">Floating_Point_Addition</arg>&gt; remains a black box.
+</msg>
+
+</messages>
+

@@ -1,0 +1,13 @@
+ISim log file
+Running: E:\CEME\7th Semester\Digital System Design\Project\DSD_Project\Simulation_Floating_Point_Multiplication_isim_beh.exe -gui -tclbatch isim.cmd -wdb E:/CEME/7th Semester/Digital System Design/Project/DSD_Project/Simulation_Floating_Point_Multiplication_isim_beh.wdb 
+ISim M.53d (signature 0xb869381d)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Sign_A = 0, Exp_A =   0, Man_A = 00000000000000000000000 and Sign_B = 0, Exp_B =   0, Man_B = 00000000000000000000000 and Sign_Ans = 0, Exp_Ans = 255, Man_Ans = 00000000000000000000000
+Sign_A = 0, Exp_A = 128, Man_A = 01000000000000000000000 and Sign_B = 0, Exp_B = 128, Man_B = 01000000000000000000000 and Sign_Ans = 0, Exp_Ans = 130, Man_Ans = 01001000000000000000000
+Sign_A = 1, Exp_A = 128, Man_A = 01000000000000000000000 and Sign_B = 0, Exp_B = 128, Man_B = 00000000000000000000000 and Sign_Ans = 1, Exp_Ans = 130, Man_Ans = 00100000000000000000000

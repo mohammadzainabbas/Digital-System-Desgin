@@ -1,0 +1,13 @@
+xst -intstyle ise -ifn "E:/CEME/7th Semester/Digital System Design/Project/DSD_Project/Testing_2.xst" -ofn "E:/CEME/7th Semester/Digital System Design/Project/DSD_Project/Testing_2.syr" 
+xst -intstyle ise -ifn "E:/CEME/7th Semester/Digital System Design/Project/DSD_Project/Testing_2.xst" -ofn "E:/CEME/7th Semester/Digital System Design/Project/DSD_Project/Testing_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 "Testing_2.ngc" Testing_2.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -ol high -t 1 -xt 0 -register_duplication off -global_opt off -ir off -pr off -lc off -power off -o Testing_2_map.ncd Testing_2.ngd Testing_2.pcf 
+par -w -intstyle ise -ol high Testing_2_map.ncd Testing_2.ncd Testing_2.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Testing_2.twx Testing_2.ncd -o Testing_2.twr Testing_2.pcf 
+xst -intstyle ise -ifn "E:/CEME/7th Semester/Digital System Design/Project/DSD_Project/Testing_2.xst" -ofn "E:/CEME/7th Semester/Digital System Design/Project/DSD_Project/Testing_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 "Testing_2.ngc" Testing_2.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -ol high -t 1 -xt 0 -register_duplication off -global_opt off -ir off -pr off -lc off -power off -o Testing_2_map.ncd Testing_2.ngd Testing_2.pcf 
+par -w -intstyle ise -ol high Testing_2_map.ncd Testing_2.ncd Testing_2.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Testing_2.twx Testing_2.ncd -o Testing_2.twr Testing_2.pcf 
+bitgen -intstyle ise -f Testing_2.ut Testing_2.ncd 
+vhdtdtfi -lang verilog -prj DSD_Project -o "E:/CEME/7th Semester/Digital System Design/Project/DSD_Project/Testing_2.tfi" -lib work "E:/CEME/7th Semester/Digital System Design/Project/DSD_Project//Testing_2.v" -module Testing_2 -template E:/Programs/Xilinx/ISE_DS/ISE/data/tfi.tft -deleteonerror 

@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="321" delta="old" >"E:\CEME\7th Semester\Digital System Design\Project\DSD_Project\ipcore_dir\tmp\_cg\_bbx\xbip_utils_v2_0\bip_utils_pkg_v2_0.vhd" Line 1700: Comparison between arrays of unequal length always returns <arg fmt="%s" index="1">FALSE</arg>.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="321" delta="old" >"E:\CEME\7th Semester\Digital System Design\Project\DSD_Project\ipcore_dir\tmp\_cg\_bbx\xbip_utils_v2_0\bip_utils_pkg_v2_0.vhd" Line 1706: Comparison between arrays of unequal length always returns <arg fmt="%s" index="1">FALSE</arg>.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="321" delta="old" >"E:\CEME\7th Semester\Digital System Design\Project\DSD_Project\ipcore_dir\tmp\_cg\_bbx\xbip_utils_v2_0\bip_utils_pkg_v2_0.vhd" Line 1694: Comparison between arrays of unequal length always returns <arg fmt="%s" index="1">FALSE</arg>.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="746" delta="new" >"E:\CEME\7th Semester\Digital System Design\Project\DSD_Project\ipcore_dir\tmp\_cg\_bbx\xbip_pipe_v2_0\xbip_pipe_v2_0_xst.vhd" Line 207: Range is empty (null range)
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"E:\CEME\7th Semester\Digital System Design\Project\DSD_Project\ipcore_dir\tmp\_cg\_bbx\xbip_dsp48_wrapper_v2_0\xbip_dsp48a1_wrapper_v2_0.vhd" Line 194: Net &lt;<arg fmt="%s" index="1">ceopmode_i</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"E:\CEME\7th Semester\Digital System Design\Project\DSD_Project\ipcore_dir\tmp\_cg\_bbx\xbip_dsp48_wrapper_v2_0\xbip_dsp48a1_wrapper_v2_0.vhd" Line 195: Net &lt;<arg fmt="%s" index="1">carryin_i</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"E:\CEME\7th Semester\Digital System Design\Project\DSD_Project\ipcore_dir\tmp\_cg\_bbx\xbip_dsp48_wrapper_v2_0\xbip_dsp48a1_wrapper_v2_0.vhd" Line 204: Net &lt;<arg fmt="%s" index="1">rstopmode_i</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"E:\CEME\7th Semester\Digital System Design\Project\DSD_Project\ipcore_dir\tmp\_cg\_bbx\xbip_dsp48_macro_v2_0\bip_dsp48_macro_synth.vhd" Line 245: Net &lt;<arg fmt="%s" index="1">ce_i</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"E:\CEME\7th Semester\Digital System Design\Project\DSD_Project\ipcore_dir\tmp\_cg\_bbx\xbip_dsp48_macro_v2_0\bip_dsp48_macro_synth.vhd" Line 246: Net &lt;<arg fmt="%s" index="1">sclr_i</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"E:\CEME\7th Semester\Digital System Design\Project\DSD_Project\ipcore_dir\tmp\_cg\_bbx\xbip_dsp48_macro_v2_0\bip_dsp48_macro_synth.vhd" Line 249: Net &lt;<arg fmt="%s" index="1">b_i1[17]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"E:\CEME\7th Semester\Digital System Design\Project\DSD_Project\ipcore_dir\tmp\_cg\_bbx\xbip_dsp48_macro_v2_0\bip_dsp48_macro_synth.vhd" Line 274: Net &lt;<arg fmt="%s" index="1">c_i3[47]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SEL&lt;0:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">ACIN&lt;17:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">BCIN&lt;17:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">B&lt;17:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">C&lt;47:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">CONCAT&lt;47:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">CE</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="2935" delta="old" >Signal &apos;<arg fmt="%s" index="1">BCOUT</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">bip_dsp48_macro_synth</arg>&apos;, is tied to its initial value (<arg fmt="%s" index="3">000000000000000000</arg>).
+</msg>
+
+<msg type="warning" file="Xst" num="2935" delta="old" >Signal &apos;<arg fmt="%s" index="1">b_i1</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">bip_dsp48_macro_synth</arg>&apos;, is tied to its initial value (<arg fmt="%s" index="3">000000000000000000</arg>).
+</msg>
+
+<msg type="warning" file="Xst" num="2935" delta="old" >Signal &apos;<arg fmt="%s" index="1">c_i3</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">bip_dsp48_macro_synth</arg>&apos;, is tied to its initial value (<arg fmt="%s" index="3">000000000000000000000000000000000000000000000000</arg>).
+</msg>
+
+<msg type="warning" file="Xst" num="2935" delta="old" >Signal &apos;<arg fmt="%s" index="1">ce_i</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">bip_dsp48_macro_synth</arg>&apos;, is tied to its initial value (<arg fmt="%s" index="3">1</arg>).
+</msg>
+
+<msg type="warning" file="Xst" num="2935" delta="old" >Signal &apos;<arg fmt="%s" index="1">sclr_i</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">bip_dsp48_macro_synth</arg>&apos;, is tied to its initial value (<arg fmt="%s" index="3">0</arg>).
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">CE</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SSET</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SINIT</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">CE</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SSET</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SINIT</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">CE</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SSET</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SINIT</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">CE</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SSET</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SINIT</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">CE</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SSET</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SINIT</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="2774" delta="new" >HDL ADVISOR - <arg fmt="%s" index="1">KEEP</arg> <arg fmt="%s" index="2">property</arg> attached to signal <arg fmt="%s" index="3">opt_has_pipe.first_q</arg> may hinder XST clustering optimizations.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">CE</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SCLR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SSET</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SINIT</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">CARRYIN</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="2935" delta="old" >Signal &apos;<arg fmt="%s" index="1">ceopmode_i</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">xbip_dsp48a1_wrapper_v2_0</arg>&apos;, is tied to its initial value (<arg fmt="%s" index="3">0</arg>).
+</msg>
+
+<msg type="warning" file="Xst" num="2935" delta="old" >Signal &apos;<arg fmt="%s" index="1">carryin_i</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">xbip_dsp48a1_wrapper_v2_0</arg>&apos;, is tied to its initial value (<arg fmt="%s" index="3">0</arg>).
+</msg>
+
+<msg type="warning" file="Xst" num="2935" delta="old" >Signal &apos;<arg fmt="%s" index="1">rstopmode_i</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">xbip_dsp48a1_wrapper_v2_0</arg>&apos;, is tied to its initial value (<arg fmt="%s" index="3">0</arg>).
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">opt_has_pipe.first_q_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">xbip_pipe_v2_0_xst_2</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">16 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;opt_has_pipe.first_q_2&gt; &lt;opt_has_pipe.first_q_3&gt; &lt;opt_has_pipe.first_q_4&gt; &lt;opt_has_pipe.first_q_5&gt; &lt;opt_has_pipe.first_q_6&gt; &lt;opt_has_pipe.first_q_7&gt; &lt;opt_has_pipe.first_q_8&gt; &lt;opt_has_pipe.first_q_9&gt; &lt;opt_has_pipe.first_q_10&gt; &lt;opt_has_pipe.first_q_11&gt; &lt;opt_has_pipe.first_q_12&gt; &lt;opt_has_pipe.first_q_13&gt; &lt;opt_has_pipe.first_q_14&gt; &lt;opt_has_pipe.first_q_15&gt; &lt;opt_has_pipe.first_q_16&gt; &lt;opt_has_pipe.first_q_17&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">xbip_pipe_v2_0_xst_2</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">opt_has_pipe.first_q&lt;1&gt;</arg> and <arg fmt="%s" index="3">opt_has_pipe.first_q&lt;2&gt;</arg> <arg fmt="%s" index="4">opt_has_pipe.first_q&lt;2&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">xbip_pipe_v2_0_xst_2</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">opt_has_pipe.first_q&lt;1&gt;</arg> and <arg fmt="%s" index="3">opt_has_pipe.first_q&lt;3&gt;</arg> <arg fmt="%s" index="4">opt_has_pipe.first_q&lt;3&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">xbip_pipe_v2_0_xst_2</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">opt_has_pipe.first_q&lt;1&gt;</arg> and <arg fmt="%s" index="3">opt_has_pipe.first_q&lt;4&gt;</arg> <arg fmt="%s" index="4">opt_has_pipe.first_q&lt;4&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">xbip_pipe_v2_0_xst_2</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">opt_has_pipe.first_q&lt;1&gt;</arg> and <arg fmt="%s" index="3">opt_has_pipe.first_q&lt;5&gt;</arg> <arg fmt="%s" index="4">opt_has_pipe.first_q&lt;5&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">xbip_pipe_v2_0_xst_2</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">opt_has_pipe.first_q&lt;1&gt;</arg> and <arg fmt="%s" index="3">opt_has_pipe.first_q&lt;6&gt;</arg> <arg fmt="%s" index="4">opt_has_pipe.first_q&lt;6&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">xbip_pipe_v2_0_xst_2</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">opt_has_pipe.first_q&lt;1&gt;</arg> and <arg fmt="%s" index="3">opt_has_pipe.first_q&lt;7&gt;</arg> <arg fmt="%s" index="4">opt_has_pipe.first_q&lt;7&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">xbip_pipe_v2_0_xst_2</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">opt_has_pipe.first_q&lt;1&gt;</arg> and <arg fmt="%s" index="3">opt_has_pipe.first_q&lt;8&gt;</arg> <arg fmt="%s" index="4">opt_has_pipe.first_q&lt;8&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">xbip_pipe_v2_0_xst_2</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">opt_has_pipe.first_q&lt;1&gt;</arg> and <arg fmt="%s" index="3">opt_has_pipe.first_q&lt;9&gt;</arg> <arg fmt="%s" index="4">opt_has_pipe.first_q&lt;9&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">xbip_pipe_v2_0_xst_2</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">opt_has_pipe.first_q&lt;1&gt;</arg> and <arg fmt="%s" index="3">opt_has_pipe.first_q&lt;10&gt;</arg> <arg fmt="%s" index="4">opt_has_pipe.first_q&lt;10&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">xbip_pipe_v2_0_xst_2</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">opt_has_pipe.first_q&lt;10&gt;</arg> and <arg fmt="%s" index="3">opt_has_pipe.first_q&lt;11&gt;</arg> <arg fmt="%s" index="4">opt_has_pipe.first_q&lt;11&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">xbip_pipe_v2_0_xst_2</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">opt_has_pipe.first_q&lt;10&gt;</arg> and <arg fmt="%s" index="3">opt_has_pipe.first_q&lt;12&gt;</arg> <arg fmt="%s" index="4">opt_has_pipe.first_q&lt;12&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">xbip_pipe_v2_0_xst_2</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">opt_has_pipe.first_q&lt;10&gt;</arg> and <arg fmt="%s" index="3">opt_has_pipe.first_q&lt;13&gt;</arg> <arg fmt="%s" index="4">opt_has_pipe.first_q&lt;13&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">xbip_pipe_v2_0_xst_2</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">opt_has_pipe.first_q&lt;10&gt;</arg> and <arg fmt="%s" index="3">opt_has_pipe.first_q&lt;14&gt;</arg> <arg fmt="%s" index="4">opt_has_pipe.first_q&lt;14&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">xbip_pipe_v2_0_xst_2</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">opt_has_pipe.first_q&lt;10&gt;</arg> and <arg fmt="%s" index="3">opt_has_pipe.first_q&lt;15&gt;</arg> <arg fmt="%s" index="4">opt_has_pipe.first_q&lt;15&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">xbip_pipe_v2_0_xst_2</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">opt_has_pipe.first_q&lt;10&gt;</arg> and <arg fmt="%s" index="3">opt_has_pipe.first_q&lt;16&gt;</arg> <arg fmt="%s" index="4">opt_has_pipe.first_q&lt;16&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">xbip_pipe_v2_0_xst_2</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">opt_has_pipe.first_q&lt;10&gt;</arg> and <arg fmt="%s" index="3">opt_has_pipe.first_q&lt;17&gt;</arg> <arg fmt="%s" index="4">opt_has_pipe.first_q&lt;17&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">opt_has_pipe.first_q_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">xbip_pipe_v2_0_xst_3</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">47 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;opt_has_pipe.first_q_1&gt; &lt;opt_has_pipe.first_q_2&gt; &lt;opt_has_pipe.first_q_3&gt; &lt;opt_has_pipe.first_q_4&gt; &lt;opt_has_pipe.first_q_5&gt; &lt;opt_has_pipe.first_q_6&gt; &lt;opt_has_pipe.first_q_7&gt; &lt;opt_has_pipe.first_q_8&gt; &lt;opt_has_pipe.first_q_9&gt; &lt;opt_has_pipe.first_q_10&gt; &lt;opt_has_pipe.first_q_11&gt; &lt;opt_has_pipe.first_q_12&gt; &lt;opt_has_pipe.first_q_13&gt; &lt;opt_has_pipe.first_q_14&gt; &lt;opt_has_pipe.first_q_15&gt; &lt;opt_has_pipe.first_q_16&gt; &lt;opt_has_pipe.first_q_17&gt; &lt;opt_has_pipe.first_q_18&gt; &lt;opt_has_pipe.first_q_19&gt; &lt;opt_has_pipe.first_q_20&gt; &lt;opt_has_pipe.first_q_21&gt; &lt;opt_has_pipe.first_q_22&gt; &lt;opt_has_pipe.first_q_23&gt; &lt;opt_has_pipe.first_q_24&gt; &lt;opt_has_pipe.first_q_25&gt; &lt;opt_has_pipe.first_q_26&gt; &lt;opt_has_pipe.first_q_27&gt; &lt;opt_has_pipe.first_q_28&gt; &lt;opt_has_pipe.first_q_29&gt; &lt;opt_has_pipe.first_q_30&gt; &lt;opt_has_pipe.first_q_31&gt; &lt;opt_has_pipe.first_q_32&gt; &lt;opt_has_pipe.first_q_33&gt; &lt;opt_has_pipe.first_q_34&gt; &lt;opt_has_pipe.first_q_35&gt; &lt;opt_has_pipe.first_q_36&gt; &lt;opt_has_pipe.first_q_37&gt; &lt;opt_has_pipe.first_q_38&gt; &lt;opt_has_pipe.first_q_39&gt; &lt;opt_has_pipe.first_q_40&gt; &lt;opt_has_pipe.first_q_41&gt; &lt;opt_has_pipe.first_q_42&gt; &lt;opt_has_pipe.first_q_43&gt; &lt;opt_has_pipe.first_q_44&gt; &lt;opt_has_pipe.first_q_45&gt; &lt;opt_has_pipe.first_q_46&gt; &lt;opt_has_pipe.first_q_47&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">xbip_pipe_v2_0_xst_3</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">opt_has_pipe.first_q&lt;1&gt;</arg> <arg fmt="%s" index="4">opt_has_pipe.first_q&lt;1&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">xbip_pipe_v2_0_xst_3</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">opt_has_pipe.first_q&lt;2&gt;</arg> <arg fmt="%s" index="4">opt_has_pipe.first_q&lt;2&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">xbip_pipe_v2_0_xst_3</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">opt_has_pipe.first_q&lt;3&gt;</arg> <arg fmt="%s" index="4">opt_has_pipe.first_q&lt;3&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">xbip_pipe_v2_0_xst_3</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">opt_has_pipe.first_q&lt;4&gt;</arg> <arg fmt="%s" index="4">opt_has_pipe.first_q&lt;4&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">xbip_pipe_v2_0_xst_3</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">opt_has_pipe.first_q&lt;5&gt;</arg> <arg fmt="%s" index="4">opt_has_pipe.first_q&lt;5&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">xbip_pipe_v2_0_xst_3</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">opt_has_pipe.first_q&lt;6&gt;</arg> <arg fmt="%s" index="4">opt_has_pipe.first_q&lt;6&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">xbip_pipe_v2_0_xst_3</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">opt_has_pipe.first_q&lt;7&gt;</arg> <arg fmt="%s" index="4">opt_has_pipe.first_q&lt;7&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">xbip_pipe_v2_0_xst_3</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">opt_has_pipe.first_q&lt;8&gt;</arg> <arg fmt="%s" index="4">opt_has_pipe.first_q&lt;8&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">xbip_pipe_v2_0_xst_3</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">opt_has_pipe.first_q&lt;9&gt;</arg> <arg fmt="%s" index="4">opt_has_pipe.first_q&lt;9&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">xbip_pipe_v2_0_xst_3</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">opt_has_pipe.first_q&lt;10&gt;</arg> <arg fmt="%s" index="4">opt_has_pipe.first_q&lt;10&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">xbip_pipe_v2_0_xst_3</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">opt_has_pipe.first_q&lt;11&gt;</arg> <arg fmt="%s" index="4">opt_has_pipe.first_q&lt;11&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">xbip_pipe_v2_0_xst_3</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">opt_has_pipe.first_q&lt;12&gt;</arg> <arg fmt="%s" index="4">opt_has_pipe.first_q&lt;12&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">xbip_pipe_v2_0_xst_3</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">opt_has_pipe.first_q&lt;13&gt;</arg> <arg fmt="%s" index="4">opt_has_pipe.first_q&lt;13&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">xbip_pipe_v2_0_xst_3</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">opt_has_pipe.first_q&lt;14&gt;</arg> <arg fmt="%s" index="4">opt_has_pipe.first_q&lt;14&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">xbip_pipe_v2_0_xst_3</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">opt_has_pipe.first_q&lt;15&gt;</arg> <arg fmt="%s" index="4">opt_has_pipe.first_q&lt;15&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">xbip_pipe_v2_0_xst_3</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">opt_has_pipe.first_q&lt;16&gt;</arg> <arg fmt="%s" index="4">opt_has_pipe.first_q&lt;16&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">xbip_pipe_v2_0_xst_3</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">opt_has_pipe.first_q&lt;17&gt;</arg> <arg fmt="%s" index="4">opt_has_pipe.first_q&lt;17&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">xbip_pipe_v2_0_xst_3</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">opt_has_pipe.first_q&lt;18&gt;</arg> <arg fmt="%s" index="4">opt_has_pipe.first_q&lt;18&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">xbip_pipe_v2_0_xst_3</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">opt_has_pipe.first_q&lt;19&gt;</arg> <arg fmt="%s" index="4">opt_has_pipe.first_q&lt;19&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">xbip_pipe_v2_0_xst_3</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">opt_has_pipe.first_q&lt;20&gt;</arg> <arg fmt="%s" index="4">opt_has_pipe.first_q&lt;20&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">xbip_pipe_v2_0_xst_3</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">opt_has_pipe.first_q&lt;21&gt;</arg> <arg fmt="%s" index="4">opt_has_pipe.first_q&lt;21&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">xbip_pipe_v2_0_xst_3</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">opt_has_pipe.first_q&lt;22&gt;</arg> <arg fmt="%s" index="4">opt_has_pipe.first_q&lt;22&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">xbip_pipe_v2_0_xst_3</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">opt_has_pipe.first_q&lt;23&gt;</arg> <arg fmt="%s" index="4">opt_has_pipe.first_q&lt;23&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">xbip_pipe_v2_0_xst_3</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">opt_has_pipe.first_q&lt;24&gt;</arg> <arg fmt="%s" index="4">opt_has_pipe.first_q&lt;24&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">xbip_pipe_v2_0_xst_3</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">opt_has_pipe.first_q&lt;25&gt;</arg> <arg fmt="%s" index="4">opt_has_pipe.first_q&lt;25&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">xbip_pipe_v2_0_xst_3</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">opt_has_pipe.first_q&lt;26&gt;</arg> <arg fmt="%s" index="4">opt_has_pipe.first_q&lt;26&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">xbip_pipe_v2_0_xst_3</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">opt_has_pipe.first_q&lt;27&gt;</arg> <arg fmt="%s" index="4">opt_has_pipe.first_q&lt;27&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">xbip_pipe_v2_0_xst_3</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">opt_has_pipe.first_q&lt;28&gt;</arg> <arg fmt="%s" index="4">opt_has_pipe.first_q&lt;28&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">xbip_pipe_v2_0_xst_3</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">opt_has_pipe.first_q&lt;29&gt;</arg> <arg fmt="%s" index="4">opt_has_pipe.first_q&lt;29&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">xbip_pipe_v2_0_xst_3</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">opt_has_pipe.first_q&lt;30&gt;</arg> <arg fmt="%s" index="4">opt_has_pipe.first_q&lt;30&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">xbip_pipe_v2_0_xst_3</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">opt_has_pipe.first_q&lt;31&gt;</arg> <arg fmt="%s" index="4">opt_has_pipe.first_q&lt;31&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">xbip_pipe_v2_0_xst_3</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">opt_has_pipe.first_q&lt;32&gt;</arg> <arg fmt="%s" index="4">opt_has_pipe.first_q&lt;32&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">xbip_pipe_v2_0_xst_3</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">opt_has_pipe.first_q&lt;33&gt;</arg> <arg fmt="%s" index="4">opt_has_pipe.first_q&lt;33&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">xbip_pipe_v2_0_xst_3</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">opt_has_pipe.first_q&lt;34&gt;</arg> <arg fmt="%s" index="4">opt_has_pipe.first_q&lt;34&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">xbip_pipe_v2_0_xst_3</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">opt_has_pipe.first_q&lt;35&gt;</arg> <arg fmt="%s" index="4">opt_has_pipe.first_q&lt;35&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">xbip_pipe_v2_0_xst_3</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">opt_has_pipe.first_q&lt;36&gt;</arg> <arg fmt="%s" index="4">opt_has_pipe.first_q&lt;36&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">xbip_pipe_v2_0_xst_3</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">opt_has_pipe.first_q&lt;37&gt;</arg> <arg fmt="%s" index="4">opt_has_pipe.first_q&lt;37&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">xbip_pipe_v2_0_xst_3</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">opt_has_pipe.first_q&lt;38&gt;</arg> <arg fmt="%s" index="4">opt_has_pipe.first_q&lt;38&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">xbip_pipe_v2_0_xst_3</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">opt_has_pipe.first_q&lt;39&gt;</arg> <arg fmt="%s" index="4">opt_has_pipe.first_q&lt;39&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">xbip_pipe_v2_0_xst_3</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">opt_has_pipe.first_q&lt;40&gt;</arg> <arg fmt="%s" index="4">opt_has_pipe.first_q&lt;40&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">xbip_pipe_v2_0_xst_3</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">opt_has_pipe.first_q&lt;41&gt;</arg> <arg fmt="%s" index="4">opt_has_pipe.first_q&lt;41&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">xbip_pipe_v2_0_xst_3</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">opt_has_pipe.first_q&lt;42&gt;</arg> <arg fmt="%s" index="4">opt_has_pipe.first_q&lt;42&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">xbip_pipe_v2_0_xst_3</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">opt_has_pipe.first_q&lt;43&gt;</arg> <arg fmt="%s" index="4">opt_has_pipe.first_q&lt;43&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">xbip_pipe_v2_0_xst_3</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">opt_has_pipe.first_q&lt;44&gt;</arg> <arg fmt="%s" index="4">opt_has_pipe.first_q&lt;44&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">xbip_pipe_v2_0_xst_3</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">opt_has_pipe.first_q&lt;45&gt;</arg> <arg fmt="%s" index="4">opt_has_pipe.first_q&lt;45&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">xbip_pipe_v2_0_xst_3</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">opt_has_pipe.first_q&lt;46&gt;</arg> <arg fmt="%s" index="4">opt_has_pipe.first_q&lt;46&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">xbip_pipe_v2_0_xst_3</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">opt_has_pipe.first_q&lt;47&gt;</arg> <arg fmt="%s" index="4">opt_has_pipe.first_q&lt;47&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">i_b2/opt_has_pipe.first_q_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">bip_dsp48_macro_synth</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;i_c4/opt_has_pipe.first_q_0&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">bip_dsp48_macro_synth</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">b_i2&lt;10&gt;</arg> and <arg fmt="%s" index="3">c_i4&lt;1&gt;</arg> <arg fmt="%s" index="4">c_i4&lt;1&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/i_synth_option.i_synth_model/i_b2/opt_has_pipe.first_q_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">15 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;U0/i_synth_option.i_synth_model/i_op1/opt_has_pipe.first_q_18&gt; &lt;U0/i_synth_option.i_synth_model/i_op1/opt_has_pipe.first_q_17&gt; &lt;U0/i_synth_option.i_synth_model/i_op1/opt_has_pipe.first_q_16&gt; &lt;U0/i_synth_option.i_synth_model/i_op1/opt_has_pipe.first_q_14&gt; &lt;U0/i_synth_option.i_synth_model/i_op1/opt_has_pipe.first_q_13&gt; &lt;U0/i_synth_option.i_synth_model/i_op1/opt_has_pipe.first_q_12&gt; &lt;U0/i_synth_option.i_synth_model/i_op1/opt_has_pipe.first_q_11&gt; &lt;U0/i_synth_option.i_synth_model/i_op1/opt_has_pipe.first_q_10&gt; &lt;U0/i_synth_option.i_synth_model/i_op1/opt_has_pipe.first_q_9&gt; &lt;U0/i_synth_option.i_synth_model/i_op1/opt_has_pipe.first_q_8&gt; &lt;U0/i_synth_option.i_synth_model/i_op1/opt_has_pipe.first_q_6&gt; &lt;U0/i_synth_option.i_synth_model/i_op1/opt_has_pipe.first_q_5&gt; &lt;U0/i_synth_option.i_synth_model/i_op1/opt_has_pipe.first_q_4&gt; &lt;U0/i_synth_option.i_synth_model/i_op1/opt_has_pipe.first_q_3&gt; &lt;U0/i_synth_option.i_synth_model/i_op1/opt_has_pipe.first_q_2&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/b_i2&lt;10&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op1/opt_has_pipe.first_q&lt;18&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op1/opt_has_pipe.first_q&lt;18&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/b_i2&lt;10&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op1/opt_has_pipe.first_q&lt;17&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op1/opt_has_pipe.first_q&lt;17&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/b_i2&lt;10&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op1/opt_has_pipe.first_q&lt;16&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op1/opt_has_pipe.first_q&lt;16&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/b_i2&lt;10&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op1/opt_has_pipe.first_q&lt;14&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op1/opt_has_pipe.first_q&lt;14&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/b_i2&lt;10&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op1/opt_has_pipe.first_q&lt;13&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op1/opt_has_pipe.first_q&lt;13&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/b_i2&lt;10&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op1/opt_has_pipe.first_q&lt;12&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op1/opt_has_pipe.first_q&lt;12&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/b_i2&lt;10&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op1/opt_has_pipe.first_q&lt;11&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op1/opt_has_pipe.first_q&lt;11&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/b_i2&lt;10&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op1/opt_has_pipe.first_q&lt;10&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op1/opt_has_pipe.first_q&lt;10&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/b_i2&lt;10&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op1/opt_has_pipe.first_q&lt;9&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op1/opt_has_pipe.first_q&lt;9&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/b_i2&lt;10&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op1/opt_has_pipe.first_q&lt;8&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op1/opt_has_pipe.first_q&lt;8&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/b_i2&lt;10&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op1/opt_has_pipe.first_q&lt;6&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op1/opt_has_pipe.first_q&lt;6&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/b_i2&lt;10&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op1/opt_has_pipe.first_q&lt;5&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op1/opt_has_pipe.first_q&lt;5&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/b_i2&lt;10&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op1/opt_has_pipe.first_q&lt;4&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op1/opt_has_pipe.first_q&lt;4&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/b_i2&lt;10&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op1/opt_has_pipe.first_q&lt;3&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op1/opt_has_pipe.first_q&lt;3&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/b_i2&lt;10&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op1/opt_has_pipe.first_q&lt;2&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op1/opt_has_pipe.first_q&lt;2&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/i_synth_option.i_synth_model/i_op1/opt_has_pipe.first_q_15</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;U0/i_synth_option.i_synth_model/i_op1/opt_has_pipe.first_q_7&gt; &lt;U0/i_synth_option.i_synth_model/i_op1/opt_has_pipe.first_q_1&gt; &lt;U0/i_synth_option.i_synth_model/i_op1/opt_has_pipe.first_q_0&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/i_op1/opt_has_pipe.first_q&lt;15&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op1/opt_has_pipe.first_q&lt;7&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op1/opt_has_pipe.first_q&lt;7&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/i_op1/opt_has_pipe.first_q&lt;15&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op1/opt_has_pipe.first_q&lt;1&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op1/opt_has_pipe.first_q&lt;1&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/i_op1/opt_has_pipe.first_q&lt;15&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op1/opt_has_pipe.first_q&lt;0&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op1/opt_has_pipe.first_q&lt;0&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/i_synth_option.i_synth_model/i_b2/opt_has_pipe.first_q_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q_0&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/i_b2/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q&lt;0&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q&lt;0&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">14 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q_17&gt; &lt;U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q_16&gt; &lt;U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q_14&gt; &lt;U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q_13&gt; &lt;U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q_12&gt; &lt;U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q_11&gt; &lt;U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q_10&gt; &lt;U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q_9&gt; &lt;U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q_8&gt; &lt;U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q_6&gt; &lt;U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q_5&gt; &lt;U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q_4&gt; &lt;U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q_3&gt; &lt;U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q_2&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q&lt;18&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q&lt;17&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q&lt;17&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q&lt;17&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q&lt;16&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q&lt;16&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q&lt;16&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q&lt;14&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q&lt;14&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q&lt;14&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q&lt;13&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q&lt;13&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q&lt;13&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q&lt;12&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q&lt;12&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q&lt;12&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q&lt;11&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q&lt;11&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q&lt;11&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q&lt;10&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q&lt;10&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q&lt;10&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q&lt;9&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q&lt;9&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q&lt;10&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q&lt;8&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q&lt;8&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q&lt;10&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q&lt;6&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q&lt;6&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q&lt;10&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q&lt;5&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q&lt;5&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q&lt;10&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q&lt;4&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q&lt;4&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q&lt;10&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q&lt;3&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q&lt;3&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q&lt;10&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q&lt;2&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q&lt;2&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/i_synth_option.i_synth_model/i_b2/opt_has_pipe.first_q_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q_15&gt; &lt;U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q_7&gt; &lt;U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q_1&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/i_b2/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q&lt;15&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q&lt;15&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/i_b2/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q&lt;7&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q&lt;7&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/i_b2/opt_has_pipe.first_q&lt;0&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q&lt;1&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op2/opt_has_pipe.first_q&lt;1&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">14 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q_17&gt; &lt;U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q_16&gt; &lt;U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q_14&gt; &lt;U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q_13&gt; &lt;U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q_12&gt; &lt;U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q_11&gt; &lt;U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q_10&gt; &lt;U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q_9&gt; &lt;U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q_8&gt; &lt;U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q_6&gt; &lt;U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q_5&gt; &lt;U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q_4&gt; &lt;U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q_3&gt; &lt;U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q_2&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q&lt;18&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q&lt;17&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q&lt;17&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q&lt;17&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q&lt;16&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q&lt;16&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q&lt;16&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q&lt;14&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q&lt;14&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q&lt;14&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q&lt;13&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q&lt;13&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q&lt;13&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q&lt;12&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q&lt;12&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q&lt;12&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q&lt;11&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q&lt;11&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q&lt;11&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q&lt;10&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q&lt;10&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q&lt;10&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q&lt;9&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q&lt;9&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q&lt;10&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q&lt;8&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q&lt;8&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q&lt;10&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q&lt;6&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q&lt;6&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q&lt;10&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q&lt;5&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q&lt;5&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q&lt;10&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q&lt;4&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q&lt;4&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q&lt;10&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q&lt;3&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q&lt;3&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q&lt;10&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q&lt;2&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q&lt;2&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q_15</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q_7&gt; &lt;U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q_1&gt; &lt;U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q_0&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q&lt;15&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q&lt;7&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q&lt;7&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q&lt;15&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q&lt;1&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q&lt;1&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q&lt;15&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q&lt;0&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op3/opt_has_pipe.first_q&lt;0&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">14 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q_17&gt; &lt;U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q_16&gt; &lt;U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q_14&gt; &lt;U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q_13&gt; &lt;U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q_12&gt; &lt;U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q_11&gt; &lt;U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q_10&gt; &lt;U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q_9&gt; &lt;U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q_8&gt; &lt;U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q_6&gt; &lt;U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q_5&gt; &lt;U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q_4&gt; &lt;U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q_3&gt; &lt;U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q_2&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q&lt;18&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q&lt;17&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q&lt;17&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q&lt;17&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q&lt;16&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q&lt;16&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q&lt;16&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q&lt;14&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q&lt;14&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q&lt;14&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q&lt;13&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q&lt;13&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q&lt;13&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q&lt;12&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q&lt;12&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q&lt;12&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q&lt;11&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q&lt;11&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q&lt;11&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q&lt;10&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q&lt;10&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q&lt;10&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q&lt;9&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q&lt;9&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q&lt;10&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q&lt;8&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q&lt;8&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q&lt;10&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q&lt;6&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q&lt;6&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q&lt;10&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q&lt;5&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q&lt;5&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q&lt;10&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q&lt;4&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q&lt;4&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q&lt;10&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q&lt;3&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q&lt;3&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q&lt;10&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q&lt;2&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q&lt;2&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q_15</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q_7&gt; &lt;U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q_1&gt; &lt;U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q_0&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q&lt;15&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q&lt;7&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q&lt;7&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q&lt;15&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q&lt;1&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q&lt;1&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="638" delta="new" >in unit <arg fmt="%s" index="1">Adder_32bit_xbip_dsp48_macro_v2_0_xst_1</arg> Conflict on KEEP property on signal <arg fmt="%s" index="2">U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q&lt;15&gt;</arg> and <arg fmt="%s" index="3">U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q&lt;0&gt;</arg> <arg fmt="%s" index="4">U0/i_synth_option.i_synth_model/i_op4/opt_has_pipe.first_q&lt;0&gt;</arg> signal will be lost.
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="new" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

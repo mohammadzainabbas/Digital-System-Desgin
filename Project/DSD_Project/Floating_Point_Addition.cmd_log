@@ -1,0 +1,4 @@
+vhdtdtfi -lib work {E:/CEME/7th Semester/Digital System Design/Project/DSD_Project/Floating_Point_Addition.v} -lang verilog -prj DSD_Project -o Floating_Point_Addition.spl -module Floating_Point_Addition -template E:/Programs/Xilinx/ISE_DS/ISE/data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 Floating_Point_Addition.spl {E:/CEME/7th Semester/Digital System Design/Project/DSD_Project/Floating_Point_Addition.sym} 
+xst -intstyle ise -ifn "E:/CEME/7th Semester/Digital System Design/Project/DSD_Project/Floating_Point_Addition.xst" -ofn "E:/CEME/7th Semester/Digital System Design/Project/DSD_Project/Floating_Point_Addition.syr" 
+xst -intstyle ise -ifn "E:/CEME/7th Semester/Digital System Design/Project/DSD_Project/Floating_Point_Addition.xst" -ofn "E:/CEME/7th Semester/Digital System Design/Project/DSD_Project/Floating_Point_Addition.syr" 
