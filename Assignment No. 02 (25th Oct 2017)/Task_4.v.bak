@@ -1,0 +1,72 @@
+module Task_4 (a, b, out, clock, reset);
+  
+  parameter N = 4;
+  input signed [N-1 : 0] a, b;
+  input clock, reset;
+  output signed [(5 * N) - 1 : 0] out;
+  reg signed [N-1 : 0] max_reg;
+  reg signed [(5 * N) - 1 : 0] acc;
+  reg signed [N-1 : 0] a_reg, b_reg;
+  wire sel;
+  
+  assign sel = (a_reg > b_reg) ? 0 : 1;
+  assign out = acc;
+  
+  always@(posedge clock, negedge reset)
+  begin
+    if(!reset)
+    begin
+      a_reg <= 0; 
+      b_reg <= 0;
+      acc <= 0;
+      max_reg <= 0;
+    end
+    else
+    begin
+      a_reg <= a;
+      b_reg <= b;
+      max_reg <= (sel == 0) ? a_reg : b_reg;
+      acc <= acc + max_reg;   
+    end
+  end
+  
+endmodule
+
+module simulation_assignment_task_4();
+  reg [3:0] a, b;
+  reg clock, reset;
+  wire [19:0] out;
+  
+  Task_4 #(4) T4(a, b, out, clock, reset);
+  
+  initial
+  begin
+    clock = 0; reset = 0; a = 0; b = 0;
+    
+    #10 
+    reset = 1;
+    
+    a = -5; b = 10;
+    
+    #10 
+    a = 2; b = 55;
+    
+    #10 
+    a = 102; b = -111;
+    
+    #10 
+    a = -90; b = 10;
+  end
+  
+  always
+  begin
+    #5 clk = !clk;
+  end
+  
+  initial
+  begin
+    $monitor("a = %b, b = %b, acc = %b", a, b, out);
+  end
+  
+endmodule
+

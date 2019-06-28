@@ -1,0 +1,9 @@
+{E:/CEME/7th Semester/Digital System Design/Assignment No. 02 (25th Oct 2017)/Task_5.v} {1 {vlog -work work -vopt -nocovercells {E:/CEME/7th Semester/Digital System Design/Assignment No. 02 (25th Oct 2017)/Task_5.v}
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module Task_5
+-- Compiling module simulation_assignment_task_5
+
+Top level modules:
+	simulation_assignment_task_5
+
+} {} {}}

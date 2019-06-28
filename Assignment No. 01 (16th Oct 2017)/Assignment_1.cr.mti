@@ -1,0 +1,9 @@
+{E:/CEME/7th Semester/Digital System Design/Assignment No. 01 (16th Oct 2017)/Task_1 4 bit Adder.v} {0 {vlog -work work -vopt -nocovercells {E:/CEME/7th Semester/Digital System Design/Assignment No. 01 (16th Oct 2017)/Task_1 4 bit Adder.v}
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module FullAdder
+-- Compiling module FourBitFullAdder
+** Error: E:/CEME/7th Semester/Digital System Design/Assignment No. 01 (16th Oct 2017)/Task_1 4 bit Adder.v(19): Undefined variable: sum.
+** Error: E:/CEME/7th Semester/Digital System Design/Assignment No. 01 (16th Oct 2017)/Task_1 4 bit Adder.v(14): Identifier must be declared with a port mode: sum.
+-- Compiling module simulation_assignment_task_1
+
+} {5.0 7.0} {}}

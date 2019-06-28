@@ -1,0 +1,57 @@
+module FullAdder (a, b, c, sum, carry);
+  input a, b, c;
+  output sum, carry;
+  wire temp1, temp2, temp3;
+  
+  assign temp1 = a ^ b;
+  assign temp2 = ~(a & b);
+  assign sum = c ^ temp1;
+  assign temp3 = ~(c & temp1);
+  assign carry = ~(temp2 & temp3);
+  
+endmodule
+
+module FourBitFullAdder(a, b, c, sum, carry);
+  input [3:0] a, b;  input c;
+  output [3:0] sum; output carry;
+  wire c1, c2, c3;
+  
+  FullAdder FA_1 (a[0], b[0], c, sum[0], c1);
+  FullAdder FA_2 (a[1], b[1], c1, sum[1], c2);
+  FullAdder FA_3 (a[2], b[2], c2, sum[2], c3);
+  FullAdder FA_4 (a[3], b[3], c3, sum[3], carry);
+  
+endmodule
+
+module simulation_assignment_task_1();
+  reg [3:0] a, b;   reg c;
+  wire [3:0] sum;   wire carry;
+  
+  FourBitFullAdder FourBit_FA (a, b, c, sum, carry);
+  
+  initial
+  begin
+    
+    a = 4'b0000;  b = 4'b0000;  c = 1'b0;
+    
+    #10
+    a = 4'b1010;  b = 4'b0101;  c = 1'b0;
+    
+    #10
+    a = 4'b1100;  b = 4'b1000;  c = 1'b1;
+    
+    #10
+    a = 4'b1001;  b = 4'b1010;  c = 1'b0;
+    
+    #10
+    a = 4'b1010;  b = 4'b0110;  c = 1'b0;
+    
+    #10
+    a = 4'b1111;  b = 4'b1111;  c = 1'b1;
+    
+  end
+  
+  initial
+  $monitor("a = %d, b = %d and c = %d and sum = $d and carry = %d", a, b, c, sum, carry);
+  
+endmodule
