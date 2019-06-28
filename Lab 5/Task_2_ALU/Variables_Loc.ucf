@@ -1,0 +1,13 @@
+NET "in1[0]" loc = "T10";
+NET "in1[1]" loc = "T9";
+NET "in2[0]" loc = "V9";
+NET "in2[1]" loc = "M8";
+NET "sel[0]" loc = "N8";
+NET "sel[1]" loc = "V8";
+NET "a" loc = "T17";
+NET "b" loc = "T18";
+NET "c" loc = "U17";
+NET "d" loc = "U18";
+NET "e" loc = "M14";
+NET "f" loc = "N14";
+NET "g" loc = "L14";

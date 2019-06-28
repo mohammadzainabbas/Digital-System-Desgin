@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\CEME\7th Semester\Digital System Design\Lab 5\Lab_5\Task_1.ncd
+OUTFILE=E:\CEME\7th Semester\Digital System Design\Lab 5\Lab_5\Task_1.bit
+FAMILY=Spartan6
+PART=xc6slx16-2csg324
+WORKINGDIR=E:\CEME\7th Semester\Digital System Design\Lab 5\Lab_5
+LICENSE=WebPack
+USER_INFO=__0_0_0

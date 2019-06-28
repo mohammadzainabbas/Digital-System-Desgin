@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "E:/CEME/7th Semester/Digital System Design/Lab 9/ALU_BAsed_Processor/FPGA_ALU.xst" -ofn "E:/CEME/7th Semester/Digital System Design/Lab 9/ALU_BAsed_Processor/FPGA_ALU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pin_Names.ucf -p xc6slx16-csg324-3 "FPGA_ALU.ngc" FPGA_ALU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -ol high -t 1 -xt 0 -register_duplication off -global_opt off -ir off -pr off -lc off -power off -o FPGA_ALU_map.ncd FPGA_ALU.ngd FPGA_ALU.pcf 
+par -w -intstyle ise -ol high FPGA_ALU_map.ncd FPGA_ALU.ncd FPGA_ALU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml FPGA_ALU.twx FPGA_ALU.ncd -o FPGA_ALU.twr FPGA_ALU.pcf -ucf Pin_Names.ucf 
+bitgen -intstyle ise -f FPGA_ALU.ut FPGA_ALU.ncd 

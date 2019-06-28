@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\CEME\7th Semester\Digital System Design\Lab 5\Task_2_ALU\ALU.ncd
+OUTFILE=E:\CEME\7th Semester\Digital System Design\Lab 5\Task_2_ALU\ALU.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=E:\CEME\7th Semester\Digital System Design\Lab 5\Task_2_ALU
+LICENSE=WebPack
+USER_INFO=__0_0_0

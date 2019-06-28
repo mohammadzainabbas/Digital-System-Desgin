@@ -1,0 +1,8 @@
+Release 12.1 Drc M.53d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+Thu Nov 16 16:18:14 2017
+
+drc -z Task_2.ncd Task_2.pcf
+
+DRC detected 0 errors and 0 warnings.

@@ -1,0 +1,373 @@
+Release 12.1 - xst M.53d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Reading design: Task_1.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Task_1.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Task_1"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : Task_1
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : auto
+Reduce Control Sets                : auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Library Search Order               : Task_1.lso
+Keep Hierarchy                     : NO
+Netlist Hierarchy                  : as_optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing Verilog file "E:\CEME\7th Semester\Digital System Design\Lab 6\Lab_6\Task_1.v" into library work
+Parsing module <Task_1>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <Task_1>.
+WARNING:HDLCompiler:413 - "E:\CEME\7th Semester\Digital System Design\Lab 6\Lab_6\Task_1.v" Line 35: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "E:\CEME\7th Semester\Digital System Design\Lab 6\Lab_6\Task_1.v" Line 46: Result of 28-bit expression is truncated to fit in 27-bit target.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <Task_1>.
+    Related source file is "e:/ceme/7th semester/digital system design/lab 6/lab_6/task_1.v".
+    Found 27-bit register for signal <counter>.
+    Found 4-bit register for signal <BCD>.
+    Found 4-bit adder for signal <BCD[3]_GND_1_o_add_3_OUT> created at line 35.
+    Found 27-bit adder for signal <counter[26]_GND_1_o_add_5_OUT> created at line 46.
+    Found 16x7-bit Read Only RAM for signal <_n0051>
+    Found 4-bit comparator lessequal for signal <BCD[3]_PWR_1_o_LessThan_3_o> created at line 33
+    Summary:
+	inferred   1 RAM(s).
+	inferred   2 Adder/Subtractor(s).
+	inferred  31 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <Task_1> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 16x7-bit single-port Read Only RAM                    : 1
+# Adders/Subtractors                                   : 2
+ 27-bit adder                                          : 1
+ 4-bit adder                                           : 1
+# Registers                                            : 2
+ 27-bit register                                       : 1
+ 4-bit register                                        : 1
+# Comparators                                          : 1
+ 4-bit comparator lessequal                            : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <Task_1>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+The following registers are absorbed into counter <BCD>: 1 register on signal <BCD>.
+INFO:Xst:3031 - HDL ADVISOR - The RAM <Mram__n0051> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 16-word x 7-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <BCD>           |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <g>             |          |
+    -----------------------------------------------------------------------
+Unit <Task_1> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 16x7-bit single-port distributed Read Only RAM        : 1
+# Counters                                             : 2
+ 27-bit up counter                                     : 1
+ 4-bit up counter                                      : 1
+# Comparators                                          : 1
+ 4-bit comparator lessequal                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Task_1> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Task_1, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 31
+ Flip-Flops                                            : 31
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : Task_1.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 137
+#      GND                         : 1
+#      INV                         : 1
+#      LUT1                        : 26
+#      LUT3                        : 2
+#      LUT4                        : 9
+#      LUT5                        : 2
+#      LUT6                        : 41
+#      MUXCY                       : 26
+#      MUXF7                       : 1
+#      VCC                         : 1
+#      XORCY                       : 27
+# FlipFlops/Latches                : 31
+#      FD                          : 31
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 7
+#      OBUF                        : 7
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              31  out of  18224     0%  
+ Number of Slice LUTs:                   81  out of   9112     0%  
+    Number used as Logic:                81  out of   9112     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     81
+   Number with an unused Flip Flop:      50  out of     81    61%  
+   Number with an unused LUT:             0  out of     81     0%  
+   Number of fully used LUT-FF pairs:    31  out of     81    38%  
+   Number of unique control sets:         1
+
+IO Utilization: 
+ Number of IOs:                           8
+ Number of bonded IOBs:                   8  out of    232     3%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clock                              | BUFGP                  | 31    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 4.161ns (Maximum Frequency: 240.347MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 5.282ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock'
+  Clock period: 4.161ns (frequency: 240.347MHz)
+  Total number of paths / destination ports: 1350 / 31
+-------------------------------------------------------------------------
+Delay:               4.161ns (Levels of Logic = 3)
+  Source:            counter_7 (FF)
+  Destination:       BCD_1 (FF)
+  Source Clock:      clock rising
+  Destination Clock: clock rising
+
+  Data Path: counter_7 to BCD_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               4   0.525   1.139  counter_7 (counter_7)
+     LUT6:I0->O            1   0.254   1.010  GND_1_o_GND_1_o_equal_2_o<26>4_2 (GND_1_o_GND_1_o_equal_2_o<26>42)
+     LUT6:I1->O            3   0.254   0.651  _n00321 (_n0032)
+     LUT4:I3->O            1   0.254   0.000  BCD_1_rstpot (BCD_1_rstpot)
+     FD:D                      0.074          BCD_1
+    ----------------------------------------
+    Total                      4.161ns (1.361ns logic, 2.800ns route)
+                                       (32.7% logic, 67.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clock'
+  Total number of paths / destination ports: 28 / 7
+-------------------------------------------------------------------------
+Offset:              5.282ns (Levels of Logic = 2)
+  Source:            BCD_0 (FF)
+  Destination:       c (PAD)
+  Source Clock:      clock rising
+
+  Data Path: BCD_0 to c
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              13   0.525   1.209  BCD_0 (BCD_0)
+     LUT4:I0->O            1   0.254   0.579  Mram__n005141 (c_OBUF)
+     OBUF:I->O                 2.715          c_OBUF (c)
+    ----------------------------------------
+    Total                      5.282ns (3.494ns logic, 1.788ns route)
+                                       (66.1% logic, 33.9% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 3.86 secs
+ 
+--> 
+
+Total memory usage is 183820 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

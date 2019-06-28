@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "E:/CEME/7th Semester/Digital System Design/Lab 5/Test_1/Tast_1_1.xst" -ofn "E:/CEME/7th Semester/Digital System Design/Lab 5/Test_1/Tast_1_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc VariableLocation.ucf -p xc6slx16-csg324-3 "Tast_1_1.ngc" Tast_1_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -ol high -t 1 -xt 0 -register_duplication off -global_opt off -ir off -pr off -lc off -power off -o Tast_1_1_map.ncd Tast_1_1.ngd Tast_1_1.pcf 
+xst -intstyle ise -ifn "E:/CEME/7th Semester/Digital System Design/Lab 5/Test_1/Tast_1_1.xst" -ofn "E:/CEME/7th Semester/Digital System Design/Lab 5/Test_1/Tast_1_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc VariableLocation.ucf -p xc6slx16-csg324-3 "Tast_1_1.ngc" Tast_1_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -ol high -t 1 -xt 0 -register_duplication off -global_opt off -ir off -pr off -lc off -power off -o Tast_1_1_map.ncd Tast_1_1.ngd Tast_1_1.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc VariableLocation.ucf -p xc6slx16-csg324-3 "Tast_1_1.ngc" Tast_1_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -ol high -t 1 -xt 0 -register_duplication off -global_opt off -ir off -pr off -lc off -power off -o Tast_1_1_map.ncd Tast_1_1.ngd Tast_1_1.pcf 
+par -w -intstyle ise -ol high Tast_1_1_map.ncd Tast_1_1.ncd Tast_1_1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tast_1_1.twx Tast_1_1.ncd -o Tast_1_1.twr Tast_1_1.pcf -ucf VariableLocation.ucf 
+bitgen -intstyle ise -f Tast_1_1.ut Tast_1_1.ncd 

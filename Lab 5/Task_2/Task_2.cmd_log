@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "E:/CEME/7th Semester/Digital System Design/Lab 5/Task_2/Task_2.xst" -ofn "E:/CEME/7th Semester/Digital System Design/Lab 5/Task_2/Task_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Variable_Location.ucf -p xc6slx16-csg324-2 "Task_2.ngc" Task_2.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -ol high -t 1 -xt 0 -register_duplication off -global_opt off -ir off -pr off -lc off -power off -o Task_2_map.ncd Task_2.ngd Task_2.pcf 
+par -w -intstyle ise -ol high Task_2_map.ncd Task_2.ncd Task_2.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Task_2.twx Task_2.ncd -o Task_2.twr Task_2.pcf -ucf Variable_Location.ucf 
+bitgen -intstyle ise -f Task_2.ut Task_2.ncd 
+xst -intstyle ise -ifn "E:/CEME/7th Semester/Digital System Design/Lab 5/Task_2/Task_2.xst" -ofn "E:/CEME/7th Semester/Digital System Design/Lab 5/Task_2/Task_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Variable_Location.ucf -p xc6slx16-csg324-2 "Task_2.ngc" Task_2.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -ol high -t 1 -xt 0 -register_duplication off -global_opt off -ir off -pr off -lc off -power off -o Task_2_map.ncd Task_2.ngd Task_2.pcf 
+par -w -intstyle ise -ol high Task_2_map.ncd Task_2.ncd Task_2.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Task_2.twx Task_2.ncd -o Task_2.twr Task_2.pcf -ucf Variable_Location.ucf 
+bitgen -intstyle ise -f Task_2.ut Task_2.ncd 

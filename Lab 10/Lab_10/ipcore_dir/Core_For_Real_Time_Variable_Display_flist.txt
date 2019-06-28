@@ -1,0 +1,14 @@
+# Output products list for <Core_For_Real_Time_Variable_Display>
+Core_For_Real_Time_Variable_Display.asy
+Core_For_Real_Time_Variable_Display.gise
+Core_For_Real_Time_Variable_Display.ngc
+Core_For_Real_Time_Variable_Display.v
+Core_For_Real_Time_Variable_Display.veo
+Core_For_Real_Time_Variable_Display.vhd
+Core_For_Real_Time_Variable_Display.vho
+Core_For_Real_Time_Variable_Display.xco
+Core_For_Real_Time_Variable_Display.xise
+Core_For_Real_Time_Variable_Display_flist.txt
+Core_For_Real_Time_Variable_Display_readme.txt
+Core_For_Real_Time_Variable_Display_xmdf.tcl
+_xmsgs\pn_parser.xmsgs

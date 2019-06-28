@@ -1,0 +1,5 @@
+NET "clock" LOC = "V10";
+NET "reset" loc = "T10";
+NET "cycle_period" loc = "T9";
+NET "duty_cycle" loc = "V9";
+NET "led" loc = "V16";

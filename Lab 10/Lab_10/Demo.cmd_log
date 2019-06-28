@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "E:/CEME/7th Semester/Digital System Design/Lab 10/Lab_10/Demo.xst" -ofn "E:/CEME/7th Semester/Digital System Design/Lab 10/Lab_10/Demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc6slx16-csg324-3 "Demo.ngc" Demo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -ol high -t 1 -xt 0 -register_duplication off -global_opt off -ir off -pr off -lc off -power off -o Demo_map.ncd Demo.ngd Demo.pcf 
+par -w -intstyle ise -ol high Demo_map.ncd Demo.ncd Demo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Demo.twx Demo.ncd -o Demo.twr Demo.pcf 
+bitgen -intstyle ise -f Demo.ut Demo.ncd 

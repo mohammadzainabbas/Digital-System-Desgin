@@ -1,0 +1,19 @@
+//! **************************************************************************
+// Written by: Map M.53d on Thu Nov 16 16:17:54 2017
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "e" LOCATE = SITE "M14" LEVEL 1;
+COMP "f" LOCATE = SITE "N14" LEVEL 1;
+COMP "g" LOCATE = SITE "L14" LEVEL 1;
+COMP "AN0" LOCATE = SITE "N16" LEVEL 1;
+COMP "AN1" LOCATE = SITE "N15" LEVEL 1;
+COMP "AN2" LOCATE = SITE "P18" LEVEL 1;
+COMP "AN3" LOCATE = SITE "P17" LEVEL 1;
+COMP "clock" LOCATE = SITE "V10" LEVEL 1;
+COMP "a" LOCATE = SITE "T17" LEVEL 1;
+COMP "b" LOCATE = SITE "T18" LEVEL 1;
+COMP "c" LOCATE = SITE "U17" LEVEL 1;
+COMP "d" LOCATE = SITE "U18" LEVEL 1;
+SCHEMATIC END;
+

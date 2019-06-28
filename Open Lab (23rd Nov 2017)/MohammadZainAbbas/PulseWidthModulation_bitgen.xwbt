@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\CEME\7th Semester\Digital System Design\Open Lab (23rd Nov 2017)\MohammadZainAbbas\PulseWidthModulation.ncd
+OUTFILE=E:\CEME\7th Semester\Digital System Design\Open Lab (23rd Nov 2017)\MohammadZainAbbas\PulseWidthModulation.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=E:\CEME\7th Semester\Digital System Design\Open Lab (23rd Nov 2017)\MohammadZainAbbas
+LICENSE=WebPack
+USER_INFO=__0_0_0

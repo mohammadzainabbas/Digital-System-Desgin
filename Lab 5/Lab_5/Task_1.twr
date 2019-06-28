@@ -1,0 +1,55 @@
+--------------------------------------------------------------------------------
+Release 12.1 Trace  (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+E:\Programs\Xilinx\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 2
+-n 3 -fastpaths -xml Task_1.twx Task_1.ncd -o Task_1.twr Task_1.pcf -ucf
+Variable_names.ucf
+
+Design file:              Task_1.ncd
+Physical constraint file: Task_1.pcf
+Device,package,speed:     xc6slx16,csg324,C,-2 (PRODUCTION 1.08 2010-04-09)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+a              |c              |   10.600|
+a              |d              |   10.255|
+b              |c              |   10.363|
+b              |d              |   10.018|
+---------------+---------------+---------+
+
+
+Analysis completed Thu Oct 26 10:44:14 2017 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 158 MB
+
+
+

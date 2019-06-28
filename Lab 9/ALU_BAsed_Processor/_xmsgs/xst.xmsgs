@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\CEME\7th Semester\Digital System Design\Lab 9\ALU_BAsed_Processor\ALU_Control_Unit.v" Line 58: Result of <arg fmt="%d" index="1">27</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">9</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\CEME\7th Semester\Digital System Design\Lab 9\ALU_BAsed_Processor\ALU_Control_Unit.v" Line 59: Result of <arg fmt="%d" index="1">27</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">9</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\CEME\7th Semester\Digital System Design\Lab 9\ALU_BAsed_Processor\ALU_Control_Unit.v" Line 60: Result of <arg fmt="%d" index="1">27</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">9</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\CEME\7th Semester\Digital System Design\Lab 9\ALU_BAsed_Processor\ALU_Control_Unit.v" Line 61: Result of <arg fmt="%d" index="1">27</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">9</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\CEME\7th Semester\Digital System Design\Lab 9\ALU_BAsed_Processor\ALU_Control_Unit.v" Line 62: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">9</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\CEME\7th Semester\Digital System Design\Lab 9\ALU_BAsed_Processor\ALU_Control_Unit.v" Line 63: Result of <arg fmt="%d" index="1">20</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">9</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\CEME\7th Semester\Digital System Design\Lab 9\ALU_BAsed_Processor\ALU_Control_Unit.v" Line 64: Result of <arg fmt="%d" index="1">24</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">9</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\CEME\7th Semester\Digital System Design\Lab 9\ALU_BAsed_Processor\ALU_Control_Unit.v" Line 65: Result of <arg fmt="%d" index="1">24</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">9</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\CEME\7th Semester\Digital System Design\Lab 9\ALU_BAsed_Processor\ALU_Control_Unit.v" Line 79: Result of <arg fmt="%d" index="1">4</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\CEME\7th Semester\Digital System Design\Lab 9\ALU_BAsed_Processor\ALU_Control_Unit.v" Line 97: Result of <arg fmt="%d" index="1">28</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">27</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="532" delta="new" >"E:\CEME\7th Semester\Digital System Design\Lab 9\ALU_BAsed_Processor\ALU_Control_Unit.v" Line 152: Index &lt;<arg fmt="%d" index="1">3</arg>&gt; is out of range [<arg fmt="%d" index="2">0</arg>:<arg fmt="%d" index="3">2</arg>] for signal &lt;<arg fmt="%s" index="4">Register</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"E:\CEME\7th Semester\Digital System Design\Lab 9\ALU_BAsed_Processor\ALU_Control_Unit.v" Line 168: Signal &lt;<arg fmt="%s" index="1">Rj</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"E:\CEME\7th Semester\Digital System Design\Lab 9\ALU_BAsed_Processor\ALU_Control_Unit.v" Line 169: Signal &lt;<arg fmt="%s" index="1">Rj</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\CEME\7th Semester\Digital System Design\Lab 9\ALU_BAsed_Processor\ALU_Control_Unit.v" Line 169: Result of <arg fmt="%d" index="1">4</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"E:\CEME\7th Semester\Digital System Design\Lab 9\ALU_BAsed_Processor\ALU_Control_Unit.v" Line 170: Signal &lt;<arg fmt="%s" index="1">Rj</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"E:\CEME\7th Semester\Digital System Design\Lab 9\ALU_BAsed_Processor\ALU_Control_Unit.v" Line 171: Signal &lt;<arg fmt="%s" index="1">Rj</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"E:\CEME\7th Semester\Digital System Design\Lab 9\ALU_BAsed_Processor\ALU_Control_Unit.v" Line 171: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="295" delta="new" >"E:\CEME\7th Semester\Digital System Design\Lab 9\ALU_BAsed_Processor\ALU_Control_Unit.v" Line 172: case condition never applies
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="295" delta="new" >"E:\CEME\7th Semester\Digital System Design\Lab 9\ALU_BAsed_Processor\ALU_Control_Unit.v" Line 173: case condition never applies
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="295" delta="new" >"E:\CEME\7th Semester\Digital System Design\Lab 9\ALU_BAsed_Processor\ALU_Control_Unit.v" Line 174: case condition never applies
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="295" delta="new" >"E:\CEME\7th Semester\Digital System Design\Lab 9\ALU_BAsed_Processor\ALU_Control_Unit.v" Line 175: case condition never applies
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"E:\CEME\7th Semester\Digital System Design\Lab 9\ALU_BAsed_Processor\ALU_Control_Unit.v" Line 176: Result of <arg fmt="%d" index="1">4</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="295" delta="new" >"E:\CEME\7th Semester\Digital System Design\Lab 9\ALU_BAsed_Processor\ALU_Control_Unit.v" Line 195: case condition never applies
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="295" delta="new" >"E:\CEME\7th Semester\Digital System Design\Lab 9\ALU_BAsed_Processor\ALU_Control_Unit.v" Line 196: case condition never applies
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="old" >Signal &apos;<arg fmt="%s" index="1">Program_Memory</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">ALU_Control_Unit</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">Register&lt;0&gt;&lt;1&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">Register&lt;0&gt;&lt;0&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">Register&lt;1&gt;&lt;2&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">Register&lt;1&gt;&lt;1&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">Register&lt;1&gt;&lt;0&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">Register&lt;2&gt;&lt;2&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">Register&lt;2&gt;&lt;1&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">Register&lt;2&gt;&lt;0&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="new" >Found <arg fmt="%d" index="1">1</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">Register&lt;0&gt;&lt;2&gt;</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="info" file="Xst" num="3030" delta="old" >HDL ADVISOR - Register &lt;<arg fmt="%s" index="1">Instruction_Reg</arg>&gt; currently described with an asynchronous reset, could be combined with distributed RAM &lt;<arg fmt="%s" index="2">Mram_Program_Memory</arg>&gt; for implementation on block RAM resources if you made this reset synchronous instead.
+</msg>
+
+<msg type="info" file="Xst" num="3031" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram__n0049</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3031" delta="new" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram__n0088</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="warning" file="Xst" num="2170" delta="new" >Unit <arg fmt="%s" index="1">ALU_DataPath</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="new" >Unit <arg fmt="%s" index="1">ALU_DataPath</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="warning" file="Xst" num="2170" delta="new" >Unit <arg fmt="%s" index="1">ALU_DataPath</arg> : the following signal(s) form a combinatorial loop: </msg>
+
+<msg type="info" file="Xst" num="2169" delta="new" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

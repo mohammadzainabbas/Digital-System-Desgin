@@ -1,0 +1,2250 @@
+Release 12.1 - xst M.53d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Reading design: PulseWidthModulation.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "PulseWidthModulation.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "PulseWidthModulation"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : PulseWidthModulation
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : auto
+Reduce Control Sets                : auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Library Search Order               : PulseWidthModulation.lso
+Keep Hierarchy                     : NO
+Netlist Hierarchy                  : as_optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing Verilog file "E:\CEME\7th Semester\Digital System Design\Open Lab (23rd Nov 2017)\MohammadZainAbbas\PulseWidthModulation.v" into library work
+Parsing module <PulseWidthModulation>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <PulseWidthModulation>.
+WARNING:HDLCompiler:413 - "E:\CEME\7th Semester\Digital System Design\Open Lab (23rd Nov 2017)\MohammadZainAbbas\PulseWidthModulation.v" Line 28: Result of 32-bit expression is truncated to fit in 6-bit target.
+WARNING:HDLCompiler:413 - "E:\CEME\7th Semester\Digital System Design\Open Lab (23rd Nov 2017)\MohammadZainAbbas\PulseWidthModulation.v" Line 29: Result of 32-bit expression is truncated to fit in 6-bit target.
+WARNING:HDLCompiler:91 - "E:\CEME\7th Semester\Digital System Design\Open Lab (23rd Nov 2017)\MohammadZainAbbas\PulseWidthModulation.v" Line 35: Signal <counter> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\CEME\7th Semester\Digital System Design\Open Lab (23rd Nov 2017)\MohammadZainAbbas\PulseWidthModulation.v" Line 37: Signal <counter> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\CEME\7th Semester\Digital System Design\Open Lab (23rd Nov 2017)\MohammadZainAbbas\PulseWidthModulation.v" Line 49: Signal <led> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "E:\CEME\7th Semester\Digital System Design\Open Lab (23rd Nov 2017)\MohammadZainAbbas\PulseWidthModulation.v" Line 50: Signal <counter> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:413 - "E:\CEME\7th Semester\Digital System Design\Open Lab (23rd Nov 2017)\MohammadZainAbbas\PulseWidthModulation.v" Line 50: Result of 29-bit expression is truncated to fit in 28-bit target.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <PulseWidthModulation>.
+    Related source file is "e:/ceme/7th semester/digital system design/open lab (23rd nov 2017)/mohammadzainabbas/pulsewidthmodulation.v".
+    Found 1-bit register for signal <led>.
+    Found 1-bit register for signal <counter<27>>.
+    Found 1-bit register for signal <counter<26>>.
+    Found 1-bit register for signal <counter<25>>.
+    Found 1-bit register for signal <counter<24>>.
+    Found 1-bit register for signal <counter<23>>.
+    Found 1-bit register for signal <counter<22>>.
+    Found 1-bit register for signal <counter<21>>.
+    Found 1-bit register for signal <counter<20>>.
+    Found 1-bit register for signal <counter<19>>.
+    Found 1-bit register for signal <counter<18>>.
+    Found 1-bit register for signal <counter<17>>.
+    Found 1-bit register for signal <counter<16>>.
+    Found 1-bit register for signal <counter<15>>.
+    Found 1-bit register for signal <counter<14>>.
+    Found 1-bit register for signal <counter<13>>.
+    Found 1-bit register for signal <counter<12>>.
+    Found 1-bit register for signal <counter<11>>.
+    Found 1-bit register for signal <counter<10>>.
+    Found 1-bit register for signal <counter<9>>.
+    Found 1-bit register for signal <counter<8>>.
+    Found 1-bit register for signal <counter<7>>.
+    Found 1-bit register for signal <counter<6>>.
+    Found 1-bit register for signal <counter<5>>.
+    Found 1-bit register for signal <counter<4>>.
+    Found 1-bit register for signal <counter<3>>.
+    Found 1-bit register for signal <counter<2>>.
+    Found 1-bit register for signal <counter<1>>.
+    Found 1-bit register for signal <counter<0>>.
+    Found 28-bit adder for signal <counter[27]_GND_1_o_add_9_OUT> created at line 50.
+    Found 6x24-bit multiplier for signal <_n0122> created at line 35.
+    Found 6x6-bit multiplier for signal <duty[5]_cycle[5]_MuLt_6_OUT> created at line 37.
+    Found 12x17-bit multiplier for signal <duty[5]_PWR_1_o_MuLt_7_OUT> created at line 37.
+    Found 29-bit comparator greater for signal <GND_1_o_duty[5]_LessThan_9_o> created at line 37
+    Found 30-bit comparator equal for signal <GND_1_o_GND_1_o_equal_6_o> created at line 35
+    Summary:
+	inferred   3 Multiplier(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred  29 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+	inferred   2 Multiplexer(s).
+Unit <PulseWidthModulation> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Multipliers                                          : 3
+ 17x12-bit multiplier                                  : 1
+ 24x6-bit multiplier                                   : 1
+ 6x6-bit multiplier                                    : 1
+# Adders/Subtractors                                   : 1
+ 28-bit adder                                          : 1
+# Registers                                            : 29
+ 1-bit register                                        : 29
+# Comparators                                          : 2
+ 29-bit comparator greater                             : 1
+ 30-bit comparator equal                               : 1
+# Multiplexers                                         : 2
+ 1-bit 2-to-1 multiplexer                              : 1
+ 28-bit 2-to-1 multiplexer                             : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Multipliers                                          : 3
+ 17x12-bit multiplier                                  : 1
+ 24x6-bit multiplier                                   : 1
+ 6x6-bit multiplier                                    : 1
+# Adders/Subtractors                                   : 1
+ 28-bit adder                                          : 1
+# Registers                                            : 29
+ Flip-Flops                                            : 29
+# Comparators                                          : 2
+ 29-bit comparator greater                             : 1
+ 30-bit comparator equal                               : 1
+# Multiplexers                                         : 2
+ 1-bit 2-to-1 multiplexer                              : 1
+ 28-bit 2-to-1 multiplexer                             : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:3002 - This design contains one or more registers/latches that are directly
+   incompatible with the Spartan6 architecture. The two primary causes of this is
+   either a register or latch described with both an asynchronous set and
+   asynchronous reset, or a register or latch described with an asynchronous
+   set or reset which however has an initialization value of the opposite 
+   polarity (i.e. asynchronous reset with an initialization value of 1).
+    While this circuit can be built, it creates a sub-optimal implementation
+   in terms of area, power and performance. For a more optimal implementation
+   Xilinx highly recommends one of the following:
+
+          1) Remove either the set or reset from all registers and latches
+             if not needed for required functionality
+          2) Modify the code in order to produce a synchronous set
+             and/or reset (both is preferred)
+          3) Ensure all registers have the same initialization value as the
+             described asynchronous set or reset polarity
+          4) Use the -async_to_sync option to transform the asynchronous
+             set/reset to synchronous operation
+             (timing simulation highly recommended when using this option)
+
+  Please refer to http://www.xilinx.com search string "Spartan6 asynchronous set/reset" for more details.
+
+  List of register instances with asynchronous set and reset:
+    counter_0 in unit <PulseWidthModulation>
+    counter_1 in unit <PulseWidthModulation>
+    counter_2 in unit <PulseWidthModulation>
+    counter_3 in unit <PulseWidthModulation>
+    counter_4 in unit <PulseWidthModulation>
+    counter_5 in unit <PulseWidthModulation>
+    counter_6 in unit <PulseWidthModulation>
+    counter_8 in unit <PulseWidthModulation>
+    counter_9 in unit <PulseWidthModulation>
+    counter_7 in unit <PulseWidthModulation>
+    counter_10 in unit <PulseWidthModulation>
+    counter_11 in unit <PulseWidthModulation>
+    counter_12 in unit <PulseWidthModulation>
+    counter_13 in unit <PulseWidthModulation>
+    counter_14 in unit <PulseWidthModulation>
+    counter_15 in unit <PulseWidthModulation>
+    counter_17 in unit <PulseWidthModulation>
+    counter_18 in unit <PulseWidthModulation>
+    counter_16 in unit <PulseWidthModulation>
+    counter_19 in unit <PulseWidthModulation>
+    counter_20 in unit <PulseWidthModulation>
+    counter_22 in unit <PulseWidthModulation>
+    counter_23 in unit <PulseWidthModulation>
+    counter_21 in unit <PulseWidthModulation>
+    counter_24 in unit <PulseWidthModulation>
+    counter_25 in unit <PulseWidthModulation>
+    counter_27 in unit <PulseWidthModulation>
+    led in unit <PulseWidthModulation>
+    counter_26 in unit <PulseWidthModulation>
+
+
+Optimizing unit <PulseWidthModulation> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block PulseWidthModulation, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 29
+ Flip-Flops                                            : 29
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : PulseWidthModulation.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 271
+#      GND                         : 1
+#      INV                         : 4
+#      LUT1                        : 29
+#      LUT2                        : 40
+#      LUT3                        : 56
+#      LUT4                        : 26
+#      LUT5                        : 5
+#      LUT6                        : 9
+#      MUXCY                       : 62
+#      VCC                         : 1
+#      XORCY                       : 38
+# FlipFlops/Latches                : 58
+#      FDP                         : 29
+#      LDC                         : 29
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 4
+#      IBUF                        : 3
+#      OBUF                        : 1
+# DSPs                             : 3
+#      DSP48A1                     : 3
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              58  out of  18224     0%  
+ Number of Slice LUTs:                  169  out of   9112     1%  
+    Number used as Logic:               169  out of   9112     1%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    213
+   Number with an unused Flip Flop:     155  out of    213    72%  
+   Number with an unused LUT:            44  out of    213    20%  
+   Number of fully used LUT-FF pairs:    14  out of    213     6%  
+   Number of unique control sets:        58
+
+IO Utilization: 
+ Number of IOs:                           5
+ Number of bonded IOBs:                   5  out of    232     2%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+ Number of DSP48A1s:                      3  out of     32     9%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+--------------------------------------------------------------+------------------------+-------+
+Clock Signal                                                  | Clock buffer(FF name)  | Load  |
+--------------------------------------------------------------+------------------------+-------+
+reset_counter[27]_AND_906_o(reset_counter[27]_AND_906_o1:O)   | NONE(*)(counter_26_LDC)| 1     |
+clock                                                         | BUFGP                  | 29    |
+reset_led_AND_902_o(reset_led_AND_902_o11:O)                  | NONE(*)(led_LDC)       | 1     |
+reset_counter[27]_AND_904_o(reset_counter[27]_AND_904_o1:O)   | NONE(*)(counter_27_LDC)| 1     |
+reset_counter[27]_AND_908_o(reset_counter[27]_AND_908_o1:O)   | NONE(*)(counter_25_LDC)| 1     |
+reset_counter[27]_AND_910_o(reset_counter[27]_AND_910_o1:O)   | NONE(*)(counter_24_LDC)| 1     |
+reset_counter[27]_AND_916_o(reset_counter[27]_AND_916_o1:O)   | NONE(*)(counter_21_LDC)| 1     |
+reset_counter[27]_AND_912_o(reset_counter[27]_AND_912_o1:O)   | NONE(*)(counter_23_LDC)| 1     |
+reset_counter[27]_AND_914_o(reset_counter[27]_AND_914_o1:O)   | NONE(*)(counter_22_LDC)| 1     |
+reset_counter[27]_AND_918_o(reset_counter[27]_AND_918_o1:O)   | NONE(*)(counter_20_LDC)| 1     |
+reset_counter[27]_AND_920_o(reset_counter[27]_AND_920_o1_cy:O)| NONE(*)(counter_19_LDC)| 1     |
+reset_counter[27]_AND_926_o(reset_counter[27]_AND_926_o1:O)   | NONE(*)(counter_16_LDC)| 1     |
+reset_counter[27]_AND_922_o(reset_counter[27]_AND_922_o1:O)   | NONE(*)(counter_18_LDC)| 1     |
+reset_counter[27]_AND_924_o(reset_counter[27]_AND_924_o1:O)   | NONE(*)(counter_17_LDC)| 1     |
+reset_counter[27]_AND_928_o(reset_counter[27]_AND_928_o1:O)   | NONE(*)(counter_15_LDC)| 1     |
+reset_counter[27]_AND_930_o(reset_counter[27]_AND_930_o1:O)   | NONE(*)(counter_14_LDC)| 1     |
+reset_counter[27]_AND_932_o(reset_counter[27]_AND_932_o1:O)   | NONE(*)(counter_13_LDC)| 1     |
+reset_counter[27]_AND_934_o(reset_counter[27]_AND_934_o1:O)   | NONE(*)(counter_12_LDC)| 1     |
+reset_counter[27]_AND_936_o(reset_counter[27]_AND_936_o1:O)   | NONE(*)(counter_11_LDC)| 1     |
+reset_counter[27]_AND_938_o(reset_counter[27]_AND_938_o1:O)   | NONE(*)(counter_10_LDC)| 1     |
+reset_counter[27]_AND_944_o(reset_counter[27]_AND_944_o1:O)   | NONE(*)(counter_7_LDC) | 1     |
+reset_counter[27]_AND_940_o(reset_counter[27]_AND_940_o1:O)   | NONE(*)(counter_9_LDC) | 1     |
+reset_counter[27]_AND_942_o(reset_counter[27]_AND_942_o1:O)   | NONE(*)(counter_8_LDC) | 1     |
+reset_counter[27]_AND_946_o(reset_counter[27]_AND_946_o1:O)   | NONE(*)(counter_6_LDC) | 1     |
+reset_counter[27]_AND_948_o(reset_counter[27]_AND_948_o1:O)   | NONE(*)(counter_5_LDC) | 1     |
+reset_counter[27]_AND_950_o(reset_counter[27]_AND_950_o1:O)   | NONE(*)(counter_4_LDC) | 1     |
+reset_counter[27]_AND_952_o(reset_counter[27]_AND_952_o1:O)   | NONE(*)(counter_3_LDC) | 1     |
+reset_counter[27]_AND_954_o(reset_counter[27]_AND_954_o1:O)   | NONE(*)(counter_2_LDC) | 1     |
+reset_counter[27]_AND_956_o(reset_counter[27]_AND_956_o1:O)   | NONE(*)(counter_1_LDC) | 1     |
+reset_counter[27]_AND_958_o(reset_counter[27]_AND_958_o1:O)   | NONE(*)(counter_0_LDC) | 1     |
+--------------------------------------------------------------+------------------------+-------+
+(*) These 29 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 5.982ns (Maximum Frequency: 167.161MHz)
+   Minimum input arrival time before clock: 17.166ns
+   Maximum output required time after clock: 4.989ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'reset_counter[27]_AND_906_o'
+  Clock period: 5.796ns (frequency: 172.525MHz)
+  Total number of paths / destination ports: 2 / 1
+-------------------------------------------------------------------------
+Delay:               5.796ns (Levels of Logic = 5)
+  Source:            counter_26_LDC (LATCH)
+  Destination:       counter_26_LDC (LATCH)
+  Source Clock:      reset_counter[27]_AND_906_o falling
+  Destination Clock: reset_counter[27]_AND_906_o falling
+
+  Data Path: counter_26_LDC to counter_26_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDC:G->Q              1   0.581   0.688  counter_26_LDC (counter_26_LDC)
+     LUT2:I0->O            4   0.250   0.912  counter_261 (counter_26)
+     LUT6:I3->O            1   0.235   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<8> (Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<8>)
+     MUXCY:S->O            1   0.215   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8>)
+     MUXCY:CI->O          58   0.023   1.601  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<9> (GND_1_o_GND_1_o_equal_6_o)
+     LUT3:I2->O            1   0.254   0.579  reset_counter[27]_AND_907_o1 (reset_counter[27]_AND_907_o)
+     LDC:CLR                   0.459          counter_26_LDC
+    ----------------------------------------
+    Total                      5.796ns (2.017ns logic, 3.779ns route)
+                                       (34.8% logic, 65.2% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock'
+  Clock period: 5.860ns (frequency: 170.658MHz)
+  Total number of paths / destination ports: 1275 / 29
+-------------------------------------------------------------------------
+Delay:               5.860ns (Levels of Logic = 13)
+  Source:            counter_2_P_2 (FF)
+  Destination:       counter_26_P_26 (FF)
+  Source Clock:      clock rising
+  Destination Clock: clock rising
+
+  Data Path: counter_2_P_2 to counter_26_P_26
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDP:C->Q              1   0.525   0.580  counter_2_P_2 (counter_2_P_2)
+     LUT2:I1->O            4   0.254   0.912  counter_21 (counter_2)
+     LUT6:I3->O            1   0.235   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<0> (Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<0>)
+     MUXCY:S->O            1   0.215   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<0> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<0>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<1> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<1>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<2> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<2>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<3> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<3>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<4> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<4>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8>)
+     MUXCY:CI->O          58   0.023   1.601  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<9> (GND_1_o_GND_1_o_equal_6_o)
+     LUT3:I2->O            2   0.254   0.616  reset_counter[27]_AND_904_o1 (reset_counter[27]_AND_904_o)
+     FDP:PRE                   0.459          counter_27_P_27
+    ----------------------------------------
+    Total                      5.860ns (2.151ns logic, 3.708ns route)
+                                       (36.7% logic, 63.3% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'reset_led_AND_902_o'
+  Clock period: 2.733ns (frequency: 365.885MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.733ns (Levels of Logic = 1)
+  Source:            led_LDC (LATCH)
+  Destination:       led_LDC (LATCH)
+  Source Clock:      reset_led_AND_902_o falling
+  Destination Clock: reset_led_AND_902_o falling
+
+  Data Path: led_LDC to led_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDC:G->Q              3   0.581   0.879  led_LDC (led_LDC)
+     LUT5:I2->O            1   0.235   0.579  reset_led_AND_903_o11 (reset_led_AND_903_o)
+     LDC:CLR                   0.459          led_LDC
+    ----------------------------------------
+    Total                      2.733ns (1.275ns logic, 1.458ns route)
+                                       (46.7% logic, 53.3% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'reset_counter[27]_AND_904_o'
+  Clock period: 4.624ns (frequency: 216.282MHz)
+  Total number of paths / destination ports: 2 / 1
+-------------------------------------------------------------------------
+Delay:               4.624ns (Levels of Logic = 4)
+  Source:            counter_27_LDC (LATCH)
+  Destination:       counter_27_LDC (LATCH)
+  Source Clock:      reset_counter[27]_AND_904_o falling
+  Destination Clock: reset_counter[27]_AND_904_o falling
+
+  Data Path: counter_27_LDC to counter_27_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDC:G->Q              2   0.581   0.725  counter_27_LDC (counter_27_LDC)
+     LUT2:I0->O            3   0.250   0.651  counter_271 (counter_27)
+     LUT1:I0->O            0   0.254   0.000  Madd_counter[27]_GND_1_o_add_9_OUT_xor<27>_rt (Madd_counter[27]_GND_1_o_add_9_OUT_xor<27>_rt)
+     XORCY:LI->O           2   0.149   0.725  Madd_counter[27]_GND_1_o_add_9_OUT_xor<27> (counter[27]_GND_1_o_add_9_OUT<27>)
+     LUT3:I1->O            1   0.250   0.579  reset_counter[27]_AND_905_o1 (reset_counter[27]_AND_905_o)
+     LDC:CLR                   0.459          counter_27_LDC
+    ----------------------------------------
+    Total                      4.624ns (1.943ns logic, 2.681ns route)
+                                       (42.0% logic, 58.0% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'reset_counter[27]_AND_908_o'
+  Clock period: 5.691ns (frequency: 175.708MHz)
+  Total number of paths / destination ports: 2 / 1
+-------------------------------------------------------------------------
+Delay:               5.691ns (Levels of Logic = 5)
+  Source:            counter_25_LDC (LATCH)
+  Destination:       counter_25_LDC (LATCH)
+  Source Clock:      reset_counter[27]_AND_908_o falling
+  Destination Clock: reset_counter[27]_AND_908_o falling
+
+  Data Path: counter_25_LDC to counter_25_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDC:G->Q              1   0.581   0.688  counter_25_LDC (counter_25_LDC)
+     LUT2:I0->O            4   0.250   0.792  counter_251 (counter_25)
+     LUT6:I4->O            1   0.250   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<8> (Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<8>)
+     MUXCY:S->O            1   0.215   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8>)
+     MUXCY:CI->O          58   0.023   1.601  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<9> (GND_1_o_GND_1_o_equal_6_o)
+     LUT3:I2->O            1   0.254   0.579  reset_counter[27]_AND_909_o1 (reset_counter[27]_AND_909_o)
+     LDC:CLR                   0.459          counter_25_LDC
+    ----------------------------------------
+    Total                      5.691ns (2.032ns logic, 3.659ns route)
+                                       (35.7% logic, 64.3% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'reset_counter[27]_AND_910_o'
+  Clock period: 5.587ns (frequency: 178.978MHz)
+  Total number of paths / destination ports: 2 / 1
+-------------------------------------------------------------------------
+Delay:               5.587ns (Levels of Logic = 5)
+  Source:            counter_24_LDC (LATCH)
+  Destination:       counter_24_LDC (LATCH)
+  Source Clock:      reset_counter[27]_AND_910_o falling
+  Destination Clock: reset_counter[27]_AND_910_o falling
+
+  Data Path: counter_24_LDC to counter_24_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDC:G->Q              1   0.581   0.688  counter_24_LDC (counter_24_LDC)
+     LUT2:I0->O            4   0.250   0.684  counter_241 (counter_24)
+     LUT6:I5->O            1   0.254   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<8> (Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<8>)
+     MUXCY:S->O            1   0.215   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8>)
+     MUXCY:CI->O          58   0.023   1.601  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<9> (GND_1_o_GND_1_o_equal_6_o)
+     LUT3:I2->O            1   0.254   0.579  reset_counter[27]_AND_911_o1 (reset_counter[27]_AND_911_o)
+     LDC:CLR                   0.459          counter_24_LDC
+    ----------------------------------------
+    Total                      5.587ns (2.036ns logic, 3.551ns route)
+                                       (36.4% logic, 63.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'reset_counter[27]_AND_916_o'
+  Clock period: 5.611ns (frequency: 178.237MHz)
+  Total number of paths / destination ports: 2 / 1
+-------------------------------------------------------------------------
+Delay:               5.611ns (Levels of Logic = 6)
+  Source:            counter_21_LDC (LATCH)
+  Destination:       counter_21_LDC (LATCH)
+  Source Clock:      reset_counter[27]_AND_916_o falling
+  Destination Clock: reset_counter[27]_AND_916_o falling
+
+  Data Path: counter_21_LDC to counter_21_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDC:G->Q              1   0.581   0.688  counter_21_LDC (counter_21_LDC)
+     LUT2:I0->O            4   0.250   0.684  counter_211 (counter_21)
+     LUT6:I5->O            1   0.254   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<7> (Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<7>)
+     MUXCY:S->O            1   0.215   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8>)
+     MUXCY:CI->O          58   0.023   1.601  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<9> (GND_1_o_GND_1_o_equal_6_o)
+     LUT3:I2->O            1   0.254   0.579  reset_counter[27]_AND_917_o1 (reset_counter[27]_AND_917_o)
+     LDC:CLR                   0.459          counter_21_LDC
+    ----------------------------------------
+    Total                      5.611ns (2.060ns logic, 3.551ns route)
+                                       (36.7% logic, 63.3% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'reset_counter[27]_AND_912_o'
+  Clock period: 5.820ns (frequency: 171.836MHz)
+  Total number of paths / destination ports: 2 / 1
+-------------------------------------------------------------------------
+Delay:               5.820ns (Levels of Logic = 6)
+  Source:            counter_23_LDC (LATCH)
+  Destination:       counter_23_LDC (LATCH)
+  Source Clock:      reset_counter[27]_AND_912_o falling
+  Destination Clock: reset_counter[27]_AND_912_o falling
+
+  Data Path: counter_23_LDC to counter_23_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDC:G->Q              1   0.581   0.688  counter_23_LDC (counter_23_LDC)
+     LUT2:I0->O            4   0.250   0.912  counter_231 (counter_23)
+     LUT6:I3->O            1   0.235   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<7> (Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<7>)
+     MUXCY:S->O            1   0.215   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8>)
+     MUXCY:CI->O          58   0.023   1.601  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<9> (GND_1_o_GND_1_o_equal_6_o)
+     LUT3:I2->O            1   0.254   0.579  reset_counter[27]_AND_913_o1 (reset_counter[27]_AND_913_o)
+     LDC:CLR                   0.459          counter_23_LDC
+    ----------------------------------------
+    Total                      5.820ns (2.041ns logic, 3.779ns route)
+                                       (35.1% logic, 64.9% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'reset_counter[27]_AND_914_o'
+  Clock period: 5.715ns (frequency: 174.993MHz)
+  Total number of paths / destination ports: 2 / 1
+-------------------------------------------------------------------------
+Delay:               5.715ns (Levels of Logic = 6)
+  Source:            counter_22_LDC (LATCH)
+  Destination:       counter_22_LDC (LATCH)
+  Source Clock:      reset_counter[27]_AND_914_o falling
+  Destination Clock: reset_counter[27]_AND_914_o falling
+
+  Data Path: counter_22_LDC to counter_22_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDC:G->Q              1   0.581   0.688  counter_22_LDC (counter_22_LDC)
+     LUT2:I0->O            4   0.250   0.792  counter_221 (counter_22)
+     LUT6:I4->O            1   0.250   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<7> (Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<7>)
+     MUXCY:S->O            1   0.215   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8>)
+     MUXCY:CI->O          58   0.023   1.601  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<9> (GND_1_o_GND_1_o_equal_6_o)
+     LUT3:I2->O            1   0.254   0.579  reset_counter[27]_AND_915_o1 (reset_counter[27]_AND_915_o)
+     LDC:CLR                   0.459          counter_22_LDC
+    ----------------------------------------
+    Total                      5.715ns (2.056ns logic, 3.659ns route)
+                                       (36.0% logic, 64.0% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'reset_counter[27]_AND_918_o'
+  Clock period: 5.738ns (frequency: 174.284MHz)
+  Total number of paths / destination ports: 2 / 1
+-------------------------------------------------------------------------
+Delay:               5.738ns (Levels of Logic = 7)
+  Source:            counter_20_LDC (LATCH)
+  Destination:       counter_20_LDC (LATCH)
+  Source Clock:      reset_counter[27]_AND_918_o falling
+  Destination Clock: reset_counter[27]_AND_918_o falling
+
+  Data Path: counter_20_LDC to counter_20_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDC:G->Q              1   0.581   0.688  counter_20_LDC (counter_20_LDC)
+     LUT2:I0->O            4   0.250   0.792  counter_201 (counter_20)
+     LUT6:I4->O            1   0.250   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<6> (Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<6>)
+     MUXCY:S->O            1   0.215   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8>)
+     MUXCY:CI->O          58   0.023   1.601  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<9> (GND_1_o_GND_1_o_equal_6_o)
+     LUT3:I2->O            1   0.254   0.579  reset_counter[27]_AND_919_o1 (reset_counter[27]_AND_919_o)
+     LDC:CLR                   0.459          counter_20_LDC
+    ----------------------------------------
+    Total                      5.738ns (2.079ns logic, 3.659ns route)
+                                       (36.2% logic, 63.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'reset_counter[27]_AND_920_o'
+  Clock period: 4.968ns (frequency: 201.268MHz)
+  Total number of paths / destination ports: 2 / 1
+-------------------------------------------------------------------------
+Delay:               4.968ns (Levels of Logic = 5)
+  Source:            counter_19_LDC (LATCH)
+  Destination:       counter_19_LDC (LATCH)
+  Source Clock:      reset_counter[27]_AND_920_o falling
+  Destination Clock: reset_counter[27]_AND_920_o falling
+
+  Data Path: counter_19_LDC to counter_19_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDC:G->Q              1   0.581   0.688  counter_19_LDC (counter_19_LDC)
+     LUT2:I0->O            4   0.250   0.684  counter_191 (counter_19)
+     LUT1:I0->O            1   0.254   0.000  Madd_counter[27]_GND_1_o_add_9_OUT_cy<19>_rt (Madd_counter[27]_GND_1_o_add_9_OUT_cy<19>_rt)
+     XORCY:LI->O           2   0.149   0.617  Madd_counter[27]_GND_1_o_add_9_OUT_xor<19> (counter[27]_GND_1_o_add_9_OUT<19>)
+     LUT2:I1->O            1   0.254   0.000  reset_counter[27]_AND_921_o1_cy1_cy_lut (reset_counter[27]_AND_921_o1_cy1_cy_lut)
+     MUXCY:S->O            1   0.454   0.579  reset_counter[27]_AND_921_o1_cy1_cy_cy (reset_counter[27]_AND_921_o)
+     LDC:CLR                   0.459          counter_19_LDC
+    ----------------------------------------
+    Total                      4.968ns (2.401ns logic, 2.567ns route)
+                                       (48.3% logic, 51.7% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'reset_counter[27]_AND_926_o'
+  Clock period: 5.761ns (frequency: 173.580MHz)
+  Total number of paths / destination ports: 2 / 1
+-------------------------------------------------------------------------
+Delay:               5.761ns (Levels of Logic = 8)
+  Source:            counter_16_LDC (LATCH)
+  Destination:       counter_16_LDC (LATCH)
+  Source Clock:      reset_counter[27]_AND_926_o falling
+  Destination Clock: reset_counter[27]_AND_926_o falling
+
+  Data Path: counter_16_LDC to counter_16_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDC:G->Q              1   0.581   0.688  counter_16_LDC (counter_16_LDC)
+     LUT2:I0->O            4   0.250   0.792  counter_161 (counter_16)
+     LUT6:I4->O            1   0.250   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5>)
+     MUXCY:S->O            1   0.215   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8>)
+     MUXCY:CI->O          58   0.023   1.601  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<9> (GND_1_o_GND_1_o_equal_6_o)
+     LUT3:I2->O            1   0.254   0.579  reset_counter[27]_AND_927_o1 (reset_counter[27]_AND_927_o)
+     LDC:CLR                   0.459          counter_16_LDC
+    ----------------------------------------
+    Total                      5.761ns (2.102ns logic, 3.659ns route)
+                                       (36.5% logic, 63.5% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'reset_counter[27]_AND_922_o'
+  Clock period: 5.634ns (frequency: 177.501MHz)
+  Total number of paths / destination ports: 2 / 1
+-------------------------------------------------------------------------
+Delay:               5.634ns (Levels of Logic = 7)
+  Source:            counter_18_LDC (LATCH)
+  Destination:       counter_18_LDC (LATCH)
+  Source Clock:      reset_counter[27]_AND_922_o falling
+  Destination Clock: reset_counter[27]_AND_922_o falling
+
+  Data Path: counter_18_LDC to counter_18_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDC:G->Q              1   0.581   0.688  counter_18_LDC (counter_18_LDC)
+     LUT2:I0->O            4   0.250   0.684  counter_181 (counter_18)
+     LUT6:I5->O            1   0.254   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<6> (Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<6>)
+     MUXCY:S->O            1   0.215   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8>)
+     MUXCY:CI->O          58   0.023   1.601  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<9> (GND_1_o_GND_1_o_equal_6_o)
+     LUT3:I2->O            1   0.254   0.579  reset_counter[27]_AND_923_o1 (reset_counter[27]_AND_923_o)
+     LDC:CLR                   0.459          counter_18_LDC
+    ----------------------------------------
+    Total                      5.634ns (2.083ns logic, 3.551ns route)
+                                       (37.0% logic, 63.0% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'reset_counter[27]_AND_924_o'
+  Clock period: 5.866ns (frequency: 170.473MHz)
+  Total number of paths / destination ports: 2 / 1
+-------------------------------------------------------------------------
+Delay:               5.866ns (Levels of Logic = 8)
+  Source:            counter_17_LDC (LATCH)
+  Destination:       counter_17_LDC (LATCH)
+  Source Clock:      reset_counter[27]_AND_924_o falling
+  Destination Clock: reset_counter[27]_AND_924_o falling
+
+  Data Path: counter_17_LDC to counter_17_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDC:G->Q              1   0.581   0.688  counter_17_LDC (counter_17_LDC)
+     LUT2:I0->O            4   0.250   0.912  counter_171 (counter_17)
+     LUT6:I3->O            1   0.235   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5>)
+     MUXCY:S->O            1   0.215   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8>)
+     MUXCY:CI->O          58   0.023   1.601  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<9> (GND_1_o_GND_1_o_equal_6_o)
+     LUT3:I2->O            1   0.254   0.579  reset_counter[27]_AND_925_o1 (reset_counter[27]_AND_925_o)
+     LDC:CLR                   0.459          counter_17_LDC
+    ----------------------------------------
+    Total                      5.866ns (2.087ns logic, 3.779ns route)
+                                       (35.6% logic, 64.4% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'reset_counter[27]_AND_928_o'
+  Clock period: 5.657ns (frequency: 176.772MHz)
+  Total number of paths / destination ports: 2 / 1
+-------------------------------------------------------------------------
+Delay:               5.657ns (Levels of Logic = 8)
+  Source:            counter_15_LDC (LATCH)
+  Destination:       counter_15_LDC (LATCH)
+  Source Clock:      reset_counter[27]_AND_928_o falling
+  Destination Clock: reset_counter[27]_AND_928_o falling
+
+  Data Path: counter_15_LDC to counter_15_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDC:G->Q              1   0.581   0.688  counter_15_LDC (counter_15_LDC)
+     LUT2:I0->O            4   0.250   0.684  counter_151 (counter_15)
+     LUT6:I5->O            1   0.254   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5>)
+     MUXCY:S->O            1   0.215   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8>)
+     MUXCY:CI->O          58   0.023   1.601  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<9> (GND_1_o_GND_1_o_equal_6_o)
+     LUT3:I2->O            1   0.254   0.579  reset_counter[27]_AND_929_o1 (reset_counter[27]_AND_929_o)
+     LDC:CLR                   0.459          counter_15_LDC
+    ----------------------------------------
+    Total                      5.657ns (2.106ns logic, 3.551ns route)
+                                       (37.2% logic, 62.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'reset_counter[27]_AND_930_o'
+  Clock period: 5.889ns (frequency: 169.800MHz)
+  Total number of paths / destination ports: 2 / 1
+-------------------------------------------------------------------------
+Delay:               5.889ns (Levels of Logic = 9)
+  Source:            counter_14_LDC (LATCH)
+  Destination:       counter_14_LDC (LATCH)
+  Source Clock:      reset_counter[27]_AND_930_o falling
+  Destination Clock: reset_counter[27]_AND_930_o falling
+
+  Data Path: counter_14_LDC to counter_14_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDC:G->Q              1   0.581   0.688  counter_14_LDC (counter_14_LDC)
+     LUT2:I0->O            4   0.250   0.912  counter_141 (counter_14)
+     LUT6:I3->O            1   0.235   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<4> (Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<4>)
+     MUXCY:S->O            1   0.215   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<4> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<4>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8>)
+     MUXCY:CI->O          58   0.023   1.601  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<9> (GND_1_o_GND_1_o_equal_6_o)
+     LUT3:I2->O            1   0.254   0.579  reset_counter[27]_AND_931_o1 (reset_counter[27]_AND_931_o)
+     LDC:CLR                   0.459          counter_14_LDC
+    ----------------------------------------
+    Total                      5.889ns (2.110ns logic, 3.779ns route)
+                                       (35.8% logic, 64.2% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'reset_counter[27]_AND_932_o'
+  Clock period: 5.784ns (frequency: 172.883MHz)
+  Total number of paths / destination ports: 2 / 1
+-------------------------------------------------------------------------
+Delay:               5.784ns (Levels of Logic = 9)
+  Source:            counter_13_LDC (LATCH)
+  Destination:       counter_13_LDC (LATCH)
+  Source Clock:      reset_counter[27]_AND_932_o falling
+  Destination Clock: reset_counter[27]_AND_932_o falling
+
+  Data Path: counter_13_LDC to counter_13_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDC:G->Q              1   0.581   0.688  counter_13_LDC (counter_13_LDC)
+     LUT2:I0->O            4   0.250   0.792  counter_131 (counter_13)
+     LUT6:I4->O            1   0.250   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<4> (Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<4>)
+     MUXCY:S->O            1   0.215   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<4> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<4>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8>)
+     MUXCY:CI->O          58   0.023   1.601  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<9> (GND_1_o_GND_1_o_equal_6_o)
+     LUT3:I2->O            1   0.254   0.579  reset_counter[27]_AND_933_o1 (reset_counter[27]_AND_933_o)
+     LDC:CLR                   0.459          counter_13_LDC
+    ----------------------------------------
+    Total                      5.784ns (2.125ns logic, 3.659ns route)
+                                       (36.7% logic, 63.3% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'reset_counter[27]_AND_934_o'
+  Clock period: 5.680ns (frequency: 176.048MHz)
+  Total number of paths / destination ports: 2 / 1
+-------------------------------------------------------------------------
+Delay:               5.680ns (Levels of Logic = 9)
+  Source:            counter_12_LDC (LATCH)
+  Destination:       counter_12_LDC (LATCH)
+  Source Clock:      reset_counter[27]_AND_934_o falling
+  Destination Clock: reset_counter[27]_AND_934_o falling
+
+  Data Path: counter_12_LDC to counter_12_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDC:G->Q              1   0.581   0.688  counter_12_LDC (counter_12_LDC)
+     LUT2:I0->O            4   0.250   0.684  counter_121 (counter_12)
+     LUT6:I5->O            1   0.254   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<4> (Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<4>)
+     MUXCY:S->O            1   0.215   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<4> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<4>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8>)
+     MUXCY:CI->O          58   0.023   1.601  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<9> (GND_1_o_GND_1_o_equal_6_o)
+     LUT3:I2->O            1   0.254   0.579  reset_counter[27]_AND_935_o1 (reset_counter[27]_AND_935_o)
+     LDC:CLR                   0.459          counter_12_LDC
+    ----------------------------------------
+    Total                      5.680ns (2.129ns logic, 3.551ns route)
+                                       (37.5% logic, 62.5% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'reset_counter[27]_AND_936_o'
+  Clock period: 5.913ns (frequency: 169.133MHz)
+  Total number of paths / destination ports: 2 / 1
+-------------------------------------------------------------------------
+Delay:               5.913ns (Levels of Logic = 10)
+  Source:            counter_11_LDC (LATCH)
+  Destination:       counter_11_LDC (LATCH)
+  Source Clock:      reset_counter[27]_AND_936_o falling
+  Destination Clock: reset_counter[27]_AND_936_o falling
+
+  Data Path: counter_11_LDC to counter_11_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDC:G->Q              1   0.581   0.688  counter_11_LDC (counter_11_LDC)
+     LUT2:I0->O            4   0.250   0.912  counter_111 (counter_11)
+     LUT6:I3->O            1   0.235   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<3> (Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<3>)
+     MUXCY:S->O            1   0.215   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<3> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<3>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<4> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<4>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8>)
+     MUXCY:CI->O          58   0.023   1.601  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<9> (GND_1_o_GND_1_o_equal_6_o)
+     LUT3:I2->O            1   0.254   0.579  reset_counter[27]_AND_937_o1 (reset_counter[27]_AND_937_o)
+     LDC:CLR                   0.459          counter_11_LDC
+    ----------------------------------------
+    Total                      5.913ns (2.134ns logic, 3.779ns route)
+                                       (36.1% logic, 63.9% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'reset_counter[27]_AND_938_o'
+  Clock period: 5.808ns (frequency: 172.191MHz)
+  Total number of paths / destination ports: 2 / 1
+-------------------------------------------------------------------------
+Delay:               5.808ns (Levels of Logic = 10)
+  Source:            counter_10_LDC (LATCH)
+  Destination:       counter_10_LDC (LATCH)
+  Source Clock:      reset_counter[27]_AND_938_o falling
+  Destination Clock: reset_counter[27]_AND_938_o falling
+
+  Data Path: counter_10_LDC to counter_10_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDC:G->Q              1   0.581   0.688  counter_10_LDC (counter_10_LDC)
+     LUT2:I0->O            4   0.250   0.792  counter_101 (counter_10)
+     LUT6:I4->O            1   0.250   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<3> (Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<3>)
+     MUXCY:S->O            1   0.215   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<3> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<3>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<4> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<4>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8>)
+     MUXCY:CI->O          58   0.023   1.601  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<9> (GND_1_o_GND_1_o_equal_6_o)
+     LUT3:I2->O            1   0.254   0.579  reset_counter[27]_AND_939_o1 (reset_counter[27]_AND_939_o)
+     LDC:CLR                   0.459          counter_10_LDC
+    ----------------------------------------
+    Total                      5.808ns (2.149ns logic, 3.659ns route)
+                                       (37.0% logic, 63.0% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'reset_counter[27]_AND_944_o'
+  Clock period: 5.831ns (frequency: 171.504MHz)
+  Total number of paths / destination ports: 2 / 1
+-------------------------------------------------------------------------
+Delay:               5.831ns (Levels of Logic = 11)
+  Source:            counter_7_LDC (LATCH)
+  Destination:       counter_7_LDC (LATCH)
+  Source Clock:      reset_counter[27]_AND_944_o falling
+  Destination Clock: reset_counter[27]_AND_944_o falling
+
+  Data Path: counter_7_LDC to counter_7_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDC:G->Q              1   0.581   0.688  counter_7_LDC (counter_7_LDC)
+     LUT2:I0->O            4   0.250   0.792  counter_71 (counter_7)
+     LUT6:I4->O            1   0.250   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<2> (Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<2>)
+     MUXCY:S->O            1   0.215   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<2> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<2>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<3> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<3>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<4> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<4>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8>)
+     MUXCY:CI->O          58   0.023   1.601  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<9> (GND_1_o_GND_1_o_equal_6_o)
+     LUT3:I2->O            1   0.254   0.579  reset_counter[27]_AND_945_o1 (reset_counter[27]_AND_945_o)
+     LDC:CLR                   0.459          counter_7_LDC
+    ----------------------------------------
+    Total                      5.831ns (2.172ns logic, 3.659ns route)
+                                       (37.2% logic, 62.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'reset_counter[27]_AND_940_o'
+  Clock period: 5.704ns (frequency: 175.330MHz)
+  Total number of paths / destination ports: 2 / 1
+-------------------------------------------------------------------------
+Delay:               5.704ns (Levels of Logic = 10)
+  Source:            counter_9_LDC (LATCH)
+  Destination:       counter_9_LDC (LATCH)
+  Source Clock:      reset_counter[27]_AND_940_o falling
+  Destination Clock: reset_counter[27]_AND_940_o falling
+
+  Data Path: counter_9_LDC to counter_9_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDC:G->Q              1   0.581   0.688  counter_9_LDC (counter_9_LDC)
+     LUT2:I0->O            4   0.250   0.684  counter_91 (counter_9)
+     LUT6:I5->O            1   0.254   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<3> (Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<3>)
+     MUXCY:S->O            1   0.215   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<3> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<3>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<4> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<4>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8>)
+     MUXCY:CI->O          58   0.023   1.601  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<9> (GND_1_o_GND_1_o_equal_6_o)
+     LUT3:I2->O            1   0.254   0.579  reset_counter[27]_AND_941_o1 (reset_counter[27]_AND_941_o)
+     LDC:CLR                   0.459          counter_9_LDC
+    ----------------------------------------
+    Total                      5.704ns (2.153ns logic, 3.551ns route)
+                                       (37.7% logic, 62.3% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'reset_counter[27]_AND_942_o'
+  Clock period: 5.936ns (frequency: 168.470MHz)
+  Total number of paths / destination ports: 2 / 1
+-------------------------------------------------------------------------
+Delay:               5.936ns (Levels of Logic = 11)
+  Source:            counter_8_LDC (LATCH)
+  Destination:       counter_8_LDC (LATCH)
+  Source Clock:      reset_counter[27]_AND_942_o falling
+  Destination Clock: reset_counter[27]_AND_942_o falling
+
+  Data Path: counter_8_LDC to counter_8_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDC:G->Q              1   0.581   0.688  counter_8_LDC (counter_8_LDC)
+     LUT2:I0->O            4   0.250   0.912  counter_81 (counter_8)
+     LUT6:I3->O            1   0.235   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<2> (Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<2>)
+     MUXCY:S->O            1   0.215   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<2> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<2>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<3> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<3>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<4> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<4>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8>)
+     MUXCY:CI->O          58   0.023   1.601  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<9> (GND_1_o_GND_1_o_equal_6_o)
+     LUT3:I2->O            1   0.254   0.579  reset_counter[27]_AND_943_o1 (reset_counter[27]_AND_943_o)
+     LDC:CLR                   0.459          counter_8_LDC
+    ----------------------------------------
+    Total                      5.936ns (2.157ns logic, 3.779ns route)
+                                       (36.3% logic, 63.7% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'reset_counter[27]_AND_946_o'
+  Clock period: 5.727ns (frequency: 174.619MHz)
+  Total number of paths / destination ports: 2 / 1
+-------------------------------------------------------------------------
+Delay:               5.727ns (Levels of Logic = 11)
+  Source:            counter_6_LDC (LATCH)
+  Destination:       counter_6_LDC (LATCH)
+  Source Clock:      reset_counter[27]_AND_946_o falling
+  Destination Clock: reset_counter[27]_AND_946_o falling
+
+  Data Path: counter_6_LDC to counter_6_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDC:G->Q              1   0.581   0.688  counter_6_LDC (counter_6_LDC)
+     LUT2:I0->O            4   0.250   0.684  counter_61 (counter_6)
+     LUT6:I5->O            1   0.254   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<2> (Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<2>)
+     MUXCY:S->O            1   0.215   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<2> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<2>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<3> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<3>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<4> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<4>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8>)
+     MUXCY:CI->O          58   0.023   1.601  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<9> (GND_1_o_GND_1_o_equal_6_o)
+     LUT3:I2->O            1   0.254   0.579  reset_counter[27]_AND_947_o1 (reset_counter[27]_AND_947_o)
+     LDC:CLR                   0.459          counter_6_LDC
+    ----------------------------------------
+    Total                      5.727ns (2.176ns logic, 3.551ns route)
+                                       (38.0% logic, 62.0% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'reset_counter[27]_AND_948_o'
+  Clock period: 5.959ns (frequency: 167.813MHz)
+  Total number of paths / destination ports: 2 / 1
+-------------------------------------------------------------------------
+Delay:               5.959ns (Levels of Logic = 12)
+  Source:            counter_5_LDC (LATCH)
+  Destination:       counter_5_LDC (LATCH)
+  Source Clock:      reset_counter[27]_AND_948_o falling
+  Destination Clock: reset_counter[27]_AND_948_o falling
+
+  Data Path: counter_5_LDC to counter_5_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDC:G->Q              1   0.581   0.688  counter_5_LDC (counter_5_LDC)
+     LUT2:I0->O            4   0.250   0.912  counter_51 (counter_5)
+     LUT6:I3->O            1   0.235   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<1> (Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<1>)
+     MUXCY:S->O            1   0.215   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<1> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<1>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<2> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<2>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<3> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<3>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<4> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<4>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8>)
+     MUXCY:CI->O          58   0.023   1.601  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<9> (GND_1_o_GND_1_o_equal_6_o)
+     LUT3:I2->O            1   0.254   0.579  reset_counter[27]_AND_949_o1 (reset_counter[27]_AND_949_o)
+     LDC:CLR                   0.459          counter_5_LDC
+    ----------------------------------------
+    Total                      5.959ns (2.180ns logic, 3.779ns route)
+                                       (36.6% logic, 63.4% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'reset_counter[27]_AND_950_o'
+  Clock period: 5.854ns (frequency: 170.823MHz)
+  Total number of paths / destination ports: 2 / 1
+-------------------------------------------------------------------------
+Delay:               5.854ns (Levels of Logic = 12)
+  Source:            counter_4_LDC (LATCH)
+  Destination:       counter_4_LDC (LATCH)
+  Source Clock:      reset_counter[27]_AND_950_o falling
+  Destination Clock: reset_counter[27]_AND_950_o falling
+
+  Data Path: counter_4_LDC to counter_4_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDC:G->Q              1   0.581   0.688  counter_4_LDC (counter_4_LDC)
+     LUT2:I0->O            4   0.250   0.792  counter_41 (counter_4)
+     LUT6:I4->O            1   0.250   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<1> (Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<1>)
+     MUXCY:S->O            1   0.215   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<1> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<1>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<2> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<2>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<3> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<3>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<4> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<4>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8>)
+     MUXCY:CI->O          58   0.023   1.601  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<9> (GND_1_o_GND_1_o_equal_6_o)
+     LUT3:I2->O            1   0.254   0.579  reset_counter[27]_AND_951_o1 (reset_counter[27]_AND_951_o)
+     LDC:CLR                   0.459          counter_4_LDC
+    ----------------------------------------
+    Total                      5.854ns (2.195ns logic, 3.659ns route)
+                                       (37.5% logic, 62.5% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'reset_counter[27]_AND_952_o'
+  Clock period: 5.750ns (frequency: 173.912MHz)
+  Total number of paths / destination ports: 2 / 1
+-------------------------------------------------------------------------
+Delay:               5.750ns (Levels of Logic = 12)
+  Source:            counter_3_LDC (LATCH)
+  Destination:       counter_3_LDC (LATCH)
+  Source Clock:      reset_counter[27]_AND_952_o falling
+  Destination Clock: reset_counter[27]_AND_952_o falling
+
+  Data Path: counter_3_LDC to counter_3_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDC:G->Q              1   0.581   0.688  counter_3_LDC (counter_3_LDC)
+     LUT2:I0->O            4   0.250   0.684  counter_31 (counter_3)
+     LUT6:I5->O            1   0.254   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<1> (Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<1>)
+     MUXCY:S->O            1   0.215   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<1> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<1>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<2> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<2>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<3> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<3>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<4> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<4>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8>)
+     MUXCY:CI->O          58   0.023   1.601  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<9> (GND_1_o_GND_1_o_equal_6_o)
+     LUT3:I2->O            1   0.254   0.579  reset_counter[27]_AND_953_o1 (reset_counter[27]_AND_953_o)
+     LDC:CLR                   0.459          counter_3_LDC
+    ----------------------------------------
+    Total                      5.750ns (2.199ns logic, 3.551ns route)
+                                       (38.2% logic, 61.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'reset_counter[27]_AND_954_o'
+  Clock period: 5.982ns (frequency: 167.161MHz)
+  Total number of paths / destination ports: 2 / 1
+-------------------------------------------------------------------------
+Delay:               5.982ns (Levels of Logic = 13)
+  Source:            counter_2_LDC (LATCH)
+  Destination:       counter_2_LDC (LATCH)
+  Source Clock:      reset_counter[27]_AND_954_o falling
+  Destination Clock: reset_counter[27]_AND_954_o falling
+
+  Data Path: counter_2_LDC to counter_2_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDC:G->Q              1   0.581   0.688  counter_2_LDC (counter_2_LDC)
+     LUT2:I0->O            4   0.250   0.912  counter_21 (counter_2)
+     LUT6:I3->O            1   0.235   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<0> (Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<0>)
+     MUXCY:S->O            1   0.215   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<0> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<0>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<1> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<1>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<2> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<2>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<3> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<3>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<4> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<4>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8>)
+     MUXCY:CI->O          58   0.023   1.601  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<9> (GND_1_o_GND_1_o_equal_6_o)
+     LUT3:I2->O            1   0.254   0.579  reset_counter[27]_AND_955_o1 (reset_counter[27]_AND_955_o)
+     LDC:CLR                   0.459          counter_2_LDC
+    ----------------------------------------
+    Total                      5.982ns (2.203ns logic, 3.779ns route)
+                                       (36.8% logic, 63.2% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'reset_counter[27]_AND_956_o'
+  Clock period: 5.877ns (frequency: 170.147MHz)
+  Total number of paths / destination ports: 2 / 1
+-------------------------------------------------------------------------
+Delay:               5.877ns (Levels of Logic = 13)
+  Source:            counter_1_LDC (LATCH)
+  Destination:       counter_1_LDC (LATCH)
+  Source Clock:      reset_counter[27]_AND_956_o falling
+  Destination Clock: reset_counter[27]_AND_956_o falling
+
+  Data Path: counter_1_LDC to counter_1_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDC:G->Q              1   0.581   0.688  counter_1_LDC (counter_1_LDC)
+     LUT2:I0->O            4   0.250   0.792  counter_11 (counter_1)
+     LUT6:I4->O            1   0.250   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<0> (Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<0>)
+     MUXCY:S->O            1   0.215   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<0> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<0>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<1> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<1>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<2> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<2>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<3> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<3>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<4> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<4>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8>)
+     MUXCY:CI->O          58   0.023   1.601  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<9> (GND_1_o_GND_1_o_equal_6_o)
+     LUT3:I2->O            1   0.254   0.579  reset_counter[27]_AND_957_o1 (reset_counter[27]_AND_957_o)
+     LDC:CLR                   0.459          counter_1_LDC
+    ----------------------------------------
+    Total                      5.877ns (2.218ns logic, 3.659ns route)
+                                       (37.7% logic, 62.3% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'reset_counter[27]_AND_958_o'
+  Clock period: 5.778ns (frequency: 173.059MHz)
+  Total number of paths / destination ports: 2 / 1
+-------------------------------------------------------------------------
+Delay:               5.778ns (Levels of Logic = 13)
+  Source:            counter_0_LDC (LATCH)
+  Destination:       counter_0_LDC (LATCH)
+  Source Clock:      reset_counter[27]_AND_958_o falling
+  Destination Clock: reset_counter[27]_AND_958_o falling
+
+  Data Path: counter_0_LDC to counter_0_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDC:G->Q              2   0.581   0.725  counter_0_LDC (counter_0_LDC)
+     LUT2:I0->O            3   0.250   0.651  counter_01 (counter_0)
+     LUT6:I5->O            1   0.254   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<0> (Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<0>)
+     MUXCY:S->O            1   0.215   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<0> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<0>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<1> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<1>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<2> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<2>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<3> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<3>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<4> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<4>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8>)
+     MUXCY:CI->O          58   0.023   1.601  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<9> (GND_1_o_GND_1_o_equal_6_o)
+     LUT3:I2->O            1   0.254   0.579  reset_counter[27]_AND_959_o1 (reset_counter[27]_AND_959_o)
+     LDC:CLR                   0.459          counter_0_LDC
+    ----------------------------------------
+    Total                      5.778ns (2.222ns logic, 3.556ns route)
+                                       (38.5% logic, 61.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'reset_counter[27]_AND_906_o'
+  Total number of paths / destination ports: 2565 / 1
+-------------------------------------------------------------------------
+Offset:              16.890ns (Levels of Logic = 11)
+  Source:            cycle_period (PAD)
+  Destination:       counter_26_LDC (LATCH)
+  Destination Clock: reset_counter[27]_AND_906_o falling
+
+  Data Path: cycle_period to counter_26_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            16   1.228   1.004  cycle_period_IBUF (Mmult_duty[5]_cycle[5]_MuLt_6_OUT_Madd1_lut<5>)
+     INV:I->O              1   0.255   0.579  GND_1_o_GND_1_o_equal_1_o1_INV_0 (cycle<4>)
+     DSP48A1:B4->P47      18   5.145   1.049  Mmult__n0122 (Mmult__n0122_P47_to_Mmult__n01221)
+     DSP48A1:C30->P0       1   3.141   1.035  Mmult__n01221 (_n0122<12>)
+     LUT6:I0->O            1   0.254   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5>)
+     MUXCY:S->O            1   0.215   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8>)
+     MUXCY:CI->O          58   0.023   1.601  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<9> (GND_1_o_GND_1_o_equal_6_o)
+     LUT3:I2->O            1   0.254   0.579  reset_counter[27]_AND_907_o1 (reset_counter[27]_AND_907_o)
+     LDC:CLR                   0.459          counter_26_LDC
+    ----------------------------------------
+    Total                     16.890ns (11.044ns logic, 5.846ns route)
+                                       (65.4% logic, 34.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clock'
+  Total number of paths / destination ports: 82099 / 29
+-------------------------------------------------------------------------
+Offset:              16.927ns (Levels of Logic = 11)
+  Source:            cycle_period (PAD)
+  Destination:       counter_26_P_26 (FF)
+  Destination Clock: clock rising
+
+  Data Path: cycle_period to counter_26_P_26
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            16   1.228   1.004  cycle_period_IBUF (Mmult_duty[5]_cycle[5]_MuLt_6_OUT_Madd1_lut<5>)
+     INV:I->O              1   0.255   0.579  GND_1_o_GND_1_o_equal_1_o1_INV_0 (cycle<4>)
+     DSP48A1:B4->P47      18   5.145   1.049  Mmult__n0122 (Mmult__n0122_P47_to_Mmult__n01221)
+     DSP48A1:C30->P0       1   3.141   1.035  Mmult__n01221 (_n0122<12>)
+     LUT6:I0->O            1   0.254   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5>)
+     MUXCY:S->O            1   0.215   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8>)
+     MUXCY:CI->O          58   0.023   1.601  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<9> (GND_1_o_GND_1_o_equal_6_o)
+     LUT3:I2->O            2   0.254   0.616  reset_counter[27]_AND_904_o1 (reset_counter[27]_AND_904_o)
+     FDP:PRE                   0.459          counter_27_P_27
+    ----------------------------------------
+    Total                     16.927ns (11.044ns logic, 5.883ns route)
+                                       (65.2% logic, 34.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'reset_led_AND_902_o'
+  Total number of paths / destination ports: 10279 / 1
+-------------------------------------------------------------------------
+Offset:              17.166ns (Levels of Logic = 11)
+  Source:            cycle_period (PAD)
+  Destination:       led_LDC (LATCH)
+  Destination Clock: reset_led_AND_902_o falling
+
+  Data Path: cycle_period to led_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            16   1.228   1.004  cycle_period_IBUF (Mmult_duty[5]_cycle[5]_MuLt_6_OUT_Madd1_lut<5>)
+     INV:I->O              1   0.255   0.579  GND_1_o_GND_1_o_equal_1_o1_INV_0 (cycle<4>)
+     DSP48A1:B4->P47      18   5.145   1.049  Mmult__n0122 (Mmult__n0122_P47_to_Mmult__n01221)
+     DSP48A1:C30->P0       1   3.141   1.035  Mmult__n01221 (_n0122<12>)
+     LUT6:I0->O            1   0.254   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5>)
+     MUXCY:S->O            1   0.215   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8>)
+     MUXCY:CI->O          58   0.023   1.877  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<9> (GND_1_o_GND_1_o_equal_6_o)
+     LUT5:I1->O            1   0.254   0.579  reset_led_AND_903_o11 (reset_led_AND_903_o)
+     LDC:CLR                   0.459          led_LDC
+    ----------------------------------------
+    Total                     17.166ns (11.044ns logic, 6.122ns route)
+                                       (64.3% logic, 35.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'reset_counter[27]_AND_904_o'
+  Total number of paths / destination ports: 2565 / 1
+-------------------------------------------------------------------------
+Offset:              16.890ns (Levels of Logic = 11)
+  Source:            cycle_period (PAD)
+  Destination:       counter_27_LDC (LATCH)
+  Destination Clock: reset_counter[27]_AND_904_o falling
+
+  Data Path: cycle_period to counter_27_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            16   1.228   1.004  cycle_period_IBUF (Mmult_duty[5]_cycle[5]_MuLt_6_OUT_Madd1_lut<5>)
+     INV:I->O              1   0.255   0.579  GND_1_o_GND_1_o_equal_1_o1_INV_0 (cycle<4>)
+     DSP48A1:B4->P47      18   5.145   1.049  Mmult__n0122 (Mmult__n0122_P47_to_Mmult__n01221)
+     DSP48A1:C30->P0       1   3.141   1.035  Mmult__n01221 (_n0122<12>)
+     LUT6:I0->O            1   0.254   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5>)
+     MUXCY:S->O            1   0.215   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8>)
+     MUXCY:CI->O          58   0.023   1.601  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<9> (GND_1_o_GND_1_o_equal_6_o)
+     LUT3:I2->O            1   0.254   0.579  reset_counter[27]_AND_905_o1 (reset_counter[27]_AND_905_o)
+     LDC:CLR                   0.459          counter_27_LDC
+    ----------------------------------------
+    Total                     16.890ns (11.044ns logic, 5.846ns route)
+                                       (65.4% logic, 34.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'reset_counter[27]_AND_908_o'
+  Total number of paths / destination ports: 2565 / 1
+-------------------------------------------------------------------------
+Offset:              16.890ns (Levels of Logic = 11)
+  Source:            cycle_period (PAD)
+  Destination:       counter_25_LDC (LATCH)
+  Destination Clock: reset_counter[27]_AND_908_o falling
+
+  Data Path: cycle_period to counter_25_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            16   1.228   1.004  cycle_period_IBUF (Mmult_duty[5]_cycle[5]_MuLt_6_OUT_Madd1_lut<5>)
+     INV:I->O              1   0.255   0.579  GND_1_o_GND_1_o_equal_1_o1_INV_0 (cycle<4>)
+     DSP48A1:B4->P47      18   5.145   1.049  Mmult__n0122 (Mmult__n0122_P47_to_Mmult__n01221)
+     DSP48A1:C30->P0       1   3.141   1.035  Mmult__n01221 (_n0122<12>)
+     LUT6:I0->O            1   0.254   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5>)
+     MUXCY:S->O            1   0.215   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8>)
+     MUXCY:CI->O          58   0.023   1.601  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<9> (GND_1_o_GND_1_o_equal_6_o)
+     LUT3:I2->O            1   0.254   0.579  reset_counter[27]_AND_909_o1 (reset_counter[27]_AND_909_o)
+     LDC:CLR                   0.459          counter_25_LDC
+    ----------------------------------------
+    Total                     16.890ns (11.044ns logic, 5.846ns route)
+                                       (65.4% logic, 34.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'reset_counter[27]_AND_910_o'
+  Total number of paths / destination ports: 2565 / 1
+-------------------------------------------------------------------------
+Offset:              16.890ns (Levels of Logic = 11)
+  Source:            cycle_period (PAD)
+  Destination:       counter_24_LDC (LATCH)
+  Destination Clock: reset_counter[27]_AND_910_o falling
+
+  Data Path: cycle_period to counter_24_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            16   1.228   1.004  cycle_period_IBUF (Mmult_duty[5]_cycle[5]_MuLt_6_OUT_Madd1_lut<5>)
+     INV:I->O              1   0.255   0.579  GND_1_o_GND_1_o_equal_1_o1_INV_0 (cycle<4>)
+     DSP48A1:B4->P47      18   5.145   1.049  Mmult__n0122 (Mmult__n0122_P47_to_Mmult__n01221)
+     DSP48A1:C30->P0       1   3.141   1.035  Mmult__n01221 (_n0122<12>)
+     LUT6:I0->O            1   0.254   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5>)
+     MUXCY:S->O            1   0.215   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8>)
+     MUXCY:CI->O          58   0.023   1.601  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<9> (GND_1_o_GND_1_o_equal_6_o)
+     LUT3:I2->O            1   0.254   0.579  reset_counter[27]_AND_911_o1 (reset_counter[27]_AND_911_o)
+     LDC:CLR                   0.459          counter_24_LDC
+    ----------------------------------------
+    Total                     16.890ns (11.044ns logic, 5.846ns route)
+                                       (65.4% logic, 34.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'reset_counter[27]_AND_916_o'
+  Total number of paths / destination ports: 2565 / 1
+-------------------------------------------------------------------------
+Offset:              16.890ns (Levels of Logic = 11)
+  Source:            cycle_period (PAD)
+  Destination:       counter_21_LDC (LATCH)
+  Destination Clock: reset_counter[27]_AND_916_o falling
+
+  Data Path: cycle_period to counter_21_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            16   1.228   1.004  cycle_period_IBUF (Mmult_duty[5]_cycle[5]_MuLt_6_OUT_Madd1_lut<5>)
+     INV:I->O              1   0.255   0.579  GND_1_o_GND_1_o_equal_1_o1_INV_0 (cycle<4>)
+     DSP48A1:B4->P47      18   5.145   1.049  Mmult__n0122 (Mmult__n0122_P47_to_Mmult__n01221)
+     DSP48A1:C30->P0       1   3.141   1.035  Mmult__n01221 (_n0122<12>)
+     LUT6:I0->O            1   0.254   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5>)
+     MUXCY:S->O            1   0.215   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8>)
+     MUXCY:CI->O          58   0.023   1.601  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<9> (GND_1_o_GND_1_o_equal_6_o)
+     LUT3:I2->O            1   0.254   0.579  reset_counter[27]_AND_917_o1 (reset_counter[27]_AND_917_o)
+     LDC:CLR                   0.459          counter_21_LDC
+    ----------------------------------------
+    Total                     16.890ns (11.044ns logic, 5.846ns route)
+                                       (65.4% logic, 34.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'reset_counter[27]_AND_912_o'
+  Total number of paths / destination ports: 2565 / 1
+-------------------------------------------------------------------------
+Offset:              16.890ns (Levels of Logic = 11)
+  Source:            cycle_period (PAD)
+  Destination:       counter_23_LDC (LATCH)
+  Destination Clock: reset_counter[27]_AND_912_o falling
+
+  Data Path: cycle_period to counter_23_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            16   1.228   1.004  cycle_period_IBUF (Mmult_duty[5]_cycle[5]_MuLt_6_OUT_Madd1_lut<5>)
+     INV:I->O              1   0.255   0.579  GND_1_o_GND_1_o_equal_1_o1_INV_0 (cycle<4>)
+     DSP48A1:B4->P47      18   5.145   1.049  Mmult__n0122 (Mmult__n0122_P47_to_Mmult__n01221)
+     DSP48A1:C30->P0       1   3.141   1.035  Mmult__n01221 (_n0122<12>)
+     LUT6:I0->O            1   0.254   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5>)
+     MUXCY:S->O            1   0.215   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8>)
+     MUXCY:CI->O          58   0.023   1.601  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<9> (GND_1_o_GND_1_o_equal_6_o)
+     LUT3:I2->O            1   0.254   0.579  reset_counter[27]_AND_913_o1 (reset_counter[27]_AND_913_o)
+     LDC:CLR                   0.459          counter_23_LDC
+    ----------------------------------------
+    Total                     16.890ns (11.044ns logic, 5.846ns route)
+                                       (65.4% logic, 34.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'reset_counter[27]_AND_914_o'
+  Total number of paths / destination ports: 2565 / 1
+-------------------------------------------------------------------------
+Offset:              16.890ns (Levels of Logic = 11)
+  Source:            cycle_period (PAD)
+  Destination:       counter_22_LDC (LATCH)
+  Destination Clock: reset_counter[27]_AND_914_o falling
+
+  Data Path: cycle_period to counter_22_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            16   1.228   1.004  cycle_period_IBUF (Mmult_duty[5]_cycle[5]_MuLt_6_OUT_Madd1_lut<5>)
+     INV:I->O              1   0.255   0.579  GND_1_o_GND_1_o_equal_1_o1_INV_0 (cycle<4>)
+     DSP48A1:B4->P47      18   5.145   1.049  Mmult__n0122 (Mmult__n0122_P47_to_Mmult__n01221)
+     DSP48A1:C30->P0       1   3.141   1.035  Mmult__n01221 (_n0122<12>)
+     LUT6:I0->O            1   0.254   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5>)
+     MUXCY:S->O            1   0.215   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8>)
+     MUXCY:CI->O          58   0.023   1.601  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<9> (GND_1_o_GND_1_o_equal_6_o)
+     LUT3:I2->O            1   0.254   0.579  reset_counter[27]_AND_915_o1 (reset_counter[27]_AND_915_o)
+     LDC:CLR                   0.459          counter_22_LDC
+    ----------------------------------------
+    Total                     16.890ns (11.044ns logic, 5.846ns route)
+                                       (65.4% logic, 34.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'reset_counter[27]_AND_918_o'
+  Total number of paths / destination ports: 2565 / 1
+-------------------------------------------------------------------------
+Offset:              16.890ns (Levels of Logic = 11)
+  Source:            cycle_period (PAD)
+  Destination:       counter_20_LDC (LATCH)
+  Destination Clock: reset_counter[27]_AND_918_o falling
+
+  Data Path: cycle_period to counter_20_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            16   1.228   1.004  cycle_period_IBUF (Mmult_duty[5]_cycle[5]_MuLt_6_OUT_Madd1_lut<5>)
+     INV:I->O              1   0.255   0.579  GND_1_o_GND_1_o_equal_1_o1_INV_0 (cycle<4>)
+     DSP48A1:B4->P47      18   5.145   1.049  Mmult__n0122 (Mmult__n0122_P47_to_Mmult__n01221)
+     DSP48A1:C30->P0       1   3.141   1.035  Mmult__n01221 (_n0122<12>)
+     LUT6:I0->O            1   0.254   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5>)
+     MUXCY:S->O            1   0.215   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8>)
+     MUXCY:CI->O          58   0.023   1.601  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<9> (GND_1_o_GND_1_o_equal_6_o)
+     LUT3:I2->O            1   0.254   0.579  reset_counter[27]_AND_919_o1 (reset_counter[27]_AND_919_o)
+     LDC:CLR                   0.459          counter_20_LDC
+    ----------------------------------------
+    Total                     16.890ns (11.044ns logic, 5.846ns route)
+                                       (65.4% logic, 34.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'reset_counter[27]_AND_920_o'
+  Total number of paths / destination ports: 2566 / 1
+-------------------------------------------------------------------------
+Offset:              15.321ns (Levels of Logic = 12)
+  Source:            cycle_period (PAD)
+  Destination:       counter_19_LDC (LATCH)
+  Destination Clock: reset_counter[27]_AND_920_o falling
+
+  Data Path: cycle_period to counter_19_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            16   1.228   1.004  cycle_period_IBUF (Mmult_duty[5]_cycle[5]_MuLt_6_OUT_Madd1_lut<5>)
+     INV:I->O              1   0.255   0.579  GND_1_o_GND_1_o_equal_1_o1_INV_0 (cycle<4>)
+     DSP48A1:B4->P47      18   5.145   1.049  Mmult__n0122 (Mmult__n0122_P47_to_Mmult__n01221)
+     DSP48A1:C30->P0       1   3.141   1.035  Mmult__n01221 (_n0122<12>)
+     LUT6:I0->O            1   0.254   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5>)
+     MUXCY:S->O            1   0.215   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8>)
+     MUXCY:CI->O          58   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<9> (GND_1_o_GND_1_o_equal_6_o)
+     MUXCY:CI->O           1   0.023   0.000  reset_counter[27]_AND_921_o1_cy (GND_1_o_GND_1_o_equal_6_o_l1)
+     MUXCY:CI->O           1   0.262   0.579  reset_counter[27]_AND_921_o1_cy1_cy_cy (reset_counter[27]_AND_921_o)
+     LDC:CLR                   0.459          counter_19_LDC
+    ----------------------------------------
+    Total                     15.321ns (11.075ns logic, 4.245ns route)
+                                       (72.3% logic, 27.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'reset_counter[27]_AND_926_o'
+  Total number of paths / destination ports: 2565 / 1
+-------------------------------------------------------------------------
+Offset:              16.890ns (Levels of Logic = 11)
+  Source:            cycle_period (PAD)
+  Destination:       counter_16_LDC (LATCH)
+  Destination Clock: reset_counter[27]_AND_926_o falling
+
+  Data Path: cycle_period to counter_16_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            16   1.228   1.004  cycle_period_IBUF (Mmult_duty[5]_cycle[5]_MuLt_6_OUT_Madd1_lut<5>)
+     INV:I->O              1   0.255   0.579  GND_1_o_GND_1_o_equal_1_o1_INV_0 (cycle<4>)
+     DSP48A1:B4->P47      18   5.145   1.049  Mmult__n0122 (Mmult__n0122_P47_to_Mmult__n01221)
+     DSP48A1:C30->P0       1   3.141   1.035  Mmult__n01221 (_n0122<12>)
+     LUT6:I0->O            1   0.254   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5>)
+     MUXCY:S->O            1   0.215   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8>)
+     MUXCY:CI->O          58   0.023   1.601  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<9> (GND_1_o_GND_1_o_equal_6_o)
+     LUT3:I2->O            1   0.254   0.579  reset_counter[27]_AND_927_o1 (reset_counter[27]_AND_927_o)
+     LDC:CLR                   0.459          counter_16_LDC
+    ----------------------------------------
+    Total                     16.890ns (11.044ns logic, 5.846ns route)
+                                       (65.4% logic, 34.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'reset_counter[27]_AND_922_o'
+  Total number of paths / destination ports: 2565 / 1
+-------------------------------------------------------------------------
+Offset:              16.890ns (Levels of Logic = 11)
+  Source:            cycle_period (PAD)
+  Destination:       counter_18_LDC (LATCH)
+  Destination Clock: reset_counter[27]_AND_922_o falling
+
+  Data Path: cycle_period to counter_18_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            16   1.228   1.004  cycle_period_IBUF (Mmult_duty[5]_cycle[5]_MuLt_6_OUT_Madd1_lut<5>)
+     INV:I->O              1   0.255   0.579  GND_1_o_GND_1_o_equal_1_o1_INV_0 (cycle<4>)
+     DSP48A1:B4->P47      18   5.145   1.049  Mmult__n0122 (Mmult__n0122_P47_to_Mmult__n01221)
+     DSP48A1:C30->P0       1   3.141   1.035  Mmult__n01221 (_n0122<12>)
+     LUT6:I0->O            1   0.254   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5>)
+     MUXCY:S->O            1   0.215   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8>)
+     MUXCY:CI->O          58   0.023   1.601  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<9> (GND_1_o_GND_1_o_equal_6_o)
+     LUT3:I2->O            1   0.254   0.579  reset_counter[27]_AND_923_o1 (reset_counter[27]_AND_923_o)
+     LDC:CLR                   0.459          counter_18_LDC
+    ----------------------------------------
+    Total                     16.890ns (11.044ns logic, 5.846ns route)
+                                       (65.4% logic, 34.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'reset_counter[27]_AND_924_o'
+  Total number of paths / destination ports: 2565 / 1
+-------------------------------------------------------------------------
+Offset:              16.890ns (Levels of Logic = 11)
+  Source:            cycle_period (PAD)
+  Destination:       counter_17_LDC (LATCH)
+  Destination Clock: reset_counter[27]_AND_924_o falling
+
+  Data Path: cycle_period to counter_17_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            16   1.228   1.004  cycle_period_IBUF (Mmult_duty[5]_cycle[5]_MuLt_6_OUT_Madd1_lut<5>)
+     INV:I->O              1   0.255   0.579  GND_1_o_GND_1_o_equal_1_o1_INV_0 (cycle<4>)
+     DSP48A1:B4->P47      18   5.145   1.049  Mmult__n0122 (Mmult__n0122_P47_to_Mmult__n01221)
+     DSP48A1:C30->P0       1   3.141   1.035  Mmult__n01221 (_n0122<12>)
+     LUT6:I0->O            1   0.254   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5>)
+     MUXCY:S->O            1   0.215   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8>)
+     MUXCY:CI->O          58   0.023   1.601  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<9> (GND_1_o_GND_1_o_equal_6_o)
+     LUT3:I2->O            1   0.254   0.579  reset_counter[27]_AND_925_o1 (reset_counter[27]_AND_925_o)
+     LDC:CLR                   0.459          counter_17_LDC
+    ----------------------------------------
+    Total                     16.890ns (11.044ns logic, 5.846ns route)
+                                       (65.4% logic, 34.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'reset_counter[27]_AND_928_o'
+  Total number of paths / destination ports: 2565 / 1
+-------------------------------------------------------------------------
+Offset:              16.890ns (Levels of Logic = 11)
+  Source:            cycle_period (PAD)
+  Destination:       counter_15_LDC (LATCH)
+  Destination Clock: reset_counter[27]_AND_928_o falling
+
+  Data Path: cycle_period to counter_15_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            16   1.228   1.004  cycle_period_IBUF (Mmult_duty[5]_cycle[5]_MuLt_6_OUT_Madd1_lut<5>)
+     INV:I->O              1   0.255   0.579  GND_1_o_GND_1_o_equal_1_o1_INV_0 (cycle<4>)
+     DSP48A1:B4->P47      18   5.145   1.049  Mmult__n0122 (Mmult__n0122_P47_to_Mmult__n01221)
+     DSP48A1:C30->P0       1   3.141   1.035  Mmult__n01221 (_n0122<12>)
+     LUT6:I0->O            1   0.254   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5>)
+     MUXCY:S->O            1   0.215   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8>)
+     MUXCY:CI->O          58   0.023   1.601  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<9> (GND_1_o_GND_1_o_equal_6_o)
+     LUT3:I2->O            1   0.254   0.579  reset_counter[27]_AND_929_o1 (reset_counter[27]_AND_929_o)
+     LDC:CLR                   0.459          counter_15_LDC
+    ----------------------------------------
+    Total                     16.890ns (11.044ns logic, 5.846ns route)
+                                       (65.4% logic, 34.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'reset_counter[27]_AND_930_o'
+  Total number of paths / destination ports: 2565 / 1
+-------------------------------------------------------------------------
+Offset:              16.890ns (Levels of Logic = 11)
+  Source:            cycle_period (PAD)
+  Destination:       counter_14_LDC (LATCH)
+  Destination Clock: reset_counter[27]_AND_930_o falling
+
+  Data Path: cycle_period to counter_14_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            16   1.228   1.004  cycle_period_IBUF (Mmult_duty[5]_cycle[5]_MuLt_6_OUT_Madd1_lut<5>)
+     INV:I->O              1   0.255   0.579  GND_1_o_GND_1_o_equal_1_o1_INV_0 (cycle<4>)
+     DSP48A1:B4->P47      18   5.145   1.049  Mmult__n0122 (Mmult__n0122_P47_to_Mmult__n01221)
+     DSP48A1:C30->P0       1   3.141   1.035  Mmult__n01221 (_n0122<12>)
+     LUT6:I0->O            1   0.254   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5>)
+     MUXCY:S->O            1   0.215   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8>)
+     MUXCY:CI->O          58   0.023   1.601  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<9> (GND_1_o_GND_1_o_equal_6_o)
+     LUT3:I2->O            1   0.254   0.579  reset_counter[27]_AND_931_o1 (reset_counter[27]_AND_931_o)
+     LDC:CLR                   0.459          counter_14_LDC
+    ----------------------------------------
+    Total                     16.890ns (11.044ns logic, 5.846ns route)
+                                       (65.4% logic, 34.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'reset_counter[27]_AND_932_o'
+  Total number of paths / destination ports: 2565 / 1
+-------------------------------------------------------------------------
+Offset:              16.890ns (Levels of Logic = 11)
+  Source:            cycle_period (PAD)
+  Destination:       counter_13_LDC (LATCH)
+  Destination Clock: reset_counter[27]_AND_932_o falling
+
+  Data Path: cycle_period to counter_13_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            16   1.228   1.004  cycle_period_IBUF (Mmult_duty[5]_cycle[5]_MuLt_6_OUT_Madd1_lut<5>)
+     INV:I->O              1   0.255   0.579  GND_1_o_GND_1_o_equal_1_o1_INV_0 (cycle<4>)
+     DSP48A1:B4->P47      18   5.145   1.049  Mmult__n0122 (Mmult__n0122_P47_to_Mmult__n01221)
+     DSP48A1:C30->P0       1   3.141   1.035  Mmult__n01221 (_n0122<12>)
+     LUT6:I0->O            1   0.254   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5>)
+     MUXCY:S->O            1   0.215   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8>)
+     MUXCY:CI->O          58   0.023   1.601  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<9> (GND_1_o_GND_1_o_equal_6_o)
+     LUT3:I2->O            1   0.254   0.579  reset_counter[27]_AND_933_o1 (reset_counter[27]_AND_933_o)
+     LDC:CLR                   0.459          counter_13_LDC
+    ----------------------------------------
+    Total                     16.890ns (11.044ns logic, 5.846ns route)
+                                       (65.4% logic, 34.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'reset_counter[27]_AND_934_o'
+  Total number of paths / destination ports: 2565 / 1
+-------------------------------------------------------------------------
+Offset:              16.890ns (Levels of Logic = 11)
+  Source:            cycle_period (PAD)
+  Destination:       counter_12_LDC (LATCH)
+  Destination Clock: reset_counter[27]_AND_934_o falling
+
+  Data Path: cycle_period to counter_12_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            16   1.228   1.004  cycle_period_IBUF (Mmult_duty[5]_cycle[5]_MuLt_6_OUT_Madd1_lut<5>)
+     INV:I->O              1   0.255   0.579  GND_1_o_GND_1_o_equal_1_o1_INV_0 (cycle<4>)
+     DSP48A1:B4->P47      18   5.145   1.049  Mmult__n0122 (Mmult__n0122_P47_to_Mmult__n01221)
+     DSP48A1:C30->P0       1   3.141   1.035  Mmult__n01221 (_n0122<12>)
+     LUT6:I0->O            1   0.254   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5>)
+     MUXCY:S->O            1   0.215   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8>)
+     MUXCY:CI->O          58   0.023   1.601  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<9> (GND_1_o_GND_1_o_equal_6_o)
+     LUT3:I2->O            1   0.254   0.579  reset_counter[27]_AND_935_o1 (reset_counter[27]_AND_935_o)
+     LDC:CLR                   0.459          counter_12_LDC
+    ----------------------------------------
+    Total                     16.890ns (11.044ns logic, 5.846ns route)
+                                       (65.4% logic, 34.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'reset_counter[27]_AND_936_o'
+  Total number of paths / destination ports: 2565 / 1
+-------------------------------------------------------------------------
+Offset:              16.890ns (Levels of Logic = 11)
+  Source:            cycle_period (PAD)
+  Destination:       counter_11_LDC (LATCH)
+  Destination Clock: reset_counter[27]_AND_936_o falling
+
+  Data Path: cycle_period to counter_11_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            16   1.228   1.004  cycle_period_IBUF (Mmult_duty[5]_cycle[5]_MuLt_6_OUT_Madd1_lut<5>)
+     INV:I->O              1   0.255   0.579  GND_1_o_GND_1_o_equal_1_o1_INV_0 (cycle<4>)
+     DSP48A1:B4->P47      18   5.145   1.049  Mmult__n0122 (Mmult__n0122_P47_to_Mmult__n01221)
+     DSP48A1:C30->P0       1   3.141   1.035  Mmult__n01221 (_n0122<12>)
+     LUT6:I0->O            1   0.254   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5>)
+     MUXCY:S->O            1   0.215   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8>)
+     MUXCY:CI->O          58   0.023   1.601  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<9> (GND_1_o_GND_1_o_equal_6_o)
+     LUT3:I2->O            1   0.254   0.579  reset_counter[27]_AND_937_o1 (reset_counter[27]_AND_937_o)
+     LDC:CLR                   0.459          counter_11_LDC
+    ----------------------------------------
+    Total                     16.890ns (11.044ns logic, 5.846ns route)
+                                       (65.4% logic, 34.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'reset_counter[27]_AND_938_o'
+  Total number of paths / destination ports: 2565 / 1
+-------------------------------------------------------------------------
+Offset:              16.890ns (Levels of Logic = 11)
+  Source:            cycle_period (PAD)
+  Destination:       counter_10_LDC (LATCH)
+  Destination Clock: reset_counter[27]_AND_938_o falling
+
+  Data Path: cycle_period to counter_10_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            16   1.228   1.004  cycle_period_IBUF (Mmult_duty[5]_cycle[5]_MuLt_6_OUT_Madd1_lut<5>)
+     INV:I->O              1   0.255   0.579  GND_1_o_GND_1_o_equal_1_o1_INV_0 (cycle<4>)
+     DSP48A1:B4->P47      18   5.145   1.049  Mmult__n0122 (Mmult__n0122_P47_to_Mmult__n01221)
+     DSP48A1:C30->P0       1   3.141   1.035  Mmult__n01221 (_n0122<12>)
+     LUT6:I0->O            1   0.254   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5>)
+     MUXCY:S->O            1   0.215   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8>)
+     MUXCY:CI->O          58   0.023   1.601  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<9> (GND_1_o_GND_1_o_equal_6_o)
+     LUT3:I2->O            1   0.254   0.579  reset_counter[27]_AND_939_o1 (reset_counter[27]_AND_939_o)
+     LDC:CLR                   0.459          counter_10_LDC
+    ----------------------------------------
+    Total                     16.890ns (11.044ns logic, 5.846ns route)
+                                       (65.4% logic, 34.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'reset_counter[27]_AND_944_o'
+  Total number of paths / destination ports: 2565 / 1
+-------------------------------------------------------------------------
+Offset:              16.890ns (Levels of Logic = 11)
+  Source:            cycle_period (PAD)
+  Destination:       counter_7_LDC (LATCH)
+  Destination Clock: reset_counter[27]_AND_944_o falling
+
+  Data Path: cycle_period to counter_7_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            16   1.228   1.004  cycle_period_IBUF (Mmult_duty[5]_cycle[5]_MuLt_6_OUT_Madd1_lut<5>)
+     INV:I->O              1   0.255   0.579  GND_1_o_GND_1_o_equal_1_o1_INV_0 (cycle<4>)
+     DSP48A1:B4->P47      18   5.145   1.049  Mmult__n0122 (Mmult__n0122_P47_to_Mmult__n01221)
+     DSP48A1:C30->P0       1   3.141   1.035  Mmult__n01221 (_n0122<12>)
+     LUT6:I0->O            1   0.254   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5>)
+     MUXCY:S->O            1   0.215   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8>)
+     MUXCY:CI->O          58   0.023   1.601  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<9> (GND_1_o_GND_1_o_equal_6_o)
+     LUT3:I2->O            1   0.254   0.579  reset_counter[27]_AND_945_o1 (reset_counter[27]_AND_945_o)
+     LDC:CLR                   0.459          counter_7_LDC
+    ----------------------------------------
+    Total                     16.890ns (11.044ns logic, 5.846ns route)
+                                       (65.4% logic, 34.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'reset_counter[27]_AND_940_o'
+  Total number of paths / destination ports: 2565 / 1
+-------------------------------------------------------------------------
+Offset:              16.890ns (Levels of Logic = 11)
+  Source:            cycle_period (PAD)
+  Destination:       counter_9_LDC (LATCH)
+  Destination Clock: reset_counter[27]_AND_940_o falling
+
+  Data Path: cycle_period to counter_9_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            16   1.228   1.004  cycle_period_IBUF (Mmult_duty[5]_cycle[5]_MuLt_6_OUT_Madd1_lut<5>)
+     INV:I->O              1   0.255   0.579  GND_1_o_GND_1_o_equal_1_o1_INV_0 (cycle<4>)
+     DSP48A1:B4->P47      18   5.145   1.049  Mmult__n0122 (Mmult__n0122_P47_to_Mmult__n01221)
+     DSP48A1:C30->P0       1   3.141   1.035  Mmult__n01221 (_n0122<12>)
+     LUT6:I0->O            1   0.254   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5>)
+     MUXCY:S->O            1   0.215   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8>)
+     MUXCY:CI->O          58   0.023   1.601  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<9> (GND_1_o_GND_1_o_equal_6_o)
+     LUT3:I2->O            1   0.254   0.579  reset_counter[27]_AND_941_o1 (reset_counter[27]_AND_941_o)
+     LDC:CLR                   0.459          counter_9_LDC
+    ----------------------------------------
+    Total                     16.890ns (11.044ns logic, 5.846ns route)
+                                       (65.4% logic, 34.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'reset_counter[27]_AND_942_o'
+  Total number of paths / destination ports: 2565 / 1
+-------------------------------------------------------------------------
+Offset:              16.890ns (Levels of Logic = 11)
+  Source:            cycle_period (PAD)
+  Destination:       counter_8_LDC (LATCH)
+  Destination Clock: reset_counter[27]_AND_942_o falling
+
+  Data Path: cycle_period to counter_8_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            16   1.228   1.004  cycle_period_IBUF (Mmult_duty[5]_cycle[5]_MuLt_6_OUT_Madd1_lut<5>)
+     INV:I->O              1   0.255   0.579  GND_1_o_GND_1_o_equal_1_o1_INV_0 (cycle<4>)
+     DSP48A1:B4->P47      18   5.145   1.049  Mmult__n0122 (Mmult__n0122_P47_to_Mmult__n01221)
+     DSP48A1:C30->P0       1   3.141   1.035  Mmult__n01221 (_n0122<12>)
+     LUT6:I0->O            1   0.254   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5>)
+     MUXCY:S->O            1   0.215   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8>)
+     MUXCY:CI->O          58   0.023   1.601  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<9> (GND_1_o_GND_1_o_equal_6_o)
+     LUT3:I2->O            1   0.254   0.579  reset_counter[27]_AND_943_o1 (reset_counter[27]_AND_943_o)
+     LDC:CLR                   0.459          counter_8_LDC
+    ----------------------------------------
+    Total                     16.890ns (11.044ns logic, 5.846ns route)
+                                       (65.4% logic, 34.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'reset_counter[27]_AND_946_o'
+  Total number of paths / destination ports: 2565 / 1
+-------------------------------------------------------------------------
+Offset:              16.890ns (Levels of Logic = 11)
+  Source:            cycle_period (PAD)
+  Destination:       counter_6_LDC (LATCH)
+  Destination Clock: reset_counter[27]_AND_946_o falling
+
+  Data Path: cycle_period to counter_6_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            16   1.228   1.004  cycle_period_IBUF (Mmult_duty[5]_cycle[5]_MuLt_6_OUT_Madd1_lut<5>)
+     INV:I->O              1   0.255   0.579  GND_1_o_GND_1_o_equal_1_o1_INV_0 (cycle<4>)
+     DSP48A1:B4->P47      18   5.145   1.049  Mmult__n0122 (Mmult__n0122_P47_to_Mmult__n01221)
+     DSP48A1:C30->P0       1   3.141   1.035  Mmult__n01221 (_n0122<12>)
+     LUT6:I0->O            1   0.254   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5>)
+     MUXCY:S->O            1   0.215   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8>)
+     MUXCY:CI->O          58   0.023   1.601  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<9> (GND_1_o_GND_1_o_equal_6_o)
+     LUT3:I2->O            1   0.254   0.579  reset_counter[27]_AND_947_o1 (reset_counter[27]_AND_947_o)
+     LDC:CLR                   0.459          counter_6_LDC
+    ----------------------------------------
+    Total                     16.890ns (11.044ns logic, 5.846ns route)
+                                       (65.4% logic, 34.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'reset_counter[27]_AND_948_o'
+  Total number of paths / destination ports: 2565 / 1
+-------------------------------------------------------------------------
+Offset:              16.890ns (Levels of Logic = 11)
+  Source:            cycle_period (PAD)
+  Destination:       counter_5_LDC (LATCH)
+  Destination Clock: reset_counter[27]_AND_948_o falling
+
+  Data Path: cycle_period to counter_5_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            16   1.228   1.004  cycle_period_IBUF (Mmult_duty[5]_cycle[5]_MuLt_6_OUT_Madd1_lut<5>)
+     INV:I->O              1   0.255   0.579  GND_1_o_GND_1_o_equal_1_o1_INV_0 (cycle<4>)
+     DSP48A1:B4->P47      18   5.145   1.049  Mmult__n0122 (Mmult__n0122_P47_to_Mmult__n01221)
+     DSP48A1:C30->P0       1   3.141   1.035  Mmult__n01221 (_n0122<12>)
+     LUT6:I0->O            1   0.254   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5>)
+     MUXCY:S->O            1   0.215   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8>)
+     MUXCY:CI->O          58   0.023   1.601  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<9> (GND_1_o_GND_1_o_equal_6_o)
+     LUT3:I2->O            1   0.254   0.579  reset_counter[27]_AND_949_o1 (reset_counter[27]_AND_949_o)
+     LDC:CLR                   0.459          counter_5_LDC
+    ----------------------------------------
+    Total                     16.890ns (11.044ns logic, 5.846ns route)
+                                       (65.4% logic, 34.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'reset_counter[27]_AND_950_o'
+  Total number of paths / destination ports: 2565 / 1
+-------------------------------------------------------------------------
+Offset:              16.890ns (Levels of Logic = 11)
+  Source:            cycle_period (PAD)
+  Destination:       counter_4_LDC (LATCH)
+  Destination Clock: reset_counter[27]_AND_950_o falling
+
+  Data Path: cycle_period to counter_4_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            16   1.228   1.004  cycle_period_IBUF (Mmult_duty[5]_cycle[5]_MuLt_6_OUT_Madd1_lut<5>)
+     INV:I->O              1   0.255   0.579  GND_1_o_GND_1_o_equal_1_o1_INV_0 (cycle<4>)
+     DSP48A1:B4->P47      18   5.145   1.049  Mmult__n0122 (Mmult__n0122_P47_to_Mmult__n01221)
+     DSP48A1:C30->P0       1   3.141   1.035  Mmult__n01221 (_n0122<12>)
+     LUT6:I0->O            1   0.254   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5>)
+     MUXCY:S->O            1   0.215   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8>)
+     MUXCY:CI->O          58   0.023   1.601  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<9> (GND_1_o_GND_1_o_equal_6_o)
+     LUT3:I2->O            1   0.254   0.579  reset_counter[27]_AND_951_o1 (reset_counter[27]_AND_951_o)
+     LDC:CLR                   0.459          counter_4_LDC
+    ----------------------------------------
+    Total                     16.890ns (11.044ns logic, 5.846ns route)
+                                       (65.4% logic, 34.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'reset_counter[27]_AND_952_o'
+  Total number of paths / destination ports: 2565 / 1
+-------------------------------------------------------------------------
+Offset:              16.890ns (Levels of Logic = 11)
+  Source:            cycle_period (PAD)
+  Destination:       counter_3_LDC (LATCH)
+  Destination Clock: reset_counter[27]_AND_952_o falling
+
+  Data Path: cycle_period to counter_3_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            16   1.228   1.004  cycle_period_IBUF (Mmult_duty[5]_cycle[5]_MuLt_6_OUT_Madd1_lut<5>)
+     INV:I->O              1   0.255   0.579  GND_1_o_GND_1_o_equal_1_o1_INV_0 (cycle<4>)
+     DSP48A1:B4->P47      18   5.145   1.049  Mmult__n0122 (Mmult__n0122_P47_to_Mmult__n01221)
+     DSP48A1:C30->P0       1   3.141   1.035  Mmult__n01221 (_n0122<12>)
+     LUT6:I0->O            1   0.254   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5>)
+     MUXCY:S->O            1   0.215   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8>)
+     MUXCY:CI->O          58   0.023   1.601  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<9> (GND_1_o_GND_1_o_equal_6_o)
+     LUT3:I2->O            1   0.254   0.579  reset_counter[27]_AND_953_o1 (reset_counter[27]_AND_953_o)
+     LDC:CLR                   0.459          counter_3_LDC
+    ----------------------------------------
+    Total                     16.890ns (11.044ns logic, 5.846ns route)
+                                       (65.4% logic, 34.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'reset_counter[27]_AND_954_o'
+  Total number of paths / destination ports: 2565 / 1
+-------------------------------------------------------------------------
+Offset:              16.890ns (Levels of Logic = 11)
+  Source:            cycle_period (PAD)
+  Destination:       counter_2_LDC (LATCH)
+  Destination Clock: reset_counter[27]_AND_954_o falling
+
+  Data Path: cycle_period to counter_2_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            16   1.228   1.004  cycle_period_IBUF (Mmult_duty[5]_cycle[5]_MuLt_6_OUT_Madd1_lut<5>)
+     INV:I->O              1   0.255   0.579  GND_1_o_GND_1_o_equal_1_o1_INV_0 (cycle<4>)
+     DSP48A1:B4->P47      18   5.145   1.049  Mmult__n0122 (Mmult__n0122_P47_to_Mmult__n01221)
+     DSP48A1:C30->P0       1   3.141   1.035  Mmult__n01221 (_n0122<12>)
+     LUT6:I0->O            1   0.254   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5>)
+     MUXCY:S->O            1   0.215   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8>)
+     MUXCY:CI->O          58   0.023   1.601  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<9> (GND_1_o_GND_1_o_equal_6_o)
+     LUT3:I2->O            1   0.254   0.579  reset_counter[27]_AND_955_o1 (reset_counter[27]_AND_955_o)
+     LDC:CLR                   0.459          counter_2_LDC
+    ----------------------------------------
+    Total                     16.890ns (11.044ns logic, 5.846ns route)
+                                       (65.4% logic, 34.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'reset_counter[27]_AND_956_o'
+  Total number of paths / destination ports: 2565 / 1
+-------------------------------------------------------------------------
+Offset:              16.890ns (Levels of Logic = 11)
+  Source:            cycle_period (PAD)
+  Destination:       counter_1_LDC (LATCH)
+  Destination Clock: reset_counter[27]_AND_956_o falling
+
+  Data Path: cycle_period to counter_1_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            16   1.228   1.004  cycle_period_IBUF (Mmult_duty[5]_cycle[5]_MuLt_6_OUT_Madd1_lut<5>)
+     INV:I->O              1   0.255   0.579  GND_1_o_GND_1_o_equal_1_o1_INV_0 (cycle<4>)
+     DSP48A1:B4->P47      18   5.145   1.049  Mmult__n0122 (Mmult__n0122_P47_to_Mmult__n01221)
+     DSP48A1:C30->P0       1   3.141   1.035  Mmult__n01221 (_n0122<12>)
+     LUT6:I0->O            1   0.254   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5>)
+     MUXCY:S->O            1   0.215   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8>)
+     MUXCY:CI->O          58   0.023   1.601  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<9> (GND_1_o_GND_1_o_equal_6_o)
+     LUT3:I2->O            1   0.254   0.579  reset_counter[27]_AND_957_o1 (reset_counter[27]_AND_957_o)
+     LDC:CLR                   0.459          counter_1_LDC
+    ----------------------------------------
+    Total                     16.890ns (11.044ns logic, 5.846ns route)
+                                       (65.4% logic, 34.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'reset_counter[27]_AND_958_o'
+  Total number of paths / destination ports: 2565 / 1
+-------------------------------------------------------------------------
+Offset:              16.890ns (Levels of Logic = 11)
+  Source:            cycle_period (PAD)
+  Destination:       counter_0_LDC (LATCH)
+  Destination Clock: reset_counter[27]_AND_958_o falling
+
+  Data Path: cycle_period to counter_0_LDC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            16   1.228   1.004  cycle_period_IBUF (Mmult_duty[5]_cycle[5]_MuLt_6_OUT_Madd1_lut<5>)
+     INV:I->O              1   0.255   0.579  GND_1_o_GND_1_o_equal_1_o1_INV_0 (cycle<4>)
+     DSP48A1:B4->P47      18   5.145   1.049  Mmult__n0122 (Mmult__n0122_P47_to_Mmult__n01221)
+     DSP48A1:C30->P0       1   3.141   1.035  Mmult__n01221 (_n0122<12>)
+     LUT6:I0->O            1   0.254   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_lut<5>)
+     MUXCY:S->O            1   0.215   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8> (Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<8>)
+     MUXCY:CI->O          58   0.023   1.601  Mcompar_GND_1_o_GND_1_o_equal_6_o_cy<9> (GND_1_o_GND_1_o_equal_6_o)
+     LUT3:I2->O            1   0.254   0.579  reset_counter[27]_AND_959_o1 (reset_counter[27]_AND_959_o)
+     LDC:CLR                   0.459          counter_0_LDC
+    ----------------------------------------
+    Total                     16.890ns (11.044ns logic, 5.846ns route)
+                                       (65.4% logic, 34.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'reset_led_AND_902_o'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.989ns (Levels of Logic = 2)
+  Source:            led_LDC (LATCH)
+  Destination:       led (PAD)
+  Source Clock:      reset_led_AND_902_o falling
+
+  Data Path: led_LDC to led
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDC:G->Q              3   0.581   0.879  led_LDC (led_LDC)
+     LUT3:I0->O            1   0.235   0.579  led1 (led_OBUF)
+     OBUF:I->O                 2.715          led_OBUF (led)
+    ----------------------------------------
+    Total                      4.989ns (3.531ns logic, 1.458ns route)
+                                       (70.8% logic, 29.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clock'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.828ns (Levels of Logic = 2)
+  Source:            led_P (FF)
+  Destination:       led (PAD)
+  Source Clock:      clock rising
+
+  Data Path: led_P to led
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDP:C->Q              3   0.525   0.759  led_P (led_P)
+     LUT3:I1->O            1   0.250   0.579  led1 (led_OBUF)
+     OBUF:I->O                 2.715          led_OBUF (led)
+    ----------------------------------------
+    Total                      4.828ns (3.490ns logic, 1.338ns route)
+                                       (72.3% logic, 27.7% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 6.98 secs
+ 
+--> 
+
+Total memory usage is 190464 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    8 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

@@ -1,0 +1,7 @@
+module (a,b,out,sel);
+  input [1:0] a,b;
+  output [1:0] out,sel;
+  
+  assign out = ((sel == 1)? a + b;((sel == 2)? a - b; ((sel == 3)? a & b;((sel == 4)? a | b; 0))));
+  
+endmodule

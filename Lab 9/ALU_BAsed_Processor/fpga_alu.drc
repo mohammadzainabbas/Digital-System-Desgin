@@ -1,0 +1,8 @@
+Release 12.1 Drc M.53d (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+Thu Dec 21 11:50:09 2017
+
+drc -z FPGA_ALU.ncd FPGA_ALU.pcf
+
+DRC detected 0 errors and 0 warnings.

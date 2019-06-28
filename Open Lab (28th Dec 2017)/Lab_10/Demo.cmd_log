@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "E:/CEME/7th Semester/Digital System Design/Open Lab (28th Dec 2017)/Lab_10/Demo.xst" -ofn "E:/CEME/7th Semester/Digital System Design/Open Lab (28th Dec 2017)/Lab_10/Demo.syr" 

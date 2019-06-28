@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Open_Lab.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="Pattern_Identification.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Pattern_Identification.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Pattern_Identification.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Pattern_Identification.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Pattern_Identification.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="Pattern_Identification.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="Pattern_Identification.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="Pattern_Identification.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="Pattern_Identification.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="Pattern_Identification.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Pattern_Identification.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="Pattern_Identification.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Pattern_Identification.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Pattern_Identification.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="Pattern_Identification.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="Pattern_Identification.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="Pattern_Identification.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="Pattern_Identification.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Pattern_Identification.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Pattern_Identification_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="Pattern_Identification_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Pattern_Identification_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Pattern_Identification_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Pattern_Identification_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="Pattern_Identification_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Pattern_Identification_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Pattern_Identification_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="Pattern_Identification_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="Pattern_Identification_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Pattern_Identification_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Pattern_Identification_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="Pattern_Identification_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="Pattern_Identification_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Pattern_Identification_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1514442604" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1514442603">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1514442604" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-563122173373725860" xil_pn:start_ts="1514442604">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1514442604" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-7279471129108084789" xil_pn:start_ts="1514442604">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1514442604" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1514442604">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1514442604" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="2360719939259924702" xil_pn:start_ts="1514442604">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1514442604" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="1106364426758808884" xil_pn:start_ts="1514442604">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1514442604" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="1217162156408581717" xil_pn:start_ts="1514442604">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1514442701" xil_pn:in_ck="-7823372402697578581" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="4095598477155865914" xil_pn:start_ts="1514442687">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Pattern_Identification.cmd_log"/>
+      <outfile xil_pn:name="Pattern_Identification.lso"/>
+      <outfile xil_pn:name="Pattern_Identification.ngc"/>
+      <outfile xil_pn:name="Pattern_Identification.ngr"/>
+      <outfile xil_pn:name="Pattern_Identification.prj"/>
+      <outfile xil_pn:name="Pattern_Identification.stx"/>
+      <outfile xil_pn:name="Pattern_Identification.syr"/>
+      <outfile xil_pn:name="Pattern_Identification.xst"/>
+      <outfile xil_pn:name="Pattern_Identification_envsettings.html"/>
+      <outfile xil_pn:name="Pattern_Identification_summary.html"/>
+      <outfile xil_pn:name="Pattern_Identification_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1514442708" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-2772486526521235319" xil_pn:start_ts="1514442707">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+    </transform>
+    <transform xil_pn:end_ts="1514442719" xil_pn:in_ck="2743215516149766669" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="1236202685897971436" xil_pn:start_ts="1514442708">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Pattern_Identification.bld"/>
+      <outfile xil_pn:name="Pattern_Identification.cmd_log"/>
+      <outfile xil_pn:name="Pattern_Identification.ngd"/>
+      <outfile xil_pn:name="Pattern_Identification_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="xlnx_auto_0_xdb"/>
+    </transform>
+    <transform xil_pn:end_ts="1514442751" xil_pn:in_ck="2743215516149766670" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="-1156084432593644544" xil_pn:start_ts="1514442719">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="Pattern_Identification.pcf"/>
+      <outfile xil_pn:name="Pattern_Identification_map.map"/>
+      <outfile xil_pn:name="Pattern_Identification_map.mrp"/>
+      <outfile xil_pn:name="Pattern_Identification_map.ncd"/>
+      <outfile xil_pn:name="Pattern_Identification_map.ngm"/>
+      <outfile xil_pn:name="Pattern_Identification_map.xrpt"/>
+      <outfile xil_pn:name="Pattern_Identification_summary.xml"/>
+      <outfile xil_pn:name="Pattern_Identification_usage.xml"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1514442786" xil_pn:in_ck="5996778665128591399" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="-4742726394631258090" xil_pn:start_ts="1514442751">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="Pattern_Identification.ncd"/>
+      <outfile xil_pn:name="Pattern_Identification.pad"/>
+      <outfile xil_pn:name="Pattern_Identification.par"/>
+      <outfile xil_pn:name="Pattern_Identification.ptwx"/>
+      <outfile xil_pn:name="Pattern_Identification.unroutes"/>
+      <outfile xil_pn:name="Pattern_Identification.xpi"/>
+      <outfile xil_pn:name="Pattern_Identification_pad.csv"/>
+      <outfile xil_pn:name="Pattern_Identification_pad.txt"/>
+      <outfile xil_pn:name="Pattern_Identification_par.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1514442786" xil_pn:in_ck="2743215516149766538" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1514442772">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="Pattern_Identification.twr"/>
+      <outfile xil_pn:name="Pattern_Identification.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+    </transform>
+  </transforms>
+
+</generated_project>

@@ -1,0 +1,8 @@
+NET "clock" LOC = "V10";
+NET "a" loc = "T17";
+NET "b" loc = "T18";
+NET "c" loc = "U17";
+NET "d" loc = "U18";
+NET "e" loc = "M14";
+NET "f" loc = "N14";
+NET "g" loc = "L14";

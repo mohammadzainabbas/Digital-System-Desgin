@@ -1,0 +1,59 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\CEME\7th Semester\Digital System Design\Lab 2
+T_opt
+Z1 Vh9el^1lLO<lke1TBi:g?z0
+Z2 04 10 4 work simulation fast 0
+Z3 =1-cc79cf675696-59def058-168-c80
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OE;O;6.5;42
+vFull_Adder
+Z7 IKd`10S6D>=J?m8mAX8m<H2
+Z8 V6PV[4j[V`RPb@Poc69XG;2
+Z9 dE:\CEME\7th Semester\Digital System Design\Lab 3
+Z10 w1507782649
+Z11 8E:/CEME/7th Semester/Digital System Design/Lab 3/Practice_1 Half and Full Adder.v
+Z12 FE:/CEME/7th Semester/Digital System Design/Lab 3/Practice_1 Half and Full Adder.v
+L0 9
+Z13 OE;L;6.5;42
+r1
+31
+Z14 !s102 -nocovercells
+Z15 o-work work -nocovercells -L mtiAvm -L mtiOvm -L mtiUPF
+Z16 n@full_@adder
+Z17 !s100 CMVQH[6n:]IICCmERQzfa3
+!s85 0
+vHalf_Adder
+Z18 IVAY;U3?R:2U3<>MFAdEGY2
+Z19 VEEXaoN=<CRj0N7iMlZc`i1
+R9
+R10
+R11
+R12
+L0 1
+R13
+r1
+31
+R14
+R15
+Z20 n@half_@adder
+Z21 !s100 PThYc52<INWV<=L;l7QjO0
+!s85 0
+vsimulation
+Z22 IXzfQON5^RYm>n<6HPDmD30
+Z23 V:c@a2DLh5;Ya6?W[K?n@l2
+R9
+R10
+R11
+R12
+L0 21
+R13
+r1
+31
+R14
+R15
+Z24 !s100 RX:iK1UzXODa;KWVNmX061
+!s85 0

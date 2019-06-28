@@ -1,0 +1,49 @@
+xst -intstyle ise -ifn "E:/CEME/7th Semester/Digital System Design/Lab 6/Task_2/Task_2.xst" -ofn "E:/CEME/7th Semester/Digital System Design/Lab 6/Task_2/Task_2.syr" 
+xst -intstyle ise -ifn "E:/CEME/7th Semester/Digital System Design/Lab 6/Task_2/Task_2.xst" -ofn "E:/CEME/7th Semester/Digital System Design/Lab 6/Task_2/Task_2.syr" 
+xst -intstyle ise -ifn "E:/CEME/7th Semester/Digital System Design/Lab 6/Task_2/Task_2.xst" -ofn "E:/CEME/7th Semester/Digital System Design/Lab 6/Task_2/Task_2.syr" 
+xst -intstyle ise -ifn "E:/CEME/7th Semester/Digital System Design/Lab 6/Task_2/Task_2.xst" -ofn "E:/CEME/7th Semester/Digital System Design/Lab 6/Task_2/Task_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pins_names.ucf -p xc6slx16-csg324-3 "Task_2.ngc" Task_2.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -ol high -t 1 -xt 0 -register_duplication off -global_opt off -ir off -pr off -lc off -power off -o Task_2_map.ncd Task_2.ngd Task_2.pcf 
+xst -intstyle ise -ifn "E:/CEME/7th Semester/Digital System Design/Lab 6/Task_2/Task_2.xst" -ofn "E:/CEME/7th Semester/Digital System Design/Lab 6/Task_2/Task_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pins_names.ucf -p xc6slx16-csg324-3 "Task_2.ngc" Task_2.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -ol high -t 1 -xt 0 -register_duplication off -global_opt off -ir off -pr off -lc off -power off -o Task_2_map.ncd Task_2.ngd Task_2.pcf 
+xst -intstyle ise -ifn "E:/CEME/7th Semester/Digital System Design/Lab 6/Task_2/Task_2.xst" -ofn "E:/CEME/7th Semester/Digital System Design/Lab 6/Task_2/Task_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pins_names.ucf -p xc6slx16-csg324-3 "Task_2.ngc" Task_2.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -ol high -t 1 -xt 0 -register_duplication off -global_opt off -ir off -pr off -lc off -power off -o Task_2_map.ncd Task_2.ngd Task_2.pcf 
+xst -intstyle ise -ifn "E:/CEME/7th Semester/Digital System Design/Lab 6/Task_2/Task_2.xst" -ofn "E:/CEME/7th Semester/Digital System Design/Lab 6/Task_2/Task_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pins_names.ucf -p xc6slx16-csg324-3 "Task_2.ngc" Task_2.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -ol high -t 1 -xt 0 -register_duplication off -global_opt off -ir off -pr off -lc off -power off -o Task_2_map.ncd Task_2.ngd Task_2.pcf 
+par -w -intstyle ise -ol high Task_2_map.ncd Task_2.ncd Task_2.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Task_2.twx Task_2.ncd -o Task_2.twr Task_2.pcf -ucf Pins_names.ucf 
+bitgen -intstyle ise -f Task_2.ut Task_2.ncd 
+xst -intstyle ise -ifn "E:/CEME/7th Semester/Digital System Design/Lab 6/Task_2/Task_2.xst" -ofn "E:/CEME/7th Semester/Digital System Design/Lab 6/Task_2/Task_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pins_names.ucf -p xc6slx16-csg324-3 "Task_2.ngc" Task_2.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -ol high -t 1 -xt 0 -register_duplication off -global_opt off -ir off -pr off -lc off -power off -o Task_2_map.ncd Task_2.ngd Task_2.pcf 
+par -w -intstyle ise -ol high Task_2_map.ncd Task_2.ncd Task_2.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Task_2.twx Task_2.ncd -o Task_2.twr Task_2.pcf -ucf Pins_names.ucf 
+bitgen -intstyle ise -f Task_2.ut Task_2.ncd 
+xst -intstyle ise -ifn "E:/CEME/7th Semester/Digital System Design/Lab 6/Task_2/Task_2.xst" -ofn "E:/CEME/7th Semester/Digital System Design/Lab 6/Task_2/Task_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pins_names.ucf -p xc6slx16-csg324-3 "Task_2.ngc" Task_2.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -ol high -t 1 -xt 0 -register_duplication off -global_opt off -ir off -pr off -lc off -power off -o Task_2_map.ncd Task_2.ngd Task_2.pcf 
+par -w -intstyle ise -ol high Task_2_map.ncd Task_2.ncd Task_2.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Task_2.twx Task_2.ncd -o Task_2.twr Task_2.pcf -ucf Pins_names.ucf 
+bitgen -intstyle ise -f Task_2.ut Task_2.ncd 
+xst -intstyle ise -ifn "E:/CEME/7th Semester/Digital System Design/Lab 6/Task_2/Task_2.xst" -ofn "E:/CEME/7th Semester/Digital System Design/Lab 6/Task_2/Task_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pins_names.ucf -p xc6slx16-csg324-3 "Task_2.ngc" Task_2.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -ol high -t 1 -xt 0 -register_duplication off -global_opt off -ir off -pr off -lc off -power off -o Task_2_map.ncd Task_2.ngd Task_2.pcf 
+par -w -intstyle ise -ol high Task_2_map.ncd Task_2.ncd Task_2.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Task_2.twx Task_2.ncd -o Task_2.twr Task_2.pcf -ucf Pins_names.ucf 
+bitgen -intstyle ise -f Task_2.ut Task_2.ncd 
+xst -intstyle ise -ifn "E:/CEME/7th Semester/Digital System Design/Lab 6/Task_2/Task_2.xst" -ofn "E:/CEME/7th Semester/Digital System Design/Lab 6/Task_2/Task_2.syr" 
+xst -intstyle ise -ifn "E:/CEME/7th Semester/Digital System Design/Lab 6/Task_2/Task_2.xst" -ofn "E:/CEME/7th Semester/Digital System Design/Lab 6/Task_2/Task_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pins_names.ucf -p xc6slx16-csg324-3 "Task_2.ngc" Task_2.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -ol high -t 1 -xt 0 -register_duplication off -global_opt off -ir off -pr off -lc off -power off -o Task_2_map.ncd Task_2.ngd Task_2.pcf 
+par -w -intstyle ise -ol high Task_2_map.ncd Task_2.ncd Task_2.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Task_2.twx Task_2.ncd -o Task_2.twr Task_2.pcf -ucf Pins_names.ucf 
+bitgen -intstyle ise -f Task_2.ut Task_2.ncd 
+xst -intstyle ise -ifn "E:/CEME/7th Semester/Digital System Design/Lab 6/Task_2/Task_2.xst" -ofn "E:/CEME/7th Semester/Digital System Design/Lab 6/Task_2/Task_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Pins_names.ucf -p xc6slx16-csg324-3 "Task_2.ngc" Task_2.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -ol high -t 1 -xt 0 -register_duplication off -global_opt off -ir off -pr off -lc off -power off -o Task_2_map.ncd Task_2.ngd Task_2.pcf 
+par -w -intstyle ise -ol high Task_2_map.ncd Task_2.ncd Task_2.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Task_2.twx Task_2.ncd -o Task_2.twr Task_2.pcf -ucf Pins_names.ucf 
+bitgen -intstyle ise -f Task_2.ut Task_2.ncd 

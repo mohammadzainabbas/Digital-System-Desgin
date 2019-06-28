@@ -1,0 +1,122 @@
+--------------------------------------------------------------------------------
+Release 12.1 Trace  (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+E:\Programs\Xilinx\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml PulseWidthModulation.twx PulseWidthModulation.ncd -o
+PulseWidthModulation.twr PulseWidthModulation.pcf -ucf
+Variable_Pin_Locations.ucf
+
+Design file:              PulseWidthModulation.ncd
+Physical constraint file: PulseWidthModulation.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRELIMINARY 1.08 2010-04-09)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock clock to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+led         |         9.053(R)|      SLOW  |         4.251(R)|      FAST  |clock_BUFGP       |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock cycle_period to Pad
+------------+-----------------+------------+-----------------+------------+-------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                   | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)  | Phase  |
+------------+-----------------+------------+-----------------+------------+-------------------+--------+
+led         |        25.038(F)|      SLOW  |         9.098(F)|      FAST  |reset_led_AND_902_o|   0.000|
+------------+-----------------+------------+-----------------+------------+-------------------+--------+
+
+Clock duty_cycle to Pad
+------------+-----------------+------------+-----------------+------------+-------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                   | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)  | Phase  |
+------------+-----------------+------------+-----------------+------------+-------------------+--------+
+led         |        20.083(F)|      SLOW  |         9.064(F)|      FAST  |reset_led_AND_902_o|   0.000|
+------------+-----------------+------------+-----------------+------------+-------------------+--------+
+
+Clock reset to Pad
+------------+-----------------+------------+-----------------+------------+-------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                   | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)  | Phase  |
+------------+-----------------+------------+-----------------+------------+-------------------+--------+
+led         |        11.094(F)|      SLOW  |         5.708(F)|      FAST  |reset_led_AND_902_o|   0.000|
+------------+-----------------+------------+-----------------+------------+-------------------+--------+
+
+Clock to Setup on destination clock clock
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clock          |    5.924|         |         |         |
+cycle_period   |   16.954|   16.954|         |         |
+duty_cycle     |   11.707|   11.707|         |         |
+reset          |    4.113|    9.231|         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock cycle_period
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clock          |         |         |    5.003|         |
+cycle_period   |         |         |    8.194|    8.194|
+duty_cycle     |         |         |    3.195|    3.195|
+reset          |         |         |   -2.727|    5.921|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock duty_cycle
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clock          |         |         |    4.277|         |
+cycle_period   |         |         |    8.313|    8.313|
+duty_cycle     |         |         |    3.314|    3.314|
+reset          |         |         |   -2.693|    2.260|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock reset
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clock          |         |         |    5.003|         |
+cycle_period   |         |         |   15.731|   15.731|
+duty_cycle     |         |         |   10.006|   10.006|
+reset          |         |         |    1.456|    5.921|
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Thu Nov 23 12:25:22 2017 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 174 MB
+
+
+

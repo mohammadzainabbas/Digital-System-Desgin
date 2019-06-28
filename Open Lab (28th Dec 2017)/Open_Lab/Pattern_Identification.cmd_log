@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "E:/CEME/7th Semester/Digital System Design/Open Lab (28th Dec 2017)/Open_Lab/Pattern_Identification.xst" -ofn "E:/CEME/7th Semester/Digital System Design/Open Lab (28th Dec 2017)/Open_Lab/Pattern_Identification.syr" 
+xst -intstyle ise -ifn "E:/CEME/7th Semester/Digital System Design/Open Lab (28th Dec 2017)/Open_Lab/Pattern_Identification.xst" -ofn "E:/CEME/7th Semester/Digital System Design/Open Lab (28th Dec 2017)/Open_Lab/Pattern_Identification.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 "Pattern_Identification.ngc" Pattern_Identification.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -ol high -t 1 -xt 0 -register_duplication off -global_opt off -ir off -pr off -lc off -power off -o Pattern_Identification_map.ncd Pattern_Identification.ngd Pattern_Identification.pcf 
+par -w -intstyle ise -ol high Pattern_Identification_map.ncd Pattern_Identification.ncd Pattern_Identification.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Pattern_Identification.twx Pattern_Identification.ncd -o Pattern_Identification.twr Pattern_Identification.pcf 

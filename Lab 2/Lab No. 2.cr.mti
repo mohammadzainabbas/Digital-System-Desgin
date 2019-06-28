@@ -1,0 +1,24 @@
+{E:/CEME/7th Semester/Digital System Design/Lab 2/Task_1.v} {1 {vlog -work work -vopt -nocovercells {E:/CEME/7th Semester/Digital System Design/Lab 2/Task_1.v}
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module Task_1_1
+-- Compiling module Task_1_2
+
+Top level modules:
+	Task_1_1
+	Task_1_2
+
+} {} {}} {E:/CEME/7th Semester/Digital System Design/Lab 2/Practice.v} {1 {vlog -work work -vopt -nocovercells {E:/CEME/7th Semester/Digital System Design/Lab 2/Practice.v}
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module Test
+
+Top level modules:
+	Test
+
+} {} {}} {E:/CEME/7th Semester/Digital System Design/Lab 2/Task_2.v} {1 {vlog -work work -vopt -nocovercells {E:/CEME/7th Semester/Digital System Design/Lab 2/Task_2.v}
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module Task_2
+
+Top level modules:
+	Task_2
+
+} {} {}}

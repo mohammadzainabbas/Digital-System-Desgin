@@ -1,0 +1,152 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\CEME\7th Semester\Digital System Design\Lab 2
+T_opt
+Vh9el^1lLO<lke1TBi:g?z0
+04 10 4 work simulation fast 0
+=1-cc79cf675696-59def058-168-c80
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OE;O;6.5;42
+vBinary_To_GreyScale
+IDO0hah]zG_bOjIXfTfla11
+VY?:oFTBX>OJ_A:Une7=_T3
+Z1 dE:\CEME\7th Semester\Digital System Design\Lab 3
+Z2 w1507787130
+Z3 8E:/CEME/7th Semester/Digital System Design/Lab 3/Task_1.v
+Z4 FE:/CEME/7th Semester/Digital System Design/Lab 3/Task_1.v
+L0 1
+Z5 OE;L;6.5;42
+r1
+31
+Z6 !s102 -nocovercells
+Z7 o-work work -nocovercells -L mtiAvm -L mtiOvm -L mtiUPF
+n@binary_@to_@grey@scale
+!s100 FzI@<_TD0NPXgm1]c@]<C3
+!s85 0
+vDifference_Equation
+I09InfLo3<dbzNJ_SAYLdO0
+VMGd9<_]ML2QcX=Y?cMP:;3
+R1
+Z8 w1507790542
+Z9 8E:/CEME/7th Semester/Digital System Design/Lab 3/Task_2.v
+Z10 FE:/CEME/7th Semester/Digital System Design/Lab 3/Task_2.v
+L0 1
+R5
+r1
+31
+R6
+R7
+n@difference_@equation
+!s100 5S^Jm`cQ[Jd_?4DkIIb142
+!s85 0
+vFull_Adder
+I4NOOU@ZPMOT>QGn3jNmBY2
+V6PV[4j[V`RPb@Poc69XG;2
+R1
+Z11 w1507788033
+Z12 8E:/CEME/7th Semester/Digital System Design/Lab 3/Practice_1 Half and Full Adder.v
+Z13 FE:/CEME/7th Semester/Digital System Design/Lab 3/Practice_1 Half and Full Adder.v
+L0 10
+R5
+r1
+31
+R6
+R7
+n@full_@adder
+!s100 @MV@>5z4QGhbkJRV`=k<n2
+!s85 0
+vHalf_Adder
+I>OI8`ScJH^TGdQ[E:86OL1
+VEEXaoN=<CRj0N7iMlZc`i1
+R1
+R11
+R12
+R13
+L0 1
+R5
+r1
+31
+R6
+R7
+n@half_@adder
+!s100 oN4?IQf7RcAE:SPaeEgE61
+!s85 0
+vHex_Counter
+!s100 e`lW5W]a4ZP8HObW5f1ED3
+IAH=CjaZD^S`il=;g0Y]B63
+VDh<H?E[27d<oFNQD2fKh;1
+R1
+Z14 w1507792409
+Z15 8E:/CEME/7th Semester/Digital System Design/Lab 3/Task_3.v
+Z16 FE:/CEME/7th Semester/Digital System Design/Lab 3/Task_3.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+n@hex_@counter
+vsimulation
+IjnKZ<DIRmZ6_[hh6kH?Fz1
+V:c@a2DLh5;Ya6?W[K?n@l2
+R1
+R11
+R12
+R13
+L0 23
+R5
+r1
+31
+R6
+R7
+!s100 G58G?2>Q?=E8Zb`gA:MVN0
+!s85 0
+vsimulation_task_1
+IZ6U9ZcmZha@gQ<hiak@n?3
+VLT7oHFZ==8ekdd5aZ?CJW1
+R1
+R2
+R3
+R4
+L0 12
+R5
+r1
+31
+R6
+R7
+!s100 gjjXj?7DHf:o^oCO@K2PF3
+!s85 0
+vsimulation_task_2
+I5cYKZOOK00fJk5QdSE1QC2
+V<_AmTeZ^F;bVNGYef;_1L2
+R1
+R8
+R9
+R10
+L0 28
+R5
+r1
+31
+R6
+R7
+!s100 G267bka[VfgEbk>]OcZ:41
+!s85 0
+vsimulation_task_3
+!s100 B6?mPea3TD7lU6?8mm@Vo3
+IVNgm>S>3?Sf>Ac42Z@lkR3
+VJKeFi8TUJahm?hMDF=h1o1
+R1
+R14
+R15
+R16
+L0 16
+R5
+r1
+!s85 0
+31
+R6
+R7

@@ -1,0 +1,21 @@
+xst -intstyle ise -ifn "E:/CEME/7th Semester/Digital System Design/Open Lab (23rd Nov 2017)/MohammadZainAbbas/PulseWidthModulation.xst" -ofn "E:/CEME/7th Semester/Digital System Design/Open Lab (23rd Nov 2017)/MohammadZainAbbas/PulseWidthModulation.syr" 
+xst -intstyle ise -ifn "E:/CEME/7th Semester/Digital System Design/Open Lab (23rd Nov 2017)/MohammadZainAbbas/PulseWidthModulation.xst" -ofn "E:/CEME/7th Semester/Digital System Design/Open Lab (23rd Nov 2017)/MohammadZainAbbas/PulseWidthModulation.syr" 
+xst -intstyle ise -ifn "E:/CEME/7th Semester/Digital System Design/Open Lab (23rd Nov 2017)/MohammadZainAbbas/PulseWidthModulation.xst" -ofn "E:/CEME/7th Semester/Digital System Design/Open Lab (23rd Nov 2017)/MohammadZainAbbas/PulseWidthModulation.syr" 
+xst -intstyle ise -ifn "E:/CEME/7th Semester/Digital System Design/Open Lab (23rd Nov 2017)/MohammadZainAbbas/PulseWidthModulation.xst" -ofn "E:/CEME/7th Semester/Digital System Design/Open Lab (23rd Nov 2017)/MohammadZainAbbas/PulseWidthModulation.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Variable_Pin_Locations.ucf -p xc6slx16-csg324-3 "PulseWidthModulation.ngc" PulseWidthModulation.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -ol high -t 1 -xt 0 -register_duplication off -global_opt off -ir off -pr off -lc off -power off -o PulseWidthModulation_map.ncd PulseWidthModulation.ngd PulseWidthModulation.pcf 
+par -w -intstyle ise -ol high PulseWidthModulation_map.ncd PulseWidthModulation.ncd PulseWidthModulation.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseWidthModulation.twx PulseWidthModulation.ncd -o PulseWidthModulation.twr PulseWidthModulation.pcf -ucf Variable_Pin_Locations.ucf 
+bitgen -intstyle ise -f PulseWidthModulation.ut PulseWidthModulation.ncd 
+xst -intstyle ise -ifn "E:/CEME/7th Semester/Digital System Design/Open Lab (23rd Nov 2017)/MohammadZainAbbas/PulseWidthModulation.xst" -ofn "E:/CEME/7th Semester/Digital System Design/Open Lab (23rd Nov 2017)/MohammadZainAbbas/PulseWidthModulation.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Variable_Pin_Locations.ucf -p xc6slx16-csg324-3 "PulseWidthModulation.ngc" PulseWidthModulation.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -ol high -t 1 -xt 0 -register_duplication off -global_opt off -ir off -pr off -lc off -power off -o PulseWidthModulation_map.ncd PulseWidthModulation.ngd PulseWidthModulation.pcf 
+par -w -intstyle ise -ol high PulseWidthModulation_map.ncd PulseWidthModulation.ncd PulseWidthModulation.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseWidthModulation.twx PulseWidthModulation.ncd -o PulseWidthModulation.twr PulseWidthModulation.pcf -ucf Variable_Pin_Locations.ucf 
+bitgen -intstyle ise -f PulseWidthModulation.ut PulseWidthModulation.ncd 
+xst -intstyle ise -ifn "E:/CEME/7th Semester/Digital System Design/Open Lab (23rd Nov 2017)/MohammadZainAbbas/PulseWidthModulation.xst" -ofn "E:/CEME/7th Semester/Digital System Design/Open Lab (23rd Nov 2017)/MohammadZainAbbas/PulseWidthModulation.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Variable_Pin_Locations.ucf -p xc6slx16-csg324-3 "PulseWidthModulation.ngc" PulseWidthModulation.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -ol high -t 1 -xt 0 -register_duplication off -global_opt off -ir off -pr off -lc off -power off -o PulseWidthModulation_map.ncd PulseWidthModulation.ngd PulseWidthModulation.pcf 
+par -w -intstyle ise -ol high PulseWidthModulation_map.ncd PulseWidthModulation.ncd PulseWidthModulation.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PulseWidthModulation.twx PulseWidthModulation.ncd -o PulseWidthModulation.twr PulseWidthModulation.pcf -ucf Variable_Pin_Locations.ucf 
+bitgen -intstyle ise -f PulseWidthModulation.ut PulseWidthModulation.ncd 

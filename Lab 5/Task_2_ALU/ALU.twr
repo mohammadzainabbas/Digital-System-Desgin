@@ -1,0 +1,92 @@
+--------------------------------------------------------------------------------
+Release 12.1 Trace  (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+E:\Programs\Xilinx\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml ALU.twx ALU.ncd -o ALU.twr ALU.pcf -ucf Variables_Loc.ucf
+
+Design file:              ALU.ncd
+Physical constraint file: ALU.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRELIMINARY 1.08 2010-04-09)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+in1<0>         |a              |   11.334|
+in1<0>         |b              |   10.850|
+in1<0>         |c              |   10.923|
+in1<0>         |d              |   10.993|
+in1<0>         |e              |   10.898|
+in1<0>         |f              |   10.658|
+in1<0>         |g              |   10.851|
+in1<1>         |a              |   11.447|
+in1<1>         |b              |   10.963|
+in1<1>         |c              |   11.036|
+in1<1>         |d              |   11.106|
+in1<1>         |e              |   11.011|
+in1<1>         |f              |   10.771|
+in1<1>         |g              |   10.964|
+in2<0>         |a              |   11.559|
+in2<0>         |b              |   11.075|
+in2<0>         |c              |   11.148|
+in2<0>         |d              |   11.218|
+in2<0>         |e              |   11.123|
+in2<0>         |f              |   10.883|
+in2<0>         |g              |   11.076|
+in2<1>         |a              |   11.281|
+in2<1>         |b              |   10.797|
+in2<1>         |c              |   10.870|
+in2<1>         |d              |   10.940|
+in2<1>         |e              |   10.845|
+in2<1>         |f              |   10.605|
+in2<1>         |g              |   10.798|
+sel<0>         |a              |   10.728|
+sel<0>         |b              |   10.414|
+sel<0>         |c              |   10.487|
+sel<0>         |d              |   10.387|
+sel<0>         |e              |   10.292|
+sel<0>         |f              |   10.304|
+sel<0>         |g              |   10.497|
+sel<1>         |a              |   10.668|
+sel<1>         |b              |   10.228|
+sel<1>         |c              |   10.301|
+sel<1>         |d              |   10.327|
+sel<1>         |e              |    9.648|
+sel<1>         |f              |   10.253|
+sel<1>         |g              |   10.446|
+---------------+---------------+---------+
+
+
+Analysis completed Thu Oct 26 11:45:56 2017 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 154 MB
+
+
+

@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "E:/CEME/7th Semester/Digital System Design/Lab 5/Lab_5/Task_1.xst" -ofn "E:/CEME/7th Semester/Digital System Design/Lab 5/Lab_5/Task_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Variable_names.ucf -p xc6slx16-csg324-2 "Task_1.ngc" Task_1.ngd  
+map -intstyle ise -p xc6slx16-csg324-2 -w -ol high -t 1 -xt 0 -register_duplication off -global_opt off -ir off -pr off -lc off -power off -o Task_1_map.ncd Task_1.ngd Task_1.pcf 
+par -w -intstyle ise -ol high Task_1_map.ncd Task_1.ncd Task_1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Task_1.twx Task_1.ncd -o Task_1.twr Task_1.pcf -ucf Variable_names.ucf 
+bitgen -intstyle ise -f Task_1.ut Task_1.ncd 

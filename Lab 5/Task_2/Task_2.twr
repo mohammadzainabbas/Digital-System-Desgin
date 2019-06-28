@@ -1,0 +1,79 @@
+--------------------------------------------------------------------------------
+Release 12.1 Trace  (nt)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+E:\Programs\Xilinx\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 2
+-n 3 -fastpaths -xml Task_2.twx Task_2.ncd -o Task_2.twr Task_2.pcf -ucf
+Variable_Location.ucf
+
+Design file:              Task_2.ncd
+Physical constraint file: Task_2.pcf
+Device,package,speed:     xc6slx16,csg324,C,-2 (PRODUCTION 1.08 2010-04-09)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+BCD<0>         |a              |   10.707|
+BCD<0>         |b              |   10.795|
+BCD<0>         |c              |   10.726|
+BCD<0>         |d              |   10.345|
+BCD<0>         |e              |   10.401|
+BCD<0>         |f              |   10.244|
+BCD<0>         |g              |   10.666|
+BCD<1>         |a              |   11.128|
+BCD<1>         |b              |   11.148|
+BCD<1>         |c              |   11.147|
+BCD<1>         |d              |   10.698|
+BCD<1>         |e              |   10.807|
+BCD<1>         |f              |   10.808|
+BCD<1>         |g              |   11.230|
+BCD<2>         |a              |   10.522|
+BCD<2>         |b              |   11.239|
+BCD<2>         |c              |   10.541|
+BCD<2>         |d              |   10.789|
+BCD<2>         |e              |   10.423|
+BCD<2>         |f              |   10.278|
+BCD<2>         |g              |   10.700|
+BCD<3>         |a              |   10.942|
+BCD<3>         |b              |   10.840|
+BCD<3>         |c              |   10.961|
+BCD<3>         |d              |   10.390|
+BCD<3>         |e              |   10.954|
+BCD<3>         |f              |   11.088|
+BCD<3>         |g              |   11.510|
+---------------+---------------+---------+
+
+
+Analysis completed Thu Oct 26 11:18:05 2017 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 154 MB
+
+
+

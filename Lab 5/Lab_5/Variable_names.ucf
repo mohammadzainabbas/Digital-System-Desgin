@@ -1,0 +1,4 @@
+NET "a" loc = "T10";
+NET "b" loc = "T9";
+NET "c" loc = "U16";
+NET "d" loc = "V16";
