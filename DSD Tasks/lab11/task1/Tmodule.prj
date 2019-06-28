@@ -1,0 +1,4 @@
+verilog work "datapath.v"
+verilog work "control_unit.v"
+verilog work "BCD.v"
+verilog work "Tmodule.v"

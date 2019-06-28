@@ -1,0 +1,10 @@
+{F:/7th semester/DSD LAB/lab02/lab02_4.v} {0 {vlog -work work -vopt -nocovercells {F:/7th semester/DSD LAB/lab02/lab02_4.v}
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+** Error: F:/7th semester/DSD LAB/lab02/lab02_4.v(1): near "(": syntax error, unexpected '(', expecting "IDENTIFIER" or "TYPE_IDENTIFIER"
+
+} {3.0 4.0} {}} {F:/7th semester/DSD LAB/lab02/lab02_1.v} {0 {vlog -work work -vopt -nocovercells {F:/7th semester/DSD LAB/lab02/lab02_1.v}
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module ayman
+** Error: F:/7th semester/DSD LAB/lab02/lab02_1.v(7): near "end": syntax error, unexpected "end", expecting ';'
+
+} {4.0 5.0} {}}

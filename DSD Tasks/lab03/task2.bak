@@ -1,0 +1,4 @@
+module task2(x,y,clk,rst);
+input x,clk,rst;
+output y;
+temp1=x*2;

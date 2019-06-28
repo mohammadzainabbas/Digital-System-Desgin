@@ -1,0 +1,17 @@
+xst -intstyle ise -ifn "F:/7th semester/DSD LAB/open_lab/open-lab2/control_unit.xst" -ofn "F:/7th semester/DSD LAB/open_lab/open-lab2/control_unit.syr" 
+xst -intstyle ise -ifn "F:/7th semester/DSD LAB/open_lab/open-lab2/control_unit.xst" -ofn "F:/7th semester/DSD LAB/open_lab/open-lab2/control_unit.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim control_unit.ngc module1_synthesis.v 
+xst -intstyle ise -ifn "F:/7th semester/DSD LAB/open_lab/open-lab2/control_unit.xst" -ofn "F:/7th semester/DSD LAB/open_lab/open-lab2/control_unit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 "control_unit.ngc" control_unit.ngd  
+xst -intstyle ise -ifn "F:/7th semester/DSD LAB/open_lab/open-lab2/control_unit.xst" -ofn "F:/7th semester/DSD LAB/open_lab/open-lab2/control_unit.syr" 
+xst -intstyle ise -ifn "F:/7th semester/DSD LAB/open_lab/open-lab2/control_unit.xst" -ofn "F:/7th semester/DSD LAB/open_lab/open-lab2/control_unit.syr" 
+xst -intstyle ise -ifn "F:/7th semester/DSD LAB/open_lab/open-lab2/control_unit.xst" -ofn "F:/7th semester/DSD LAB/open_lab/open-lab2/control_unit.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim control_unit.ngc module1_synthesis.v 
+xst -intstyle ise -ifn "F:/7th semester/DSD LAB/open_lab/open-lab2/control_unit.xst" -ofn "F:/7th semester/DSD LAB/open_lab/open-lab2/control_unit.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim control_unit.ngc module1_synthesis.v 
+xst -intstyle ise -ifn "F:/7th semester/DSD LAB/open_lab/open-lab2/control_unit.xst" -ofn "F:/7th semester/DSD LAB/open_lab/open-lab2/control_unit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc6slx16-csg324-3 "control_unit.ngc" control_unit.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc6slx16-csg324-3 "control_unit.ngc" control_unit.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc6slx16-csg324-3 "control_unit.ngc" control_unit.ngd  
+xst -intstyle ise -ifn "F:/7th semester/DSD LAB/open_lab/open-lab2/control_unit.xst" -ofn "F:/7th semester/DSD LAB/open_lab/open-lab2/control_unit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ucf.ucf -p xc6slx16-csg324-3 "control_unit.ngc" control_unit.ngd  

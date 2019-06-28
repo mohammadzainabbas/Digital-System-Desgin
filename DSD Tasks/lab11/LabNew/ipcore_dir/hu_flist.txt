@@ -1,0 +1,14 @@
+# Output products list for <hu>
+hu.asy
+hu.gise
+hu.ngc
+hu.sym
+hu.v
+hu.veo
+hu.xco
+hu.xise
+hu\doc\dsp48_macro_ds754.pdf
+hu\doc\xbip_dsp48_macro_v2_1_readme.txt
+hu\doc\xbip_dsp48_macro_v2_1_vinfo.html
+hu_flist.txt
+hu_xmdf.tcl

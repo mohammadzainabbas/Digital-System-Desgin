@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "F:/7th semester/DSD LAB/lab11/LabNew/task2.xst" -ofn "F:/7th semester/DSD LAB/lab11/LabNew/task2.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim task2.ngc task2_synthesis.v 
+xst -intstyle ise -ifn "F:/7th semester/DSD LAB/lab11/LabNew/task2.xst" -ofn "F:/7th semester/DSD LAB/lab11/LabNew/task2.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim task2.ngc task2_synthesis.v 
+xst -intstyle ise -ifn "F:/7th semester/DSD LAB/lab11/LabNew/task2.xst" -ofn "F:/7th semester/DSD LAB/lab11/LabNew/task2.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim task2.ngc task2_synthesis.v 

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=F:\7th semester\DSD LAB\lab11\task1\Tmodule.ncd
+OUTFILE=F:\7th semester\DSD LAB\lab11\task1\Tmodule.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=F:\7th semester\DSD LAB\lab11\task1
+LICENSE=WebPack
+USER_INFO=__0_0_0

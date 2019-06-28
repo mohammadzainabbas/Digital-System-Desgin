@@ -1,0 +1,124 @@
+SET_FLAG DEBUG FALSE
+SET_FLAG MODE INTERACTIVE
+SET_FLAG STANDALONE_MODE FALSE
+SET_PREFERENCE devicefamily spartan6
+SET_PREFERENCE device xc6slx4
+SET_PREFERENCE speedgrade -3
+SET_PREFERENCE package tqg144
+SET_PREFERENCE verilogsim true
+SET_PREFERENCE vhdlsim false
+SET_PREFERENCE simulationfiles Structural
+SET_PREFERENCE busformat BusFormatAngleBracketNotRipped
+SET_PREFERENCE outputdirectory F:/7th semester/DSD LAB/lab11/LabNew/ipcore_dir/
+SET_PREFERENCE workingdirectory F:/7th semester/DSD LAB/lab11/LabNew/ipcore_dir/tmp/
+SET_PREFERENCE subworkingdirectory F:/7th semester/DSD LAB/lab11/LabNew/ipcore_dir/tmp/_cg/
+SET_PREFERENCE transientdirectory F:/7th semester/DSD LAB/lab11/LabNew/ipcore_dir/tmp/_cg/_dbg/
+SET_PREFERENCE designentry Verilog
+SET_PREFERENCE flowvendor Other
+SET_PREFERENCE addpads false
+SET_PREFERENCE projectname coregen
+SET_PREFERENCE formalverification false
+SET_PREFERENCE asysymbol false
+SET_PREFERENCE implementationfiletype Ngc
+SET_PREFERENCE foundationsym false
+SET_PREFERENCE createndf false
+SET_PREFERENCE removerpms false
+SET_PARAMETER Component_Name hu
+SET_PARAMETER GUI_Behaviour Coregen
+SET_PARAMETER show_filtered false
+SET_PARAMETER instruction2 #
+SET_PARAMETER instruction3 #
+SET_PARAMETER instruction4 #
+SET_PARAMETER instruction5 #
+SET_PARAMETER instruction6 #
+SET_PARAMETER instruction7 #
+SET_PARAMETER instruction8 #
+SET_PARAMETER instruction_list #
+SET_PARAMETER instruction1 A*B+C
+SET_PARAMETER pipeline_options Expert
+SET_PARAMETER tier_1 false
+SET_PARAMETER tier_2 false
+SET_PARAMETER tier_3 false
+SET_PARAMETER tier_4 false
+SET_PARAMETER tier_5 false
+SET_PARAMETER tier_6 false
+SET_PARAMETER dreg_1 false
+SET_PARAMETER dreg_2 false
+SET_PARAMETER dreg_3 false
+SET_PARAMETER areg_1 false
+SET_PARAMETER areg_2 false
+SET_PARAMETER areg_3 false
+SET_PARAMETER areg_4 false
+SET_PARAMETER breg_1 false
+SET_PARAMETER breg_2 false
+SET_PARAMETER breg_3 false
+SET_PARAMETER breg_4 false
+SET_PARAMETER creg_1 false
+SET_PARAMETER creg_2 false
+SET_PARAMETER creg_3 false
+SET_PARAMETER creg_4 false
+SET_PARAMETER creg_5 false
+SET_PARAMETER concatreg_3 false
+SET_PARAMETER concatreg_4 false
+SET_PARAMETER concatreg_5 false
+SET_PARAMETER opreg_1 false
+SET_PARAMETER opreg_2 false
+SET_PARAMETER opreg_3 false
+SET_PARAMETER opreg_4 false
+SET_PARAMETER opreg_5 false
+SET_PARAMETER cinreg_1 false
+SET_PARAMETER cinreg_2 false
+SET_PARAMETER cinreg_3 false
+SET_PARAMETER cinreg_4 false
+SET_PARAMETER cinreg_5 false
+SET_PARAMETER mreg_5 false
+SET_PARAMETER preg_6 false
+SET_PARAMETER d_width 18
+SET_PARAMETER d_binarywidth 0
+SET_PARAMETER a_width 18
+SET_PARAMETER a_binarywidth 0
+SET_PARAMETER b_width 18
+SET_PARAMETER b_binarywidth 0
+SET_PARAMETER concat_width 48
+SET_PARAMETER concat_binarywidth 0
+SET_PARAMETER c_width 48
+SET_PARAMETER c_binarywidth 0
+SET_PARAMETER pcin_binarywidth 0
+SET_PARAMETER output_properties Full_Precision
+SET_PARAMETER p_full_width 48
+SET_PARAMETER p_width 48
+SET_PARAMETER p_binarywidth 0
+SET_PARAMETER has_carryout false
+SET_PARAMETER has_acout false
+SET_PARAMETER has_bcout false
+SET_PARAMETER has_carrycascout false
+SET_PARAMETER has_pcout false
+SET_PARAMETER has_ce false
+SET_PARAMETER has_d_ce false
+SET_PARAMETER has_a_ce false
+SET_PARAMETER has_b_ce false
+SET_PARAMETER has_c_ce false
+SET_PARAMETER has_concat_ce false
+SET_PARAMETER has_m_ce false
+SET_PARAMETER has_p_ce false
+SET_PARAMETER has_sel_ce false
+SET_PARAMETER has_sclr false
+SET_PARAMETER has_d_sclr false
+SET_PARAMETER has_a_sclr false
+SET_PARAMETER has_b_sclr false
+SET_PARAMETER has_c_sclr false
+SET_PARAMETER has_concat_sclr false
+SET_PARAMETER has_m_sclr false
+SET_PARAMETER has_p_sclr false
+SET_PARAMETER has_sel_sclr false
+SET_PARAMETER use_dsp48 true
+SET_CORE_NAME DSP48 Macro
+SET_CORE_VERSION 2.1
+SET_CORE_VLNV xilinx.com:ip:xbip_dsp48_macro:2.1
+SET_CORE_CLASS com.xilinx.ip.xbip_dsp48_macro_v2_1.xbip_dsp48_macro_v2_1
+SET_CORE_PATH F:/14.5/ISE_DS/ISE/coregen/ip/xilinx/dsp/com/xilinx/ip/xbip_dsp48_macro_v2_1
+SET_CORE_GUIPATH F:/14.5/ISE_DS/ISE/coregen/ip/xilinx/dsp/com/xilinx/ip/xbip_dsp48_macro_v2_1/gui/xbip_dsp48_macro_v2_1.tcl
+SET_CORE_DATASHEET F:\14.5\ISE_DS\ISE\coregen\ip\xilinx\dsp\com\xilinx\ip\xbip_dsp48_macro_v2_1\doc\dsp48_macro_ds754.pdf
+ADD_CORE_DOCUMENT <F:\14.5\ISE_DS\ISE\coregen\ip\xilinx\dsp\com\xilinx\ip\xbip_dsp48_macro_v2_1\doc\xbip_dsp48_macro_v2_1_readme.txt><xbip_dsp48_macro_v2_1_readme.txt>
+ADD_CORE_DOCUMENT <F:\14.5\ISE_DS\ISE\coregen\ip\xilinx\dsp\com\xilinx\ip\xbip_dsp48_macro_v2_1\doc\xbip_dsp48_macro_v2_1_vinfo.html><xbip_dsp48_macro_v2_1_vinfo.html>
+ADD_CORE_DOCUMENT <F:\14.5\ISE_DS\ISE\coregen\ip\xilinx\dsp\com\xilinx\ip\xbip_dsp48_macro_v2_1\doc\dsp48_macro_ds754.pdf><dsp48_macro_ds754.pdf>

@@ -1,0 +1,9 @@
+{F:/7th semester/DSD LAB/lab02/lab02.v} {1 {vlog -work work -vopt -nocovercells {F:/7th semester/DSD LAB/lab02/lab02.v}
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+
+} {} {}} {F:/7th semester/DSD LAB/lab02/lab02.vhd} {0 {vcom -work work -2002 -explicit -vopt {F:/7th semester/DSD LAB/lab02/lab02.vhd}
+Model Technology ModelSim SE vcom 6.5 Compiler 2009.01 Jan 22 2009
+-- Loading package standard
+** Error: F:/7th semester/DSD LAB/lab02/lab02.vhd(2): near "EOF": syntax error
+
+} {4.0 5.0} {}}

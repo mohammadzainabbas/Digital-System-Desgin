@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "F:/7th semester/DSD LAB/lab09/code/stimulus_isim_beh.exe" -prj "F:/7th semester/DSD LAB/lab09/code/stimulus_beh.prj" "work.stimulus" "work.glbl" 

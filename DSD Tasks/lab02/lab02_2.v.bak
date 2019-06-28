@@ -1,0 +1,6 @@
+module task_2(in1,in2,sel0,,sel1,sel2,clk,rst);
+input [3:0] in1,in2;
+input[0:0] clk,rst,sel0,sel1,sel2;
+
+
+  

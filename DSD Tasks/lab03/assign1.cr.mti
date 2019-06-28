@@ -1,0 +1,8 @@
+{F:/7th semester/DSD LAB/lab03/assign1.v} {1 {vlog -work work -vopt -nocovercells {F:/7th semester/DSD LAB/lab03/assign1.v}
+Model Technology ModelSim SE vlog 6.5 Compiler 2009.01 Jan 22 2009
+-- Compiling module q1
+
+Top level modules:
+	q1
+
+} {} {}}

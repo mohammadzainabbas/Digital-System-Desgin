@@ -1,0 +1,28 @@
+[newdata,Fs] = audioread('Beep1.wav');
+sound(newdata,Fs)
+figure
+plot(newdata)
+xlabel('Audio Signal')
+x1=0;
+x2=0;
+b0=1;
+b1=2;
+b2=2;
+x=newdata(1);
+
+for i=1:1:length(newdata)
+    y(i)=x*b0 +x1*b1 + x2*b2;
+    x2=x1;
+    x1=x;
+    x=newdata(i);
+end
+%for x
+a=max(x);
+n=abs(a(1)+1);
+
+m=8-n;
+%for y
+b=max(y);
+n1=abs(b);
+m1=16-n1;
+
